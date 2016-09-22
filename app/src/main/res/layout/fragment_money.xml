@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:id="@+id/layout_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/transfer_content1_height"
+        android:layout_below="@+id/header"
+        android:background="@drawable/pay_someone_new_bg"
+        android:baselineAligned="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center">
+
+            <include
+                android:id="@+id/transfer_item1"
+                layout="@layout/transfer_detail_item" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_next1"
+            android:layout_width="@dimen/btn_next_width"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/img_description"
+                android:src="@drawable/icon_next_arrow" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="@dimen/account_width"
+                android:layout_height="@dimen/transfer_content1_height"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/img_description"
+                    android:src="@drawable/icon_transfer_tkthanhtoan" />
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    android:id="@+id/txtType"
+                    style="@style/NORMAL_TEXT_STYLE_WHITE"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/other_account_title" />
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    android:id="@+id/txtId"
+                    style="@style/SMALL_TEXT_STYLE_WHITE"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:singleLine="true"
+                    android:text="024579500658979"
+                    android:textSize="@dimen/text_1_10sp" />
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    android:id="@+id/txtAvalable"
+                    style="@style/SMALL_TEXT_STYLE_WHITE"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:singleLine="true"
+                    android:text="145,663 VND Availale funds"
+                    android:textSize="@dimen/text_1_10sp" />
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    android:id="@+id/txtAcc"
+                    style="@style/SMALL_TEXT_STYLE_BLACK"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:singleLine="true"
+                    android:text="150,553 VND Account balance"
+                    android:textSize="@dimen/text_1_10sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_enter_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_info"
+        android:layout_marginBottom="@dimen/spacing_2_16dp"
+        android:layout_marginLeft="@dimen/spacing_1_8dp"
+        android:layout_marginRight="@dimen/spacing_1_8dp"
+        android:layout_marginTop="@dimen/spacing_2_16dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/NORMAL_TEXT_STYLE_BLACK"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/spacing_1_8dp"
+            android:text="@string/amount"
+            android:textColor="@color/orange_text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_marginLeft="@dimen/line_height"
+            android:layout_marginRight="@dimen/line_height"
+            android:background="@color/black" />
+
+        <EditText
+            android:id="@+id/edittext"
+            style="@style/NORMAL_TEXT_STYLE_BLACK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:editable="false"
+            android:gravity="center_vertical"
+            android:hint="@string/enter_an_amount"
+            android:paddingBottom="@dimen/spacing_2_16dp"
+            android:paddingLeft="@dimen/spacing_1_8dp"
+            android:paddingRight="@dimen/spacing_1_8dp"
+            android:paddingTop="@dimen/spacing_2_16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLinkVIB"
+        style="@style/SMALL_TEXT_STYLE_WHITE"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spacing_1_6dp"
+        android:text="@string/link" />
+
+    <com.vnapnic.myvib.customs.NumberPad
+        android:id="@+id/layoutPad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible" />
+</RelativeLayout>

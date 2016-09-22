@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_photo2"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_3_24dp">
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/welcome"
+        style="@style/text_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/service_icon_width"
+        android:layout_height="@dimen/service_icon_width"
+        android:layout_below="@+id/welcome"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/spacing_1_8dp"
+        android:src="@drawable/point" />
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/locator_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_5_20sp" />
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/address_text"
+        style="@style/text_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/header_padding"
+        android:gravity="center|top"
+        android:paddingLeft="@dimen/spacing_3_24dp"
+        android:paddingRight="@dimen/spacing_3_24dp"
+        android:text="@string/address_home"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_3_14sp" />
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address_text"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/hp_icon_margin_top"
+        android:background="@drawable/bg_vuong_trang_choice"
+        android:clickable="true"
+        android:drawableLeft="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:drawablePadding="@dimen/spacing_1_8dp"
+        android:gravity="center"
+        android:paddingBottom="@dimen/spacing_0_4dp"
+        android:paddingLeft="@dimen/spacing_1_8dp"
+        android:paddingRight="@dimen/spacing_1_8dp"
+        android:paddingTop="@dimen/spacing_0_4dp"
+        android:text="@string/search"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_3_14sp" />
+
+</RelativeLayout>

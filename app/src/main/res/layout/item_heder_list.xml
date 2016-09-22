@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vnapnic.myvib.customs.FontTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/default_title_indicator_footer_indicator_underline_padding"
+    android:background="@drawable/item_date_bg"
+    android:gravity="center_vertical"
+    android:id="@+id/header_list"
+    android:paddingLeft="@dimen/spacing_2_16dp"
+    android:text="@string/localAccHeader"
+    android:textColor="@color/black" />

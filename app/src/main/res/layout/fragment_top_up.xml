@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_schedule_height"
+        android:background="@drawable/pay_someone_new_bg"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btn_add_new"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_lang_width"
+                android:layout_marginBottom="@dimen/spacing_0_4dp"
+                android:layout_marginTop="@dimen/spacing_1_8dp"
+                android:src="@drawable/btn_add_account" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                style="@style/text_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/add_new_mobile" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_phone_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_lang_width"
+                android:layout_marginBottom="@dimen/spacing_0_4dp"
+                android:layout_marginTop="@dimen/spacing_1_8dp"
+                android:src="@drawable/icon_from_phone_contact_list_button" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                style="@style/text_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/from_phone_contact_list" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_instant"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_lang_width"
+                android:layout_marginBottom="@dimen/spacing_0_4dp"
+                android:layout_marginTop="@dimen/spacing_1_8dp"
+                android:src="@drawable/icon_instant_top_up" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                style="@style/text_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/instance_top_up" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/spacing_1_8dp"
+        android:text="@string/phone_address_book"
+        android:textColor="@color/orange_text" />
+
+    <LinearLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/list_bg_color"
+        android:orientation="vertical"></LinearLayout>
+
+</LinearLayout>

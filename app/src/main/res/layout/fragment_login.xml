@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/login_title"
+        style="@style/text_default_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="@string/login_hint" />
+
+    <LinearLayout
+        android:id="@+id/login_group_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_title"
+        android:background="@color/bright_foreground_inverse_material_light"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <com.vnapnic.myvib.customs.FontEditext
+            android:id="@+id/fragment_login_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bright_foreground_inverse_material_light"
+            android:drawableLeft="@drawable/username_icon"
+            android:drawablePadding="18dp"
+            android:hint="@string/prompt_username"
+            android:padding="10dp"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="@dimen/text_2_12sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/com_facebook_button_background_color_disabled"></View>
+
+        <com.vnapnic.myvib.customs.FontEditext
+            android:id="@+id/fragment_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bright_foreground_inverse_material_light"
+            android:drawableLeft="@drawable/password_icon"
+            android:drawablePadding="18dp"
+            android:hint="@string/prompt_password"
+            android:imeOptions="actionDone"
+            android:padding="10dp"
+            android:password="true"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="@dimen/text_2_12sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_login_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_group_edt"
+        android:background="@drawable/bg_yellow_perssed"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/txt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:text="@string/log_on"
+            android:textColor="@color/bright_foreground_inverse_material_light"
+            android:textSize="@dimen/text_4_medium_16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/txt_login"
+            android:background="@drawable/btn_next"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_login_action"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/forgtten_login"
+            style="@style/text_default_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:padding="6dp"
+            android:text="@string/forgotten_your" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/reset_login"
+            style="@style/text_default_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:padding="6dp"
+            android:text="@string/reset_your" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/register_login"
+            style="@style/text_default_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:padding="6dp"
+            android:text="Register online banking" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        style="?android:attr/progressBarStyle"></ProgressBar>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/account_width"
+    android:layout_height="@dimen/transfer_content1_height"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/img_description"
+        android:src="@drawable/icon_transfer_tkthanhtoan" />
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/txtType"
+        style="@style/NORMAL_TEXT_STYLE_WHITE"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/open_account1_name" />
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/txtId"
+        style="@style/SMALL_TEXT_STYLE_WHITE"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="048704060060307"
+        android:textSize="@dimen/text_1_10sp" />
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/txtAvalable"
+        style="@style/SMALL_TEXT_STYLE_WHITE"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="109,854 VND Availale funds"
+        android:textSize="@dimen/text_1_10sp" />
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/txtAcc"
+        style="@style/SMALL_TEXT_STYLE_BLACK"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="109,854 VND Account balance"
+        android:textSize="@dimen/text_1_10sp" />
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_schedule_height"
+        android:background="@drawable/pay_someone_new_bg"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btn_pay_a_bill"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_lang_width"
+                android:layout_marginBottom="@dimen/spacing_0_4dp"
+                android:layout_marginTop="@dimen/spacing_1_8dp"
+                android:src="@drawable/btn_add_account" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/pay_a_bill_title2"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pay_off_credit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_lang_width"
+                android:layout_marginBottom="@dimen/spacing_0_4dp"
+                android:layout_marginTop="@dimen/spacing_1_8dp"
+                android:src="@drawable/icon_card" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/title_credit_card_payment"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/spacing_1_8dp"
+        android:text="@string/account_address_book"
+        android:textColor="@color/orange_text" />
+
+    <ListView
+        android:id="@+id/listPayAnyone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/list_bg_color"
+        android:divider="@color/transparent"
+        android:orientation="vertical"></ListView>
+</LinearLayout>

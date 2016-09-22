@@ -1,0 +1,95 @@
+{
+  "foreign_exchange_rates": [
+    {
+      "code": "AUD",
+      "type": "cash>=50",
+      "buy": "16354",
+      "sell": "0",
+      "id": "1"
+    },
+    {
+      "code": "AUD",
+      "type": "cash<=50",
+      "buy": "16354",
+      "sell": "0",
+      "id": "2"
+    },
+    {
+      "code": "AUD",
+      "type": "transfer",
+      "buy": "16503",
+      "sell": "16771",
+      "id": "3"
+    },
+    {
+      "code": "CAD",
+      "type": "cash>=50",
+      "buy": "17275",
+      "sell": "0",
+      "id": "4"
+    },
+    {
+      "code": "CAD",
+      "type": "cash<50",
+      "buy": "17275",
+      "sell": "0",
+      "id": "5"
+    },
+    {
+      "code": "CAD",
+      "type": "transfer",
+      "buy": "17432",
+      "sell": "17620",
+      "id": "6"
+    },
+    {
+      "code": "CHF",
+      "type": "cash>=50",
+      "buy": "1",
+      "sell": "0",
+      "id": "7"
+    },
+    {
+      "code": "CHF",
+      "type": "1.00",
+      "buy": "22886",
+      "sell": "23.655",
+      "id": "8"
+    },
+    {
+      "code": "CNY",
+      "type": "transfer",
+      "buy": "1",
+      "sell": "1",
+      "id": "9"
+    },
+    {
+      "code": "CZK",
+      "type": "Tranfer",
+      "buy": "890",
+      "sell": "947",
+      "id": "10"
+    },
+    {
+      "code": "DKK",
+      "type": "cash>=50",
+      "buy": "1",
+      "sell": "0",
+      "id": "11"
+    },
+    {
+      "code": "DKK",
+      "type": "transfer",
+      "buy": "3358",
+      "sell": "3488",
+      "id": "12"
+    },
+    {
+      "code": "USD",
+      "type": "transfer",
+      "buy": "29",
+      "sell": "233",
+      "id": "13"
+    }
+  ]
+}

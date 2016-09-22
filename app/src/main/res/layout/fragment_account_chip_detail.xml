@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/spacing_1_8dp"
+    android:paddingRight="@dimen/spacing_1_8dp">
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/tvLinkVIB"
+        style="@style/SMALL_TEXT_STYLE_WHITE"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spacing_1_6dp"
+        android:text="@string/link" />
+
+    <RelativeLayout
+        android:id="@+id/content_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tvLinkVIB"
+        android:layout_below="@+id/menu_account_detail"
+        android:layout_marginTop="@dimen/spacing_1_8dp">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_account_detail"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/detail"
+        android:layout_marginTop="-18dp"
+        android:background="@drawable/transfer_content1_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_0_4dp">
+
+        <ImageView
+            android:id="@+id/open_pay_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_card" />
+
+        <TextView
+            style="@style/text_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payoff" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/detail"
+        layout="@layout/simplebalance_item"></include>
+
+</RelativeLayout>

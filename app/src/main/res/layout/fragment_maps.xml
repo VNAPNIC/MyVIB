@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/img_description"
+        android:scaleType="center" />
+
+    <LinearLayout
+        android:id="@+id/layout_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <android.widget.AutoCompleteTextView
+            android:id="@+id/edittext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/spacing_1_8dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/search_bg"
+            android:hint="@string/search"
+            android:paddingBottom="@dimen/spacing_1_6dp"
+            android:paddingLeft="@dimen/spacing_2_16dp"
+            android:paddingRight="@dimen/spacing_2_16dp"
+            android:paddingTop="@dimen/spacing_1_6dp"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/header_height"
+            android:layout_marginLeft="@dimen/spacing_2_16dp"
+            android:layout_marginRight="@dimen/spacing_2_16dp"
+            android:contentDescription="@string/img_description"
+            android:src="@drawable/icon_search_dark" />
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_search" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/map"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spacing_2_16dp"
+        android:background="@drawable/shadow_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/button_header_padding">
+
+        <ImageView
+            android:id="@+id/btnCurrentLoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/spacing_1_8dp"
+            android:contentDescription="@string/img_description"
+            android:src="@drawable/point_icon" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/btnATM"
+            style="@style/NORMAL_TEXT_STYLE_WHITE"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/spacing_1_8dp"
+            android:background="@color/transparent"
+            android:padding="@dimen/spacing_1_8dp"
+            android:text="@string/atm"
+            android:textColor="@color/choose_button" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/tvPos"
+            style="@style/NORMAL_TEXT_STYLE_BLACK"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/spacing_1_8dp"
+            android:background="@color/transparent"
+            android:padding="@dimen/spacing_1_8dp"
+            android:text="@string/merchant" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/btnBranches"
+            style="@style/NORMAL_TEXT_STYLE_BLACK"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/spacing_1_8dp"
+            android:background="@color/transparent"
+            android:padding="@dimen/spacing_1_8dp"
+            android:text="@string/branches" />
+    </LinearLayout>
+</RelativeLayout>

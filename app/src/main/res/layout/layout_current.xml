@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_photo2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_3_24dp">
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/welcome"
+        style="@style/text_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/hp_icon_height"
+        android:layout_height="@dimen/hp_icon_height"
+        android:layout_below="@+id/welcome"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/spacing_1_8dp"
+        android:src="@drawable/icon_money" />
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:layout_marginTop="@dimen/spacing_0_4dp"
+        android:gravity="center|top"
+        android:text="@string/quick_balance_description"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_3_14sp"
+        android:visibility="visible" />
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/layout_account"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_above="@+id/action"-->
+    <!--android:layout_below="@+id/icon"-->
+    <!--android:gravity="center|top"-->
+    <!--android:orientation="vertical"-->
+    <!--android:visibility="gone">-->
+
+    <!--<com.vnapnic.myvib.customs.FontTextView-->
+    <!--android:id="@+id/title"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:text="@string/open_account1_name"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="@dimen/text_4_medium_16sp" />-->
+
+    <!--<com.vnapnic.myvib.customs.FontTextView-->
+    <!--android:id="@+id/title_sodu1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="@dimen/spacing_1_8dp"-->
+    <!--android:text="@string/available_funds"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="@dimen/text_3_14sp"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--<com.vnapnic.myvib.customs.FontTextView-->
+    <!--android:id="@+id/value_sodu1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="109,852 VND"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="@dimen/text_3_14sp" />-->
+
+    <!--<com.vnapnic.myvib.customs.FontTextView-->
+    <!--android:id="@+id/title_soduketoan1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="@dimen/spacing_1_8dp"-->
+    <!--android:text="@string/acc_balance"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="@dimen/text_3_14sp"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--<com.vnapnic.myvib.customs.FontTextView-->
+    <!--android:id="@+id/value_soduketoan1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="99,851 VND"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="@dimen/text_3_14sp" />-->
+    <!--</LinearLayout>-->
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/action"
+        style="@style/text_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/hp_icon_margin_top"
+        android:background="@drawable/bg_vuong_trang_choice"
+        android:clickable="true"
+        android:drawableLeft="@drawable/icon_option"
+        android:drawablePadding="@dimen/spacing_1_8dp"
+        android:gravity="center"
+        android:padding="@dimen/spacing_1_8dp"
+        android:text="@string/btn_set_simple_balance"
+        android:textSize="@dimen/text_3_14sp" />
+
+</RelativeLayout>

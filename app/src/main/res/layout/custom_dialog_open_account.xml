@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/spacing_1_8dp"
+        android:text="@string/open_account"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_4_medium_16sp"
+        android:textStyle="bold" />
+
+    <com.vnapnic.myvib.customs.FontTextView
+        style="@style/SMALL_TEXT_STYLE_SILVER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/spacing_2_16dp"
+        android:paddingLeft="@dimen/spacing_1_8dp"
+        android:paddingRight="@dimen/spacing_1_8dp"
+        android:text="@string/dialog_open_account" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_marginLeft="@dimen/line_height"
+        android:layout_marginRight="@dimen/line_height"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:layout_width="@dimen/dialog_width"
+        android:layout_height="@dimen/icon_home_height"
+        android:orientation="horizontal">
+
+        <com.vnapnic.myvib.customs.FontButton
+            android:id="@+id/no"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/icon_home_height"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="@string/no"
+            android:textColor="@color/holo_blue_dark" />
+
+        <View
+            android:layout_width="@dimen/line_height"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/line_height"
+            android:layout_marginRight="@dimen/line_height"
+            android:background="@color/line_color" />
+
+        <com.vnapnic.myvib.customs.FontButton
+            android:id="@+id/yes"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/icon_home_height"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:text="@string/yes"
+            android:textColor="@color/holo_blue_dark" />
+    </LinearLayout>
+</LinearLayout>

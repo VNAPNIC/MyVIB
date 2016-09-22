@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/spacing_2_16dp">
+
+        <TextView
+
+            android:id="@+id/tvKey1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="left"
+            android:paddingBottom="@dimen/spacing_2_16dp"
+            android:paddingLeft="@dimen/spacing_1_8dp"
+            android:paddingRight="@dimen/spacing_1_8dp"
+            android:paddingTop="@dimen/spacing_2_16dp"
+            android:text="@string/active_card"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_3_14sp" />
+
+        <include
+            android:visibility="gone"
+            android:id="@+id/sw1"
+            layout="@layout/custom_switch2" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/spacing_2_16dp">
+
+        <TextView
+            android:id="@+id/tvKey2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="left"
+            android:paddingBottom="@dimen/spacing_2_16dp"
+            android:paddingLeft="@dimen/spacing_1_8dp"
+            android:paddingRight="@dimen/spacing_1_8dp"
+            android:paddingTop="@dimen/spacing_2_16dp"
+            android:text="@string/lock_card"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_3_14sp" />
+
+        <include
+            android:id="@+id/sw2"
+            layout="@layout/custom_switch2" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:id="@+id/status_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/spacing_2_16dp">
+
+        <TextView
+            android:id="@+id/tvKey3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="left"
+            android:paddingBottom="@dimen/spacing_2_16dp"
+            android:paddingLeft="@dimen/spacing_1_8dp"
+            android:paddingRight="@dimen/spacing_1_8dp"
+            android:paddingTop="@dimen/spacing_2_16dp"
+            android:text="@string/active_ecommerce"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_3_14sp" />
+
+        <include
+            android:id="@+id/sw3"
+            layout="@layout/custom_switch2" />
+    </LinearLayout>
+</LinearLayout>

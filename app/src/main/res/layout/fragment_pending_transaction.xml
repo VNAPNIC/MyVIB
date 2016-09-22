@@ -1,0 +1,173 @@
+<com.vnapnic.myvib.customs.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    swipe:leftEdgeSwipeOffset="0dp"
+    swipe:rightEdgeSwipeOffset="0dp">
+
+    <LinearLayout
+        android:id="@+id/bottom_wrapper"
+        android:layout_width="@dimen/button_min_width"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tvEdit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/edit_bg"
+            android:gravity="center"
+            android:text="@string/edit"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvShare"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/delete_bg"
+            android:gravity="center"
+            android:text="@string/delete"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/actionClick"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_1_8dp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    android:id="@+id/to"
+                    style="@style/text_default_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to"
+                    android:textColor="@color/black" />
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    android:id="@+id/name"
+                    style="@style/text_default_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/to"
+                    android:layout_marginTop="@dimen/spacing_0_4dp"
+                    android:text="Nguyen van a"
+                    android:textColor="@color/black" />
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    android:id="@+id/cardID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name"
+                    android:layout_marginTop="@dimen/spacing_0_4dp"
+                    android:text="0011004007092"
+                    android:textColor="@color/bg_white_press"
+                    android:textSize="@dimen/text_2_12sp" />
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    android:id="@+id/money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="5,000 VND"
+                    android:textColor="@color/orange_text"
+                    android:textSize="@dimen/text_2_12sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    android:id="@+id/to2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black" />
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    android:id="@+id/name2"
+                    style="@style/text_default_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/to2"
+                    android:layout_marginTop="@dimen/spacing_0_4dp"
+                    android:text="@string/next_payment"
+                    android:textColor="@color/black" />
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    android:id="@+id/cardID2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/name2"
+                    android:layout_marginTop="@dimen/spacing_0_4dp"
+                    android:text="30 jul 2016"
+                    android:textColor="@color/bg_white_press"
+                    android:textSize="@dimen/text_2_12sp" />
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    android:id="@+id/money2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="Later"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_2_12sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/spacing_0_4dp"
+                    android:layout_height="@dimen/spacing_0_4dp"
+                    android:layout_marginTop="@dimen/spacing_0_2dp"
+                    android:src="@android:drawable/radiobutton_off_background" />
+
+                <ImageView
+                    android:layout_width="@dimen/spacing_0_4dp"
+                    android:layout_height="@dimen/spacing_0_4dp"
+                    android:layout_marginTop="@dimen/spacing_0_2dp"
+                    android:src="@android:drawable/radiobutton_off_background" />
+
+                <ImageView
+                    android:layout_width="@dimen/spacing_0_4dp"
+                    android:layout_height="@dimen/spacing_0_4dp"
+                    android:layout_marginTop="@dimen/spacing_0_2dp"
+                    android:src="@android:drawable/radiobutton_off_background" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="@color/bg_white_press"></View>
+    </LinearLayout>
+</com.vnapnic.myvib.customs.swipe.SwipeLayout>

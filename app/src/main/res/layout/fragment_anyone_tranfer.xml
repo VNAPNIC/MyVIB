@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/spacing_1_8dp"
+    android:paddingRight="@dimen/spacing_1_8dp">
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:layout_marginTop="@dimen/spacing_1_8dp"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/spacing_2_16dp"
+        android:textColor="@color/orange_text" />
+
+    <com.vnapnic.myvib.customs.FontTextView
+        style="@style/text_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_1_8dp"
+        android:text="@string/select_one_method" />
+
+    <RelativeLayout
+        android:id="@+id/fast"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="@dimen/spacing_1_8dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/colum1"
+            android:layout_width="@dimen/spacing_1_6dp"
+            android:layout_height="match_parent"
+            android:background="@color/orange_text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/spacing_2_16dp"
+            android:layout_toLeftOf="@+id/next1"
+            android:layout_toRightOf="@+id/colum1"
+            android:orientation="vertical">
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fast_transfer"
+                android:textColor="@color/dialog_blue_text"
+                android:textSize="@dimen/text_2_12sp" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:id="@+id/desc2"
+                style="@style/text_default_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_0_4dp"
+                android:text="@string/fast_transfer_desc2"
+                android:textSize="@dimen/text_2_12sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/next1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="@dimen/spacing_0_4dp"
+            android:paddingRight="@dimen/spacing_0_4dp"
+            android:src="@drawable/icon_next_silver" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/normal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="@dimen/spacing_1_8dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/colum2"
+            android:layout_width="@dimen/spacing_1_6dp"
+            android:layout_height="match_parent"
+            android:background="@color/orange_text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/spacing_2_16dp"
+            android:layout_toLeftOf="@+id/next2"
+            android:layout_toRightOf="@+id/colum2"
+            android:orientation="vertical">
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/normal_transfer"
+                android:textColor="@color/dialog_blue_text"
+                android:textSize="@dimen/text_2_12sp" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:id="@+id/desc"
+                style="@style/text_default_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_0_4dp"
+                android:text="@string/normal_transfer_desc"
+                android:textSize="@dimen/text_2_12sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/next2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="@dimen/spacing_0_4dp"
+            android:paddingRight="@dimen/spacing_0_4dp"
+            android:src="@drawable/icon_next_silver" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

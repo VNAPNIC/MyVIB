@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/spacing_2_16dp"
+    android:paddingLeft="@dimen/spacing_1_8dp"
+    android:paddingRight="@dimen/spacing_1_8dp"
+    android:paddingTop="@dimen/spacing_2_16dp">
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/name_bank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_4_medium_16sp"
+        android:textStyle="bold" />
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/address_bank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" -detail"
+        android:textSize="@dimen/text_4_medium_16sp" />
+</LinearLayout>

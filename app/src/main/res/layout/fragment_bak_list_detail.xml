@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <com.vnapnic.myvib.customs.FontTextView
+        style="@style/SMALL_TEXT_STYLE_WHITE"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spacing_1_6dp"
+        android:text="@string/link" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/spacing_1_8dp"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/spacing_1_8dp"
+        android:paddingRight="@dimen/spacing_1_8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_height"
+                android:gravity="center_vertical">
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    android:id="@+id/title_bank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/spacing_1_8dp"
+                    android:text="@string/bank"
+                    android:textColor="@color/orange_text"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/spacing_1_8dp"
+                    android:src="@drawable/icon_edit_dark" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_marginLeft="@dimen/line_height"
+                android:layout_marginRight="@dimen/line_height"
+                android:background="@color/line_color" />
+
+            <RelativeLayout
+                android:id="@+id/choise_city"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_height"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/spacing_1_8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/image_edit"
+                    android:gravity="center_vertical">
+
+                    <com.vnapnic.myvib.customs.FontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="2"
+                        android:text="@string/txtBankCity"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <com.vnapnic.myvib.customs.FontTextView
+                        android:id="@+id/tvCity"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:hint="@string/choose"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/image_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/spacing_1_8dp"
+                    android:src="@drawable/icon_edit_dark" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_marginLeft="@dimen/line_height"
+                android:layout_marginRight="@dimen/line_height"
+                android:background="@color/line_color" />
+
+            <RelativeLayout
+                android:id="@+id/choise_branch"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_height">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/image_edit1"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/spacing_1_8dp">
+
+                    <com.vnapnic.myvib.customs.FontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="2"
+                        android:text="@string/txtBranch"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <com.vnapnic.myvib.customs.FontTextView
+                        android:id="@+id/tvBankName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:hint="@string/choose"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/image_edit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/spacing_1_8dp"
+                    android:src="@drawable/icon_edit_dark" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_2_16dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/spacing_1_8dp"
+                    android:text="@string/account_number"
+                    android:textColor="@color/orange_text"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_marginLeft="@dimen/line_height"
+                android:layout_marginRight="@dimen/line_height"
+                android:background="@color/line_color" />
+
+
+            <com.vnapnic.myvib.customs.FontEditext
+                android:id="@+id/bank_id"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/menu_item_height"
+                android:layout_centerVertical="true"
+                android:background="@color/white"
+                android:ellipsize="end"
+                android:ems="1"
+                android:hint="@string/enter_account_number"
+                android:inputType="phone"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/spacing_1_8dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_2_12sp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_marginLeft="@dimen/line_height"
+                android:layout_marginRight="@dimen/line_height"
+                android:background="@color/line_color" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_2_16dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/spacing_1_8dp"
+                    android:text="@string/account_name"
+                    android:textColor="@color/orange_text"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_marginLeft="@dimen/line_height"
+                android:layout_marginRight="@dimen/line_height"
+                android:background="@color/line_color" />
+
+
+            <com.vnapnic.myvib.customs.FontEditext
+                android:id="@+id/bank_account"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/menu_item_height"
+                android:layout_centerVertical="true"
+                android:background="@color/white"
+                android:ellipsize="end"
+                android:ems="1"
+                android:hint="@string/enter_account_name"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/spacing_1_8dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_2_12sp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_marginLeft="@dimen/line_height"
+                android:layout_marginRight="@dimen/line_height"
+                android:background="@color/line_color" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header_height"
+            android:layout_marginTop="@dimen/spacing_2_16dp"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/spacing_1_8dp"
+            android:paddingRight="@dimen/spacing_1_8dp">
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/save_to_account_address_book"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_3_14sp" />
+
+            <com.vnapnic.myvib.customs.CustomSwitch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:saveEnabled="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

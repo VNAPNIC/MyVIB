@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/SMALL_TEXT_STYLE_WHITE"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spacing_1_6dp"
+        android:text="@string/link" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.vnapnic.myvib.customs.FontButton
+                android:id="@+id/btn1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg1_height"
+                android:layout_weight="1"
+                android:background="@drawable/description_bg"
+                android:text="10,000"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/line_color" />
+
+            <com.vnapnic.myvib.customs.FontButton
+                android:id="@+id/btn2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg1_height"
+                android:layout_weight="1"
+                android:background="@drawable/description_bg"
+                android:text="20,000"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.vnapnic.myvib.customs.FontButton
+                android:id="@+id/btn3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg1_height"
+                android:layout_weight="1"
+                android:background="@drawable/description_bg"
+                android:text="50,000"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/line_color" />
+
+            <com.vnapnic.myvib.customs.FontButton
+                android:id="@+id/btn4"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg1_height"
+                android:layout_weight="1"
+                android:background="@drawable/description_bg"
+                android:text="100,000"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.vnapnic.myvib.customs.FontButton
+                android:id="@+id/btn5"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg1_height"
+                android:layout_weight="1"
+                android:background="@drawable/description_bg"
+                android:text="200,000"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/line_color" />
+
+            <com.vnapnic.myvib.customs.FontButton
+                android:id="@+id/btn6"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg1_height"
+                android:layout_weight="1"
+                android:background="@drawable/description_bg"
+                android:text="500,000"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

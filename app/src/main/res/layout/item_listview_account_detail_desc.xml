@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_1"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/button_height"
+    android:layout_below="@+id/row_bar1"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/spacing_1_8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/text_default_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="601 Credit In " />
+
+        <TextView
+            android:id="@+id/txt_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+11 VND"
+            android:textColor="@color/orange_text"
+            android:textSize="@dimen/text_2_12sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imv_eye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:paddingLeft="@dimen/spacing_0_4dp"
+        android:paddingRight="@dimen/spacing_0_4dp"
+        android:src="@drawable/icon_eye" />
+
+</RelativeLayout>

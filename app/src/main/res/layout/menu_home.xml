@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/amount_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+       android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/view_account"
+            style="@style/footer_main"
+            android:background="@drawable/home_btn"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_1_8dp">
+
+            <ImageView
+                style="@style/footer_main_icon"
+                android:src="@drawable/account_icon" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                style="@style/SMALL_TEXT_STYLE_WHITE"
+                android:layout_width="@dimen/btn_back_width"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|top"
+                android:text="@string/menu_view_account_balance" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="@dimen/content2_height"
+            android:background="@color/view_divider_color_2"></View>
+
+        <LinearLayout
+            android:id="@+id/transfer_account"
+            style="@style/footer_main"
+            android:background="@drawable/home_btn"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_1_8dp">
+
+            <ImageView
+                style="@style/footer_main_icon"
+                android:src="@drawable/transfer_icon" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                style="@style/SMALL_TEXT_STYLE_WHITE"
+                android:layout_width="wrap_content"
+               android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|top"
+                android:text="@string/menu_transfer_between_account" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/line_height"
+            android:layout_height="@dimen/content2_height"
+            android:background="@color/view_divider_color_2"></View>
+
+        <LinearLayout
+            android:id="@+id/btn_top_up"
+            style="@style/footer_main"
+            android:background="@drawable/home_btn"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_1_8dp">
+
+            <ImageView
+                style="@style/footer_main_icon"
+                android:src="@drawable/top_up_icon" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                style="@style/SMALL_TEXT_STYLE_WHITE"
+                android:layout_width="wrap_content"
+               android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|top"
+                android:text="@string/menu_mobile_top_up" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/view_divider_color_2"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+       android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/pay_anyone"
+            style="@style/footer_main"
+            android:background="@drawable/home_btn"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_1_8dp">
+
+            <ImageView
+                style="@style/footer_main_icon"
+                android:src="@drawable/pay_someone_icon" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                style="@style/SMALL_TEXT_STYLE_WHITE"
+                android:layout_width="wrap_content"
+               android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|top"
+                android:text="@string/tab_pay_anyone" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="@dimen/content2_height"
+            android:background="@color/view_divider_color_2"></View>
+
+        <LinearLayout
+            android:id="@+id/pay_a_bill"
+            style="@style/footer_main"
+            android:background="@drawable/home_btn"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_1_8dp">
+
+            <ImageView
+                style="@style/footer_main_icon"
+                android:src="@drawable/pay_a_bill_icon" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                style="@style/SMALL_TEXT_STYLE_WHITE"
+                android:layout_width="wrap_content"
+               android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|top"
+                android:text="@string/menu_pay_a_bill" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="@dimen/content2_height"
+            android:background="@color/view_divider_color_2"></View>
+
+        <LinearLayout
+            android:id="@+id/open_an_account"
+            style="@style/footer_main"
+            android:background="@drawable/home_btn"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_1_8dp">
+
+            <ImageView
+                style="@style/footer_main_icon"
+                android:src="@drawable/icon_open_account" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                style="@style/SMALL_TEXT_STYLE_WHITE"
+                android:layout_width="wrap_content"
+               android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|top"
+                android:text="@string/open_account_title" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

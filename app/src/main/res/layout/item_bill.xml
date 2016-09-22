@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/content2_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/spacing_0_4dp"
+            android:layout_height="match_parent"
+            android:background="@color/orange_text"
+            android:src="@drawable/viettel" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_1_8dp">
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:id="@+id/title"
+                style="@style/text_default_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/spacing_2_16dp"
+                android:text="Mobifone"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/text_3_14sp" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:id="@+id/name"
+                style="@style/text_default_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobifone"
+                android:textSize="@dimen/text_3_14sp" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/spacing_0_2dp"
+                android:text="0936066386"
+                android:textSize="@dimen/text_2_12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/spacing_1_8dp"
+        android:src="@drawable/icon_next_yellow" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/layout"
+        android:background="@color/line_color" />
+</RelativeLayout>

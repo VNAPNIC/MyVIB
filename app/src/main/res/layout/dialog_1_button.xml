@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/spacing_2_16dp">
+
+    <ImageView
+        android:id="@+id/dialog_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dialog_icon_height"
+        android:layout_gravity="center"
+        android:contentDescription="@string/img_description"
+        android:src="@drawable/icon_dialog_mail" />
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_1_8dp"
+        android:gravity="center"
+        android:paddingLeft="@dimen/spacing_3_24dp"
+        android:paddingRight="@dimen/spacing_3_24dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_4_medium_16sp" />
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/spacing_0_4dp"
+        android:maxLines="10"
+        android:paddingBottom="@dimen/spacing_2_16dp"
+        android:paddingLeft="@dimen/spacing_2_16dp"
+        android:paddingRight="@dimen/spacing_2_16dp"
+        android:paddingTop="@dimen/spacing_1_8dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_3_14sp" />
+
+    <View
+        android:id="@+id/dialog_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/line_color" />
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/dialog_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_dialog_selector"
+        android:gravity="center"
+        android:padding="@dimen/button_padding"
+        android:text="@string/ok"
+        android:textColor="@color/dialog_blue_text"
+        android:textSize="@dimen/text_4_medium_16sp" />
+</LinearLayout>

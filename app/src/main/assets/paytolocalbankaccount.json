@@ -1,0 +1,453 @@
+{
+  "Message": {
+    "Type": 0,
+    "Text": "View Bank List",
+    "Code": "BL0000",
+    "Title": "view Bank List Succesful"
+  },
+  "Roles": [],
+  "List": [
+    {
+      "BankId": "307",
+      "Code": "ACB",
+      "Name": "NH TMCP A CHAU"
+    },
+    {
+      "BankId": "204",
+      "Code": "AGRIBANK",
+      "Name": "NH No VA PT NT VN"
+    },
+    {
+      "BankId": "323",
+      "Code": "AN BINH",
+      "Name": "NH TMCP AN BINH (ABBBANK)"
+    },
+    {
+      "BankId": "602",
+      "Code": "ANZ",
+      "Name": "NH TNHH ANZ VIET NAM"
+    },
+    {
+      "BankId": "313",
+      "Code": "BAC A",
+      "Name": "NH TMCP BAC A (NASB)"
+    },
+    {
+      "BankId": "327",
+      "Code": "BAN VIET",
+      "Name": "NH TMCP BAN VIET(VIETCAPITALBANK)"
+    },
+    {
+      "BankId": "401",
+      "Code": "BANKNET",
+      "Name": "BANKNET"
+    },
+    {
+      "BankId": "359",
+      "Code": "BAO VIET",
+      "Name": "NH TMCP BAO VIET (BVB)"
+    },
+    {
+      "BankId": "615",
+      "Code": "BCB",
+      "Name": "BANK OF COMMUNICATIONS"
+    },
+    {
+      "BankId": "202",
+      "Code": "BIDV",
+      "Name": "NH TMCP DT VA PT VN"
+    },
+    {
+      "BankId": "612",
+      "Code": "BKB",
+      "Name": "BANGKOK  BANK VN"
+    },
+    {
+      "BankId": "614",
+      "Code": "BNP",
+      "Name": "BNP PARIBAS BANK"
+    },
+    {
+      "BankId": "620",
+      "Code": "BOC",
+      "Name": "BANK OF CHINA"
+    },
+    {
+      "BankId": "601",
+      "Code": "BPCEIOM",
+      "Name": "BPCEIOM BANK"
+    },
+    {
+      "BankId": "622",
+      "Code": "BTMU",
+      "Name": "BANK OF TOKYO-MITSUBISHI"
+    },
+    {
+      "BankId": "621",
+      "Code": "CALYON",
+      "Name": "CREDIT AGRICOLE CIB (CA-CIB)"
+    },
+    {
+      "BankId": "611",
+      "Code": "CCB",
+      "Name": "CHINA CONSTRUCTION BANK CORP."
+    },
+    {
+      "BankId": "503",
+      "Code": "CHB",
+      "Name": "SHINHAN VINA BANK"
+    },
+    {
+      "BankId": "605",
+      "Code": "CITIBANK",
+      "Name": "CITI BANK VN"
+    },
+    {
+      "BankId": "629",
+      "Code": "CTBC",
+      "Name": "CTBC BANK CO.LTD"
+    },
+    {
+      "BankId": "643",
+      "Code": "CWB",
+      "Name": "COMMONWEALTH BANK OF AUSTRALIA"
+    },
+    {
+      "BankId": "360",
+      "Code": "DAICHUNG",
+      "Name": "NH TMCP DAI CHUNG (PVCOMBANK)"
+    },
+    {
+      "BankId": "650",
+      "Code": "DBS",
+      "Name": "DBS BANK"
+    },
+    {
+      "BankId": "619",
+      "Code": "DEB",
+      "Name": "DEUTSCHE BANK VN"
+    },
+    {
+      "BankId": "304",
+      "Code": "DONG A",
+      "Name": "NH TMCP DONG A (DAB)"
+    },
+    {
+      "BankId": "305",
+      "Code": "EIB",
+      "Name": "NH TMCP XUAT NHAP KHAU VN(EXIMBANK)"
+    },
+    {
+      "BankId": "608",
+      "Code": "FCB",
+      "Name": "FIRST COMMERCIAL BANK"
+    },
+    {
+      "BankId": "320",
+      "Code": "GPBANK",
+      "Name": "NH TMCP DAU KHI TOAN CAU"
+    },
+    {
+      "BankId": "640",
+      "Code": "HCB",
+      "Name": "HUANAN COMMERCIAL BANK"
+    },
+    {
+      "BankId": "321",
+      "Code": "HDB",
+      "Name": "NH TMCP PHAT TRIEN TPHCM"
+    },
+    {
+      "BankId": "400",
+      "Code": "HHH",
+      "Name": "HHHHHHHHHHHHH"
+    },
+    {
+      "BankId": "603",
+      "Code": "HLB",
+      "Name": "HONG LEONG VN"
+    },
+    {
+      "BankId": "617",
+      "Code": "HSBC",
+      "Name": "HSBC CORPORATION"
+    },
+    {
+      "BankId": "641",
+      "Code": "IBK",
+      "Name": "INDUSTRIAL BANK OF KOREA"
+    },
+    {
+      "BankId": "649",
+      "Code": "ICBC",
+      "Name": "ICBC CN HN"
+    },
+    {
+      "BankId": "502",
+      "Code": "IDB",
+      "Name": "INDOVINA BANK"
+    },
+    {
+      "BankId": "627",
+      "Code": "JPMB",
+      "Name": "JP MORGAN CHASE BANK"
+    },
+    {
+      "BankId": "701",
+      "Code": "KBNN",
+      "Name": "KHO BAC NHA NUOC"
+    },
+    {
+      "BankId": "626",
+      "Code": "KEB",
+      "Name": "KOREA EXCHANGE BANK"
+    },
+    {
+      "BankId": "353",
+      "Code": "KIENLONG",
+      "Name": "NH TMCP KIEN LONG"
+    },
+    {
+      "BankId": "357",
+      "Code": "LIENVIET",
+      "Name": "NH TMCP BUU DIEN LIEN VIET( LPB)"
+    },
+    {
+      "BankId": "123",
+      "Code": "LVB",
+      "Name": "NGAN HANG TEST"
+    },
+    {
+      "BankId": "456",
+      "Code": "LVB",
+      "Name": "NH TMCPTEST"
+    },
+    {
+      "BankId": "635",
+      "Code": "MAYBANK",
+      "Name": "MALAYAN BANKING BERHAD"
+    },
+    {
+      "BankId": "311",
+      "Code": "MB",
+      "Name": "NH TMCP QUAN DOI (MILITARY BANK)"
+    },
+    {
+      "BankId": "623",
+      "Code": "MEGA",
+      "Name": "MEGA INTERNATIONAL COMMERCITAL BANK"
+    },
+    {
+      "BankId": "205",
+      "Code": "MHB",
+      "Name": "NH PHAT TRIEN NHA DBSCL"
+    },
+    {
+      "BankId": "613",
+      "Code": "MIZUHO",
+      "Name": "MIZUHO BANK VN"
+    },
+    {
+      "BankId": "302",
+      "Code": "MSB",
+      "Name": "NH TMCP HANG HAI (MARITIME BANK)"
+    },
+    {
+      "BankId": "306",
+      "Code": "NAMA",
+      "Name": "NH TMCP NAM A(NAMABANK)"
+    },
+    {
+      "BankId": "207",
+      "Code": "NHCSXH",
+      "Name": "NH CHINH SACH XA HOI VN(VPSB)"
+    },
+    {
+      "BankId": "333",
+      "Code": "OCB",
+      "Name": "NH TMCP PHUONG DONG"
+    },
+    {
+      "BankId": "625",
+      "Code": "OCBC",
+      "Name": "OVERSEA CHINESE BANKING CORP"
+    },
+    {
+      "BankId": "319",
+      "Code": "OJB",
+      "Name": "NH TMCP DAI DUONG (OCEANBANK)"
+    },
+    {
+      "BankId": "000",
+      "Code": "OTHERS",
+      "Name": "OTHERS"
+    },
+    {
+      "BankId": "341",
+      "Code": "PGBANK",
+      "Name": "NH TMCP XANG DAU PETROLIMEX"
+    },
+    {
+      "BankId": "901",
+      "Code": "QTDND",
+      "Name": "NH HOP TAC (CO-OPBANK)"
+    },
+    {
+      "BankId": "352",
+      "Code": "QUOCDAN",
+      "Name": "NH TMCP QUOC DAN(NCB)"
+    },
+    {
+      "BankId": "101",
+      "Code": "SBV",
+      "Name": "NH NHA NUOC VN"
+    },
+    {
+      "BankId": "604",
+      "Code": "SC",
+      "Name": "STANDARD CHARTERED BANK"
+    },
+    {
+      "BankId": "334",
+      "Code": "SCB",
+      "Name": "NH TMCP SAI GON"
+    },
+    {
+      "BankId": "606",
+      "Code": "SCSB",
+      "Name": "SHANGHAI COMMERCIAL SAVING BANK"
+    },
+    {
+      "BankId": "317",
+      "Code": "SEABANK",
+      "Name": "NH TMCP DONG NAM A"
+    },
+    {
+      "BankId": "815",
+      "Code": "SFC",
+      "Name": "CTY TAI CHINH CNGHIEP TAU THUY TSC"
+    },
+    {
+      "BankId": "308",
+      "Code": "SGCT",
+      "Name": "NH TMCP SG CONGTHUONG(SAIGONBANK)"
+    },
+    {
+      "BankId": "348",
+      "Code": "SHB",
+      "Name": "NH TMCP SAI GON HA NOI"
+    },
+    {
+      "BankId": "632",
+      "Code": "SINOPAC",
+      "Name": "SINOPAC BANK"
+    },
+    {
+      "BankId": "636",
+      "Code": "SMBC",
+      "Name": "SUMITOMO MITSUI BANKING CORP"
+    },
+    {
+      "BankId": "303",
+      "Code": "STB",
+      "Name": "NH TMCP SAIGONTHUONGTIN(SACOMBANK)"
+    },
+    {
+      "BankId": "616",
+      "Code": "SVB",
+      "Name": "SHINHAN VIETNAM BANK LTD"
+    },
+    {
+      "BankId": "310",
+      "Code": "TCB",
+      "Name": "NH TMCP KY THUONG (TECHCOMBANK)"
+    },
+    {
+      "BankId": "642",
+      "Code": "TFB",
+      "Name": "TAIPEI FUBON COMMERCIAL BANK"
+    },
+    {
+      "BankId": "358",
+      "Code": "TPB",
+      "Name": "NH TMCP TIEN PHONG(TIENPHONGBANK)"
+    },
+    {
+      "BankId": "618",
+      "Code": "UOB",
+      "Name": "UNITED OVERSEAS BANK (UOB)"
+    },
+    {
+      "BankId": "355",
+      "Code": "VAB",
+      "Name": "NH TMCP VIET A"
+    },
+    {
+      "BankId": "203",
+      "Code": "VCB",
+      "Name": "NH TMCP NGOAI THUONG (VIETCOMBANK)"
+    },
+    {
+      "BankId": "208",
+      "Code": "VDB",
+      "Name": "NH PHAT TRIEN VIET NAM"
+    },
+    {
+      "BankId": "501",
+      "Code": "VID",
+      "Name": "VID PUBLIC BANK"
+    },
+    {
+      "BankId": "324",
+      "Code": "VIET HOA",
+      "Name": "NH TMCP VIET HOA(VIETHOABANK)"
+    },
+    {
+      "BankId": "356",
+      "Code": "VIETBANK",
+      "Name": "NH TMCP VN THUONG TIN"
+    },
+    {
+      "BankId": "361",
+      "Code": "VIETCAP",
+      "Name": "NGAN HANG TMCP BAN VIET"
+    },
+    {
+      "BankId": "201",
+      "Code": "VIETIN",
+      "Name": "NH TMCP CONG THUONG VIET NAM"
+    },
+    {
+      "BankId": "339",
+      "Code": "VNCB",
+      "Name": "NH TMCP XAY DUNG VN"
+    },
+    {
+      "BankId": "309",
+      "Code": "VPB",
+      "Name": "NH TMCP VN THINH VUONG(VPBANK)"
+    },
+    {
+      "BankId": "505",
+      "Code": "VRB",
+      "Name": "NH LD VIET NGA"
+    },
+    {
+      "BankId": "504",
+      "Code": "VSB",
+      "Name": "VINASIAM BANK ( LD VIET THAI)"
+    },
+    {
+      "BankId": "315",
+      "Code": "VUNGTAU",
+      "Name": "NH TMCP VUNG TAU (VUNGTAUBANK)"
+    },
+    {
+      "BankId": "624",
+      "Code": "WRB",
+      "Name": "WOORI BANK"
+    }
+  ],
+  "Total": 89,
+  "Token": ""
+}

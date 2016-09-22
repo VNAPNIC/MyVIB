@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_padding">8.0dip</dimen>
+    <dimen name="button_wallpaper_width">160.0dip</dimen>
+    <dimen name="campaign_width">270.0dip</dimen>
+    <dimen name="header_height">40.0dip</dimen>
+    <dimen name="hp_icon_height">50.0dip</dimen>
+    <dimen name="hp_icon_margin_top">40.0dip</dimen>
+    <dimen name="hp_layout_info_height">150.0dip</dimen>
+    <dimen name="icon_lang_width">25.0dip</dimen>
+    <dimen name="inbox_width">290.0dip</dimen>
+    <dimen name="spacing_0_4dp">2.0dip</dimen>
+    <dimen name="spacing_1_6dp">3.5dip</dimen>
+    <dimen name="spacing_1_8dp">5.0dip</dimen>
+    <dimen name="spacing_2_16dp">10.0dip</dimen>
+    <dimen name="spacing_3_24dp">16.0dip</dimen>
+    <dimen name="spacing_3_30dp">20.0dip</dimen>
+    <dimen name="spacing_4_32dp">22.0dip</dimen>
+    <dimen name="spacing_5_40dp">28.0dip</dimen>
+    <dimen name="spacing_6_default_48dp">34.0dip</dimen>
+    <dimen name="spacing_7_56dp">40.0dip</dimen>
+    <dimen name="spacing_8_64dp">46.0dip</dimen>
+    <dimen name="spacing_9_72dp">52.0dip</dimen>
+    <dimen name="title_height">50.0dip</dimen>
+    <dimen name="btn_back_height">30.0dip</dimen>
+    <dimen name="btn_back_width">90.0dip</dimen>
+    <dimen name="btn_join_height">31.0dip</dimen>
+    <dimen name="btn_join_width">126.0dip</dimen>
+</resources>

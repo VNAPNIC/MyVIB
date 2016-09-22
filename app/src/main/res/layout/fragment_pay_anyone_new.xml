@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <com.vnapnic.myvib.customs.FontTextView
+        style="@style/SMALL_TEXT_STYLE_WHITE"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spacing_2_16dp"
+        android:text="@string/link" />
+
+
+    <RelativeLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="@dimen/button_header_padding">
+
+        <include
+            android:id="@+id/bank_account"
+            layout="@layout/fragment_pay_off_credit_bank_detail" />
+
+        <include
+            android:id="@+id/vib_account"
+            layout="@layout/fragment_pay_off_credit_vib_detail" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_schedule_height"
+        android:background="@drawable/pay_someone_new_bg"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <com.vnapnic.myvib.customs.FontTextView
+            style="@style/text_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/spacing_1_8dp"
+            android:text="@string/select_a_payment_method" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_marginLeft="@dimen/line_height"
+            android:layout_marginRight="@dimen/line_height"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btn_vib_account"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/icon_lang_width"
+                    android:layout_marginBottom="@dimen/spacing_0_4dp"
+                    android:src="@drawable/btn_add_account" />
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    style="@style/text_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/pay_to_new_vib_accounts" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_bank_account"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/icon_lang_width"
+                    android:layout_marginBottom="@dimen/spacing_0_4dp"
+                    android:src="@drawable/btn_pay_local_bank" />
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    style="@style/text_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/txtPayLocalBank" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_new_card"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/icon_lang_width"
+                    android:layout_marginBottom="@dimen/spacing_0_4dp"
+                    android:src="@drawable/btn_add_card" />
+
+                <com.vnapnic.myvib.customs.FontTextView
+                    style="@style/text_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/new_card" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.vnapnic.myvib.customs.NumberPad
+        android:id="@+id/numberPad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible"></com.vnapnic.myvib.customs.NumberPad>
+</RelativeLayout>

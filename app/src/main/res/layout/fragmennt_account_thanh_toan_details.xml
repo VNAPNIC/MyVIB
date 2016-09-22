@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/spacing_1_8dp"
+    android:paddingRight="@dimen/spacing_1_8dp">
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/tvLinkVIB"
+        style="@style/SMALL_TEXT_STYLE_WHITE"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spacing_1_6dp"
+        android:text="@string/link" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tvLinkVIB"
+        android:layout_below="@+id/menu_account_detail"
+        android:layout_marginTop="@dimen/spacing_1_8dp">
+
+        <LinearLayout
+            android:id="@+id/menu_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:id="@+id/txtHistory"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spacing_7_56dp"
+                android:layout_weight="1"
+                android:background="@color/bg_white_press"
+                android:gravity="center"
+                android:text="@string/trans_history"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_3_14sp" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:id="@+id/txtPending"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spacing_7_56dp"
+                android:layout_weight="1"
+                android:background="@color/color_secondary"
+                android:gravity="center"
+                android:text="@string/pending_trans"
+                android:textColor="@color/bg_white_press"
+                android:textSize="@dimen/text_3_14sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/content_account_thanh_toan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/menu_detail">
+
+            <include layout="@layout/fragment_transaction_history" />
+
+            <include layout="@layout/fragment_pending_transaction" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_account_detail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spacing_9_72dp"
+        android:layout_below="@+id/detail"
+        android:layout_marginTop="-16dp"
+        android:background="@drawable/acc_details_bg"
+        android:orientation="horizontal"
+        android:padding="@dimen/spacing_0_4dp">
+
+        <LinearLayout
+            android:id="@+id/transfer_account"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/sub_account_icon_width"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon_transfer" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/transfer"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_2_12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_anyone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/sub_account_icon_width"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon_pay_someone" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/pay_anyone"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_2_12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_bill"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/sub_account_icon_width"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/icon_pay_bill" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/pay_a_bill_title2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_2_12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/detail"
+        layout="@layout/simplebalance_item"></include>
+</RelativeLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/spacing_1_8dp"
+    android:paddingLeft="@dimen/spacing_1_8dp"
+    android:paddingRight="@dimen/spacing_1_8dp">
+
+    <TextView
+        android:id="@+id/titleTab"
+        style="@style/NORMAL_TEXT_STYLE_WHITE"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:gravity="center"
+        android:lines="2"
+        android:maxLines="2"
+        android:text="@string/bieu_lai_suat_tiet_kiem_thuong" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/spacing_1_8dp"
+        android:layout_marginTop="@dimen/spacing_1_8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btnVND"
+            style="@style/BIG_TEXT_STYLE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/navigation_bg"
+            android:paddingLeft="@dimen/spacing_2_16dp"
+            android:paddingRight="@dimen/spacing_2_16dp"
+            android:text="@string/vnd"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/btnUSD"
+            style="@style/BIG_TEXT_STYLE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_1_8dp"
+            android:background="@drawable/navigation_bg"
+            android:paddingLeft="@dimen/spacing_2_16dp"
+            android:paddingRight="@dimen/spacing_2_16dp"
+            android:text="@string/usd" />
+
+        <TextView
+            android:id="@+id/btnEUR"
+            style="@style/BIG_TEXT_STYLE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_1_8dp"
+            android:background="@drawable/navigation_bg"
+            android:paddingLeft="@dimen/spacing_2_16dp"
+            android:paddingRight="@dimen/spacing_2_16dp"
+            android:text="@string/eur" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_3_14sp"
+        android:layout_marginTop="@dimen/text_3_14sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/term"
+            style="@style/NORMAL_TEXT_STYLE_BLACK"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_1_8dp"
+            android:layout_weight="3.0"
+            android:paddingLeft="@dimen/spacing_0_2dp"
+            android:paddingRight="@dimen/spacing_0_2dp"
+            android:text="@string/term"
+            android:textColor="@color/orange_text" />
+
+        <TextView
+            android:id="@+id/vnd"
+            style="@style/NORMAL_TEXT_STYLE_BLACK"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:gravity="center"
+            android:text="@string/last_term"
+            android:textColor="@color/orange_text" />
+
+        <TextView
+            android:id="@+id/usd"
+            style="@style/NORMAL_TEXT_STYLE_BLACK"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:gravity="center"
+            android:text="@string/quarterly"
+            android:textColor="@color/orange_text" />
+
+        <TextView
+            android:id="@+id/sell"
+            style="@style/NORMAL_TEXT_STYLE_BLACK"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:gravity="center"
+            android:text="@string/monthly"
+            android:textColor="@color/orange_text" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/line_color" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:divider="@color/line_color"
+        android:dividerHeight="@dimen/line_height"
+        android:listSelector="@drawable/slide_menu_bg_selector"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/update"
+        style="@style/SMALL_TEXT_STYLE_BLACK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/spacing_1_8dp"
+        android:paddingLeft="@dimen/spacing_1_8dp"
+        android:paddingRight="@dimen/spacing_1_8dp"
+        android:paddingTop="@dimen/spacing_1_8dp"
+        android:text="@string/note_interest_rates"
+        android:textColor="@color/silver_text"
+        android:textStyle="italic" />
+</LinearLayout></LinearLayout>

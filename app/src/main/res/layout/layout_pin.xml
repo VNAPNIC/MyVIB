@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/edtPin1"
+        style="@style/EditTextSettingPin"
+        android:background="@drawable/edt_pin"
+        android:focusable="false"
+        android:gravity="center"
+        android:inputType="numberPassword"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_9_36sp" />
+
+    <EditText
+        android:id="@+id/edtPin2"
+        style="@style/EditTextSettingPin"
+        android:layout_marginLeft="@dimen/edittext_pin_margin"
+        android:background="@drawable/edt_pin"
+        android:focusable="false"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:inputType="numberPassword"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_9_36sp" />
+
+    <EditText
+        android:id="@+id/edtPin3"
+        style="@style/EditTextSettingPin"
+        android:layout_marginLeft="@dimen/edittext_pin_margin"
+        android:background="@drawable/edt_pin"
+        android:focusable="false"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:inputType="numberPassword"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_9_36sp" />
+
+    <EditText
+        android:id="@+id/edtPin4"
+        style="@style/EditTextSettingPin"
+        android:layout_marginLeft="@dimen/edittext_pin_margin"
+        android:background="@drawable/edt_pin"
+        android:focusable="false"
+        android:gravity="center"
+        android:inputType="numberPassword"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_9_36sp" />
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/spacing_1_8dp"
+    android:paddingRight="@dimen/spacing_1_8dp">
+
+    <com.vnapnic.myvib.customs.FontTextView
+        style="@style/SMALL_TEXT_STYLE_WHITE"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spacing_1_6dp"
+        android:text="@string/link" />
+
+    <include
+        android:id="@+id/detail"
+        layout="@layout/account_simplebalance_item"></include>
+
+    <LinearLayout
+        android:layout_marginBottom="@dimen/spacing_3_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/detail"
+        android:layout_marginTop="@dimen/spacing_1_8dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:background="@color/bg_white_press"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/jumpto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/spacing_1_8dp"
+                android:text="@string/jump_to"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_3_14sp" />
+
+            <Spinner
+                android:id="@+id/spiner"
+                android:layout_width="@dimen/spinner_width"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/jumpto"
+                android:background="@drawable/spinner_bg"
+                android:gravity="center" />
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/transparent" />
+    </LinearLayout>
+</RelativeLayout>

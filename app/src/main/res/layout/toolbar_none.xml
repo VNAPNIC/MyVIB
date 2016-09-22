@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/header_height"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/toolbar_back"
+        android:layout_width="@dimen/button_header_height"
+        android:layout_height="@dimen/button_header_height"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/button_header_padding"
+        android:background="@drawable/btn_back_custom" />
+</RelativeLayout>

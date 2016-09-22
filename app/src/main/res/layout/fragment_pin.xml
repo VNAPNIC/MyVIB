@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_3_24dp"
+        android:gravity="center"
+        android:minLines="1"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_4_medium_16sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_3_24dp"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:minLines="2"
+        android:paddingLeft="@dimen/spacing_2_16dp"
+        android:paddingRight="@dimen/spacing_2_16dp"
+        android:text="@string/string_setting_pin_confirm"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_2_12sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="@dimen/spacing_1_8dp">
+
+        <include layout="@layout/layout_pin" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_1_8dp"
+        android:gravity="center"
+        android:paddingLeft="@dimen/spacing_2_16dp"
+        android:paddingRight="@dimen/spacing_2_16dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_2_12sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_1_8dp"
+        android:gravity="center"
+        android:paddingLeft="@dimen/spacing_2_16dp"
+        android:paddingRight="@dimen/spacing_2_16dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_2_12sp" />
+
+    <com.vnapnic.myvib.customs.NumberPad
+        android:id="@+id/layoutPad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible" />
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        style="?android:attr/progressBarStyle"></ProgressBar>
+</RelativeLayout>

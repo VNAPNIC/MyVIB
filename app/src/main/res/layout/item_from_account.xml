@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/layoutPad"
+    android:layout_below="@+id/layoutButton"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <!--<include-->
+            <!--android:id="@+id/layout_enter_name"-->
+            <!--layout="@layout/layout_input_one_edittext" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/layout_enter_amount"
+                layout="@layout/layout_input_amount" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/layout_from"
+                layout="@layout/layout_input_from_account" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <include
+                android:id="@+id/layout_enter_pin"
+                layout="@layout/layout_input_desc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--<include-->
+            <!--android:id="@+id/layout_enter_description"-->
+            <!--layout="@layout/layout_input_one_edittext" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/when"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <!--<include-->
+            <!--android:id="@+id/layout_when"-->
+            <!--layout="@layout/layout_input_one_edittext" />-->
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_1_8dp"
+            android:layout_marginRight="@dimen/spacing_1_8dp"
+            android:layout_marginTop="@dimen/spacing_2_16dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvSaveTo"
+                style="@style/NORMAL_TEXT_STYLE_BLACK"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingBottom="@dimen/spacing_2_16dp"
+                android:paddingLeft="@dimen/spacing_1_8dp"
+                android:paddingRight="@dimen/spacing_1_8dp"
+                android:paddingTop="@dimen/spacing_2_16dp"
+                android:text="@string/save_to_address_book" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/spacing_1_8dp">
+
+                <include
+                    android:id="@+id/custom_switch"
+                    layout="@layout/custom_switch" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/when_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_2_16dp"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/spacing_2_16dp"
+            android:paddingLeft="@dimen/spacing_1_8dp"
+            android:paddingRight="@dimen/spacing_1_8dp"
+            android:paddingTop="@dimen/spacing_2_16dp">
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:padding="@dimen/spacing_1_8dp"
+                android:text="@string/when"
+                android:textColor="@color/orange_text" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/common_action_bar_splitter" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:drawableRight="@drawable/icon_edit_dark"
+                android:padding="@dimen/spacing_1_8dp"
+                android:text="Pay now Sunday, 10-Jul-2016"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/transparent" />
+    </LinearLayout>
+</ScrollView>

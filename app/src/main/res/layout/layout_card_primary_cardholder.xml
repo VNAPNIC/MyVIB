@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spacing_0_2dp"
+        android:background="@color/color_accent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@color/header_card"
+        android:gravity="center_vertical">
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/title_cardholder"
+            style="@style/text_default_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_0_4dp"
+            android:layout_marginTop="@dimen/spacing_0_4dp"
+            android:padding="@dimen/spacing_1_8dp"
+            android:text="@string/owner_credit_card"
+            android:textSize="@dimen/text_4_medium_16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/spacing_1_8dp"
+        android:paddingRight="@dimen/spacing_1_8dp">
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/tvKey1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/spacing_1_8dp"
+            android:layout_weight="1.0"
+            android:gravity="left"
+            android:text="@string/cardholder_name"
+            android:textSize="@dimen/text_3_14sp" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            style="@style/text_default_black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="NGUYEN VAN A"
+            android:textSize="@dimen/text_2_12sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/spacing_1_8dp"
+        android:paddingRight="@dimen/spacing_1_8dp">
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/tvKey2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/spacing_1_8dp"
+            android:layout_weight="1.0"
+            android:gravity="left"
+            android:text="@string/card_number"
+            android:textSize="@dimen/text_3_14sp" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/card_number"
+            style="@style/text_default_black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="9704416850007163102"
+            android:textSize="@dimen/text_2_12sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/spacing_1_8dp"
+        android:paddingRight="@dimen/spacing_1_8dp">
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/tvKey3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/spacing_1_8dp"
+            android:layout_weight="1.0"
+            android:gravity="left"
+            android:text="@string/issue_date"
+            android:textSize="@dimen/text_3_14sp" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            style="@style/text_default_black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="18/05/2016"
+            android:textSize="@dimen/text_2_12sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/spacing_1_8dp"
+        android:paddingRight="@dimen/spacing_1_8dp">
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/spacing_1_8dp"
+            android:layout_weight="1.0"
+            android:gravity="left"
+            android:text="@string/card_account_number"
+            android:textSize="@dimen/text_3_14sp" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            style="@style/text_default_black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="048704060060307"
+            android:textSize="@dimen/text_2_12sp" />
+    </LinearLayout>
+</LinearLayout>

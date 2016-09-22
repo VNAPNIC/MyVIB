@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/spacing_1_8dp"
+    android:paddingLeft="@dimen/spacing_1_8dp"
+    android:paddingRight="@dimen/spacing_1_8dp">
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/titleTab"
+        style="@style/NORMAL_TEXT_STYLE_WHITE"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:gravity="center"
+        android:lines="2"
+        android:maxLines="2"
+        android:text="@string/bieu_lai_suat_esaving" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/spacing_1_8dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_2_16dp"
+            android:layout_marginTop="@dimen/spacing_2_16dp"
+            android:orientation="horizontal">
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:id="@+id/depositeRate"
+                style="@style/NORMAL_TEXT_STYLE_BLACK"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_1_8dp"
+                android:layout_weight="5.0"
+                android:text="@string/deposit_rate"
+                android:textColor="@color/orange_text" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:id="@+id/rate"
+                style="@style/NORMAL_TEXT_STYLE_BLACK"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="@string/_n_m"
+                android:textColor="@color/orange_text" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:background="@color/line_color" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:divider="@color/line_color"
+            android:dividerHeight="@dimen/line_height"
+            android:listSelector="@drawable/slide_menu_bg_selector"
+            android:orientation="vertical" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/update"
+            style="@style/SMALL_TEXT_STYLE_BLACK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/spacing_1_8dp"
+            android:paddingLeft="@dimen/spacing_1_8dp"
+            android:paddingRight="@dimen/spacing_1_8dp"
+            android:paddingTop="@dimen/spacing_1_8dp"
+            android:text="@string/note_interest_rates"
+            android:textColor="@color/silver_text"
+            android:textStyle="italic" />
+    </LinearLayout>
+</LinearLayout>

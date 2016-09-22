@@ -1,0 +1,129 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_secondary</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:textColorPrimary">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_dark</item>
+        <item name="android:editTextColor">@color/textColor</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!--<item name="buttonStyle">@style/buttonStyle</item>-->
+    </style>
+
+    <style name="text_default_title">
+        <item name="android:textSize">@dimen/text_3_14sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_default">
+        <item name="android:textSize">@dimen/text_2_12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_default_black">
+        <item name="android:textSize">@dimen/text_2_12sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="footer_welcome">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="footer_main_icon">
+        <item name="android:layout_width">@dimen/icon_home_height</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1.5</item>
+    </style>
+
+    <style name="footer_main">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/content2_height</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="EditTextSettingPin">
+        <item name="android:layout_width">@dimen/edittext_pin_width</item>
+        <item name="android:layout_height">@dimen/edittext_pin_width</item>
+        <item name="android:maxLength">1</item>
+    </style>
+
+    <style name="LeftSlideMenu">
+        <item name="android:textSize">@dimen/text_4_medium_16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/menu_selector</item>
+        <item name="android:drawablePadding">@dimen/spacing_0_4dp</item>
+    </style>
+
+    <style name="NORMAL_TEXT_STYLE_WHITE">
+        <item name="android:textSize">@dimen/text_3_14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SMALL_TEXT_STYLE_WHITE">
+        <item name="android:textSize">@dimen/text_2_12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="BIG_TEXT_STYLE">
+        <item name="android:textSize">@dimen/text_4_medium_16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="NORMAL_TEXT_STYLE_BLACK">
+        <item name="android:textSize">@dimen/text_3_14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SMALL_TEXT_STYLE_BLACK">
+        <item name="android:textSize">@dimen/text_2_12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="SMALL_TEXT_STYLE_SILVER">
+        <item name="android:textSize">@dimen/text_2_12sp</item>
+        <item name="android:textColor">@color/silver_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="HEADER_TEXT_STYLE_WHITE">
+        <item name="android:textSize">@dimen/text_4_medium_16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

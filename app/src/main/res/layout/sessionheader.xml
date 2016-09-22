@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vnapnic.myvib.customs.FontTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title"
+    style="?android:attr/listSeparatorTextViewStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/btn_yellow_bg"
+    android:paddingBottom="2dip"
+    android:paddingLeft="5dip"
+    android:paddingTop="2dip"
+    android:textColor="@android:color/white"
+    android:textStyle="bold" />

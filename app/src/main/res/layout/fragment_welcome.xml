@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:background="@drawable/bg_photo">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_transparent2" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/title_welcome"
+            style="@style/NORMAL_TEXT_STYLE_WHITE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/string_setting_pin_title"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/title_welcome"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/icon_contact_public_main"
+                android:gravity="center" />
+
+            <com.vnapnic.myvib.customs.FontTextView
+                style="@style/NORMAL_TEXT_STYLE_WHITE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/welcome_guest_tv7"
+                android:textStyle="bold" />
+
+            <com.vnapnic.myvib.customs.FontButton
+                android:id="@+id/join_vib"
+                style="@style/SMALL_TEXT_STYLE_WHITE"
+                android:layout_width="@dimen/btn_join_width"
+                android:layout_height="@dimen/btn_join_height"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_sign_up_yellow"
+                android:gravity="center"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:text="@string/btn_joint_vib_now"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/page_apply_vib"
+                    style="@style/footer_main"
+                    android:layout_column="1"
+                    android:background="@drawable/welcome_btn"
+                    android:clickable="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/footer_main_icon"
+                        android:layout_width="46dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/icon_apply_now_yellow" />
+
+                    <com.vnapnic.myvib.customs.FontTextView
+                        style="@style/SMALL_TEXT_STYLE_BLACK"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/apply_new_product_title" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="0dp"></View>
+
+                <LinearLayout
+                    android:id="@+id/page_interest_rates"
+                    style="@style/footer_main"
+                    android:layout_column="2"
+                    android:background="@drawable/welcome_btn"
+                    android:clickable="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/footer_main_icon"
+                        android:layout_width="46dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/icon_interest_rate_yellow" />
+
+                    <com.vnapnic.myvib.customs.FontTextView
+                        style="@style/SMALL_TEXT_STYLE_BLACK"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/interest_rates" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="0dp"></View>
+
+                <LinearLayout
+                    android:id="@+id/page_exchange_rate"
+                    style="@style/footer_main"
+                    android:layout_column="3"
+                    android:background="@drawable/welcome_btn"
+                    android:clickable="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/footer_main_icon"
+                        android:layout_width="46dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/icon_exchange_rate_yellow" />
+
+                    <com.vnapnic.myvib.customs.FontTextView
+                        style="@style/SMALL_TEXT_STYLE_BLACK"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/menu_text3" />
+                </LinearLayout>
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"></View>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/page_atm_locator"
+                    style="@style/footer_main"
+                    android:layout_column="1"
+                    android:background="@drawable/welcome_btn"
+                    android:clickable="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/footer_main_icon"
+                        android:layout_width="46dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/icon_locator_yellow" />
+
+                    <com.vnapnic.myvib.customs.FontTextView
+                        style="@style/SMALL_TEXT_STYLE_BLACK"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/menu_promotion_location" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="0dp"></View>
+
+                <LinearLayout
+                    android:id="@+id/page_card_locator"
+                    style="@style/footer_main"
+                    android:layout_column="2"
+                    android:background="@drawable/welcome_btn"
+                    android:clickable="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/footer_main_icon"
+                        android:layout_width="46dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/icon_card_promotion_yellow" />
+
+                    <com.vnapnic.myvib.customs.FontTextView
+                        style="@style/SMALL_TEXT_STYLE_BLACK"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/card_promotion" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="0dp"></View>
+
+                <LinearLayout
+                    android:id="@+id/page_chat"
+                    style="@style/footer_main"
+                    android:layout_column="3"
+                    android:background="@drawable/welcome_btn"
+                    android:clickable="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/footer_main_icon"
+                        android:layout_width="46dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/icon_open_account_yellow" />
+
+                    <com.vnapnic.myvib.customs.FontTextView
+                        style="@style/SMALL_TEXT_STYLE_BLACK"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="@string/open_account" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/SMALL_TEXT_STYLE_WHITE"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spacing_1_6dp"
+        android:text="@string/link" />
+
+    <LinearLayout
+        android:id="@+id/choise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.vnapnic.myvib.customs.FontButton
+                android:id="@+id/btn1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg1_height"
+                android:layout_weight="1"
+                android:background="@drawable/description_bg"
+                android:padding="@dimen/spacing_0_4dp"
+                android:text="@string/allowance"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/line_color" />
+
+            <com.vnapnic.myvib.customs.FontButton
+                android:id="@+id/btn2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg1_height"
+                android:layout_weight="1"
+                android:background="@drawable/description_bg"
+                android:padding="@dimen/spacing_0_4dp"
+                android:text="@string/bill"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/line_color" />
+
+            <com.vnapnic.myvib.customs.FontButton
+                android:id="@+id/btn3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg1_height"
+                android:layout_weight="1"
+                android:background="@drawable/description_bg"
+                android:padding="@dimen/spacing_0_4dp"
+                android:text="@string/car"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.vnapnic.myvib.customs.FontButton
+                android:id="@+id/btn4"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg1_height"
+                android:layout_weight="1"
+                android:background="@drawable/description_bg"
+                android:padding="@dimen/spacing_0_4dp"
+                android:text="@string/from"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/line_color" />
+
+            <com.vnapnic.myvib.customs.FontButton
+                android:id="@+id/btn5"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg1_height"
+                android:layout_weight="1"
+                android:background="@drawable/description_bg"
+                android:padding="@dimen/spacing_0_4dp"
+                android:text="@string/home"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/line_color" />
+
+            <com.vnapnic.myvib.customs.FontButton
+                android:id="@+id/btn6"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg1_height"
+                android:layout_weight="1"
+                android:background="@drawable/description_bg"
+                android:padding="@dimen/spacing_0_4dp"
+                android:text="@string/mum"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.vnapnic.myvib.customs.FontButton
+                android:id="@+id/btn7"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg1_height"
+                android:layout_weight="1"
+                android:background="@drawable/description_bg"
+                android:padding="@dimen/spacing_0_4dp"
+                android:text="@string/rent"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/line_color" />
+
+            <com.vnapnic.myvib.customs.FontButton
+                android:id="@+id/btn8"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg1_height"
+                android:layout_weight="1"
+                android:background="@drawable/description_bg"
+                android:padding="@dimen/spacing_0_4dp"
+                android:text="@string/savings"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/line_color" />
+
+            <com.vnapnic.myvib.customs.FontButton
+                android:id="@+id/btn9"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bg1_height"
+                android:layout_weight="1"
+                android:background="@drawable/description_bg"
+                android:padding="@dimen/spacing_0_4dp"
+                android:text="@string/shop"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rootView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_content2_height"
+        android:layout_below="@+id/choise"
+        android:layout_marginLeft="@dimen/spacing_1_8dp"
+        android:layout_marginRight="@dimen/spacing_1_8dp"
+        android:layout_marginTop="@dimen/spacing_2_16dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv"
+            style="@style/NORMAL_TEXT_STYLE_BLACK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/spacing_1_8dp"
+            android:text="@string/description"
+            android:textColor="@color/orange_text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_marginLeft="@dimen/line_height"
+            android:layout_marginRight="@dimen/line_height"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.vnapnic.myvib.customs.FontEditext
+                android:id="@+id/edt_desc"
+                style="@style/NORMAL_TEXT_STYLE_BLACK"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:background="@color/transparent"
+                android:gravity="center_vertical"
+                android:hint="@string/optional"
+                android:paddingLeft="@dimen/spacing_1_8dp"
+                android:paddingRight="@dimen/spacing_1_8dp"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

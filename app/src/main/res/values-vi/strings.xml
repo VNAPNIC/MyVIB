@@ -1,0 +1,1372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_open_account">Bạn có muốn mở MyVIB?</string>
+    <string-array name="arrTitle">
+        <item>#</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string name="truy_van_tk">Truy vấn tài khoản</string>
+    <string name="tt_hd_t_td">Thanh toán hóa đơn/thẻ TD</string>
+    <string name="chuyen_tien_ca_nhan">Chuyển tiền cá nhân</string>
+
+    <string name="tai_vib">Tải VIB</string>
+    <string name="thong_bao">Thông báo</string>
+    <string name="thong_bao_desc">Các số liệu chỉ mang tính chất tham khảo tại một thời điểm trong quá khứ và có thể không còn chính xác. Để cập nhật số liệu mới nhất vui lòng cài đặt ứng dụng MyVIB</string>
+
+    <string name="pay_vib">Tài khoản VIB</string>
+    <string name="card_nh_khac">Thẻ NH khác</string>
+    <string name="sdt">Số điện thoại di động</string>
+    <string name="local_email">Địa chỉ email</string>
+
+    <string name="pstn_code">Mã PSTN</string>
+    <string name="enter_pstn_code">Nhập mã PSTN</string>
+    <string name="adsl_code">Mã ADSL</string>
+    <string name="enter_adsl_code">Nhập mã ADSL</string>
+    <string name="reservation_code">Mã ghế</string>
+    <string name="enter_reservation_code">Nhập mã ghế</string>
+    <string name="reference_no">Số liên hệ</string>
+    <string name="enter_reference_no">Nhận vào số liên hệ</string>
+
+    <string name="jul">Thg 7</string>
+    <string name="jun">thg 6</string>
+    <string name="service_1">Thanh toán hoá đơn di động trả sau</string>
+    <string name="service_2">Thanh toán hoá đơn Homephone</string>
+    <string name="service_3">Thanh toán hoá đơn điện</string>
+    <string name="service_4">Thanh toán hoá đơn nước</string>
+    <string name="service_5">Thanh toán hoá đơn PSTN</string>
+    <string name="service_6">Thanh toán hoá đơn ADSL</string>
+    <string name="service_7">Thanh toán vé máy bay</string>
+    <string name="service_8">Thanh toán bảo hiểm</string>
+    <string name="service_9">Thanh toán cước viễn thông</string>
+    <string name="service_10">Thanh toán thẻ TD/Thanh toán trả góp</string>
+
+    <string name="ma_dich_vu_pstn">Nhập mã dich vụ PSTN</string>
+    <string name="nhap_ma_khach_hang">Nhập mã khách hàng</string>
+    <string name="ma_khach_hang">Mã khách hàng</string>
+    <string name="so_thue_bao">Số thuê bao</string>
+    <string name="tien_chua_thanh_toan">Tổng số tiền chưa thanh toán</string>
+    <string name="title_get_code_dialog">Sai mã bảo mật</string>
+    <string name="get_code_dialog">Vui lòng nhập 123456 để tiếp tục</string>
+    <string name="tien_gui_thanh_toan">Tiền gửi thanh toán</string>
+    <string name="transfer_between">Chuyển tiền nội bộ</string>
+    <string name="pay_mc">Thanh toán\ndư nợ thẻ tín dụng</string>
+    <string name="top_up_desc">Chuyển tiền đến ngân hàng liên kết</string>
+    <string name="pay_anyone_desc_phone">Chuyển tiền qua số điện thoại</string>
+    <string name="pay_bill_desc">Thanh toán hóa đơn</string>
+
+    <string name="address_home">Trường THPT CTM - 131 Nguyễn trãi, thanh xuân, Hà nội \n cách đây 60m</string>
+    <string name="sent_otp">Gửi mã OTP</string>
+    <string name="sent_otp_ms">Gửi mã OTP thành công</string>
+    <string name="enter_customer_id">Nhập id khách hàng</string>
+    <string name="customer_id">Id khách hàng</string>
+    <string name="online_flexible_savings">Tiết kiệm trực tuyến linh hoạt</string>
+    <string name="_for">Cho</string>
+    <string name="other_account_title">Tài khoản khác</string>
+
+    <string name="sent_otp_ms_ss">Vui lòng nhập 123456 để tiếp tục</string>
+    <string name="inquery_fail">Lỗi truy vấn</string>
+    <string name="outstanding_bill">Mã khách hàng hoặc số hóa đơn không còn trong dư nợ</string>
+
+    <string name="abc_action_bar_home_description">Điều hướng về trang chủ</string>
+    <string name="abc_action_bar_up_description">Điều hướng lên trên</string>
+    <string name="abc_action_menu_overflow_description">Thêm tùy chọn</string>
+    <string name="abc_action_mode_done">Xong</string>
+    <string name="abc_activity_chooser_view_see_all">Xem tất cả</string>
+    <string name="abc_activitychooserview_choose_application">Chọn một ứng dụng</string>
+    <string name="abc_searchview_description_clear">Xóa truy vấn</string>
+    <string name="abc_searchview_description_query">Tìm kiếm truy vấn</string>
+    <string name="abc_searchview_description_search">Tìm kiếm</string>
+    <string name="abc_searchview_description_submit">Gửi truy vấn</string>
+    <string name="abc_searchview_description_voice">Tìm kiếm bằng giọng nói</string>
+    <string name="abc_shareactionprovider_share_with">Chia sẻ với</string>
+    <string name="abc_shareactionprovider_share_with_application">Chia sẻ với %s</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s yêu cầu phải cập nhật lên ứng dụng Android Wear.</string>
+    <string name="common_android_wear_update_text">%1$s sẽ không chạy trừ khi bạn cập nhật ứng dụng Android Wear.</string>
+    <string name="common_android_wear_update_title">Cập nhật Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s yêu cầu một hoặc nhiều Dịch vụ của Google Play hiện không có sẵn. Vui lòng liên hệ với nhà phát triển để được hỗ trợ.</string>
+    <string name="common_google_play_services_enable_button">Bật dịch vụ của Google Play</string>
+    <string name="common_google_play_services_enable_text">%1$s sẽ không hoạt động trừ khi bạn kích hoạt Dịch vụ của Google Play.</string>
+    <string name="common_google_play_services_enable_title">Bật dịch vụ của Google Play</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Được yêu cầu bởi %1$s</string>
+    <string name="common_google_play_services_install_button">Cài đặt dịch vụ của Google Play</string>
+    <string name="common_google_play_services_install_text_phone">%1$s sẽ không chạy khi không có Dịch vụ của Google Play bị thiếu trên điện thoại của bạn.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s sẽ không chạy khi không có Dịch vụ của Google Play bị thiếu trên máy tính bảng của bạn.</string>
+    <string name="common_google_play_services_install_title">Cài đặt dịch vụ của Google Play</string>
+    <string name="common_google_play_services_invalid_account_text">Tài khoản đã chỉ định không tồn tại trên thiết bị này. Vui lòng chọn một tài khoản khác.</string>
+    <string name="common_google_play_services_invalid_account_title">Tài khoản không hợp lệ</string>
+    <string name="common_google_play_services_needs_enabling_title">Một ứng dụng yêu cầu bật các dịch vụ của Google Play.</string>
+    <string name="common_google_play_services_network_error_text">Cần có kết nối dữ liệu để kết nối với các dịch vụ của Google Play.</string>
+    <string name="common_google_play_services_network_error_title">Lỗi mạng</string>
+    <string name="common_google_play_services_notification_needs_update_title">Một ứng dụng yêu cầu cập nhật đối với các dịch vụ của Google Play.</string>
+    <string name="common_google_play_services_notification_ticker">Lỗi dịch vụ của Google Play</string>
+    <string name="common_google_play_services_sign_in_failed_text">Lỗi khi đăng nhập vào tài khoản được chỉ định. Vui lòng chọn một tài khoản khác.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Đăng nhập không thành công</string>
+    <string name="common_google_play_services_unknown_issue">Sự cố không xác định với dịch vụ của Google Play.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s chạy trên Dịch vụ của Google Play không được thiết bị của bạn hỗ trợ. Liên hệ với nhà sản xuất để được hỗ trợ.</string>
+    <string name="common_google_play_services_unsupported_title">Dịch vụ của Google Play</string>
+    <string name="common_google_play_services_update_button">Cập nhật</string>
+    <string name="common_google_play_services_update_text">%1$s sẽ không chạy trừ khi bạn cập nhật Dịch vụ của Google Play.</string>
+    <string name="common_google_play_services_update_title">Cập nhật dịch vụ của Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s sẽ không chạy khi không có Dịch vụ của Google Play đang cập nhật.</string>
+    <string name="common_google_play_services_updating_title">Dịch vụ của Google Play đang cập nhật</string>
+    <string name="common_open_on_phone">Mở trên điện thoại</string>
+    <string name="messenger_send_button_text">Gửi</string>
+    <string name="mr_media_route_button_content_description">Đầu ra phương tiện</string>
+    <string name="mr_media_route_chooser_searching">Đang tìm kiếm thiết bị…</string>
+    <string name="mr_media_route_chooser_title">Kết nối với thiết bị</string>
+    <string name="mr_media_route_controller_disconnect">Ngắt kết nối</string>
+    <string name="mr_system_route_name">Hệ thống</string>
+    <string name="mr_user_route_category_name">Thiết bị</string>
+    <string name="wallet_buy_button_place_holder">Mua hàng bằng Google</string>
+    <string name="cancel">Hủy</string>
+    <string name="no_storage_card">Không có thẻ nhớ</string>
+    <string name="not_enough_space">Không đủ chỗ trống</string>
+    <string name="preparing_card">Chuẩn bị thẻ nhớ</string>
+    <string name="save">Thay đổi</string>
+    <string name="saving_image">Lưu hình ảnh</string>
+    <string name="__user_name">Đăng ký tên đăng nhập</string>
+    <string name="_n_m">%/năm</string>
+    <string name="_username">Tên đăng nhập</string>
+    <string name="a_invalid">Địa chỉ không bao gồm các ký tự đặc biệt. Bạn vui lòng thử lại.</string>
+    <string name="acc_atm_number">Số tài khoản/Số thẻ</string>
+    <string name="acc_balance">Số dư kế toán</string>
+    <string name="acc_card_invalid">Số tài khoản/số thẻ không bao gồm ký tự đặc biệt. Bạn vui lòng kiểm tra lại.</string>
+    <string name="acc_card_short">Số thẻ/số tài khoản phải lớn hơn 15 ký tự. Bạn vui lòng thử lại.</string>
+    <string name="acc_field_require">Vui lòng nhập số Tài khoản</string>
+    <string name="acc_must_different_message">Tài khoản nguồn và tài khoản hưởng không được trùng nhau. Vui lòng thử lại!</string>
+    <string name="acc_must_different_title">Tài khoản không hợp lệ.</string>
+    <string name="accept">Chấp nhận</string>
+    <string name="account">Tài khoản</string>
+    <string name="account_address_book">Danh sách TK hưởng lợi</string>
+    <string name="account_address_book_2">Danh sách hưởng lợi</string>
+    <string name="account_details">Chi tiết tài khoản</string>
+    <string name="account_feature">Loại tài khoản</string>
+    <string name="account_info">Thông tin tài khoản</string>
+    <string name="account_info_note1">Để dễ dàng quản lý tiền của bạn mọi lúc mọi nơi bạn muốn, vui lòng đăng ký dịch vụ Ngân hàng điện tử hoàn toàn miễn phí.</string>
+    <string name="account_info_note2">Tên đăng nhập bao gồm 6-20 ký tự, bao gồm ký tự số hoặc chữ, phân biệt chữ hoa chữ thường, không bao gồm ký tự đặc biệt.</string>
+    <string name="account_invalid">Số tài khoản bạn nhập không hợp lệ. Vui lòng nhập lại.</string>
+    <string name="account_invalid2">Số tài khoản không bao gồm ký tự đặc biệt, không nhập tiếng Việt có dấu. Bạn vui lòng thử lại.</string>
+    <string name="account_must_not_null">Vui lòng nhập số tài khoản.</string>
+    <string name="account_name">Tên tài khoản</string>
+    <string name="account_name_">Tên người nhận</string>
+    <string name="account_name_invalid">Tên người nhận không bao gồm ký tự đặc biệt, không nhập tiếng Việt có dấu. Bạn vui lòng thử lại.</string>
+    <string name="account_no_">Số tài khoản</string>
+    <string name="account_number">Số tài khoản</string>
+    <string name="account_open_detail1">Chi tiết đơn mở tài khoản thanh toán</string>
+    <string name="account_open_detail2">Chi tiết tài khoản tiết kiệm</string>
+    <string name="account_owner">Chủ tài khoản</string>
+    <string name="account_transfer">Chuyển tiền cá nhân</string>
+    <string name="account_type">Loại tài khoản</string>
+    <string name="accounts">Tài khoản</string>
+    <string name="accounts_title">Tài khoản</string>
+    <string name="action_forgot_password">Khôi phục mật khẩu</string>
+    <string name="action_network">Cài đặt</string>
+    <string name="action_reset">Đặt lại</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="action_sign_in">Đăng nhập</string>
+    <string name="action_sign_in_short">Đăng nhập</string>
+    <string name="activate_card">Kích hoạt thẻ</string>
+    <string name="activated">Hoạt động</string>
+    <string name="activation">Kích hoạt</string>
+    <string name="active_card">Kích hoạt thẻ</string>
+    <string name="active_ecommerce">Thương mại điện tử</string>
+    <string name="activity_login_show_password">Hiển thị mật khẩu</string>
+    <string name="add_account">Mở thêm</string>
+    <string name="add_new_credit_card">Thêm số thẻ mới</string>
+    <string name="add_new_email">Thêm địa chỉ email mới</string>
+    <string name="add_new_mobile">Thêm số ĐT mới</string>
+    <string name="add_new_mobile_title">Thêm số điện thoại mới</string>
+    <string name="address_contain_special_char">Địa chỉ gặp không bao gồm các ký tự đặc biệt. Bạn vui lòng thử lại.</string>
+    <string name="address_must_not_null">Vui lòng nhập địa chỉ gặp nhân viên VIB để xác thực thông tin mở tài khoản.</string>
+    <string name="afternoon">Buổi chiều</string>
+    <string name="agree">Tôi đồng ý</string>
+    <string name="all">Tất cả</string>
+    <string name="allow_transfer">Bạn đang dùng gói dịch vụ truy vấn thông tin tài khoản. Để thực hiện các giao dịch tài chính, bạn vui lòng đến quầy giao dịch gần nhất của VIB để yêu cầu nâng hạn mức</string>
+    <string name="amount">Số tiền</string>
+    <string name="amount_must_not_null">Vui lòng nhập số tiền.</string>
+    <string name="amount_must_not_null_title">Số tiền là bắt buộc</string>
+    <string name="api_fail">Có lỗi xảy ra</string>
+    <string name="app_name">VIB Simulator</string>
+    <string name="application_date">Ngày yêu cầu</string>
+    <string name="application_method">Trạng thái</string>
+    <string name="application_number">Số đơn mở tài khoản</string>
+    <string name="apply_new_product_title">Đăng ký sử dụng sản phẩm</string>
+    <string name="apply_now_text1">Bạn vui lòng cung cấp các thông tin liên lạc của mình. Chúng tôi sẽ liên hệ trực tiếp để thực hiện các yêu cầu của bạn.</string>
+    <string name="ask_customer_message">Bạn là khách hàng đã đăng ký dịch vụ Ngân hàng điện tử?</string>
+    <string name="at">tại</string>
+    <string name="atm">ATM</string>
+    <string name="auto_display">Tự động hiển thị</string>
+    <string name="available">khả dụng</string>
+    <string name="available_funds">Số dư khả dụng</string>
+    <string name="awaiting_for_payment">Chi tiết thanh toán</string>
+    <string name="away">Cách</string>
+    <string name="back">Quay lại</string>
+    <string name="bank">&lt;b>Ngân hàng: &lt;/b></string>
+    <string name="bank_name_empty">Vui lòng nhập tên ngân hàng</string>
+    <string name="bank_name_invalid">Tên Ngân hàng nhận không bao gồm ký tự đặc biệt, không nhập tiếng Việt có dấu. Bạn vui lòng thử lại.</string>
+    <string name="beneficiary_name">Tên người hưởng</string>
+    <string name="bieu_lai_suat_dailysaving">"Biểu lãi suất
+tiết kiệm gửi góp Daily Savings"</string>
+    <string name="bieu_lai_suat_esaving">"Biểu lãi suất
+tài khoản không kỳ hạn e-saving"</string>
+    <string name="bieu_lai_suat_tiet_kiem_thuong">"Biểu lãi suất 
+ gửi tiết kiệm thường"</string>
+    <string name="bill_success">Giao dịch</string>
+    <string name="biller">Nhà cung cấp</string>
+    <string name="biller2">Hóa đơn</string>
+    <string name="biller_address_book">Danh sách hóa đơn</string>
+    <string name="birth_15">Để mở tài khoản tại Ngân hàng, bạn phải đủ 15 tuổi trở lên.</string>
+    <string name="branch">Chi nhánh</string>
+    <string name="branchTitle">&lt;b>Chi nhánh: &lt;/b></string>
+    <string name="branch_name_invalid">Tên chi nhánh không bao gồm ký tự đặc biệt, không nhập tiếng Việt có dấu. Bạn vui lòng thử lại.</string>
+    <string name="branch_name_too_long">Tên chi nhánh bạn nhập quá ký tự cho phép. Bạn vui lòng kiểm tra và nhập lại.</string>
+    <string name="branches">Điểm giao dịch</string>
+    <string name="btn_add_new_bill">"Thanh toán
+hóa đơn mới"</string>
+    <string name="btn_choose">Chọn</string>
+    <string name="btn_joint_vib_now">Mở tài khoản ngay</string>
+    <string name="btn_new_payment">Chuyển tiền mới</string>
+    <string name="btn_new_schedule">Đặt lịch chuyển tiền mới</string>
+    <string name="btn_set_simple_balance">Cài đặt số dư nhanh</string>
+    <string name="buy">Mua</string>
+    <string name="ca_invalid">Địa chỉ hiện tại không bao gồm các ký tự đặc biệt. Bạn vui lòng thử lại.</string>
+    <string name="call_center">Tôi muốn VIB liên hệ với tôi</string>
+    <string name="campaign1_btn1">Tham gia</string>
+    <string name="campaign1_btn2">Không tham gia</string>
+    <string name="campaign1_effective">Áp dụng đến</string>
+    <string name="campaign1_text1">"Ưu đãi dành riêng cho
+khách hàng thân thiết"</string>
+    <string name="campaign1_text4">Nhận ngay thẻ tín dụng VIB hạn mức</string>
+    <string name="campaign1_text5">"100% hoàn tiền - Miễn phí thường niên năm
+đầu – Không chứng minh thu nhập"</string>
+    <string name="campaign1_text6">Liên hệ: 1800 8180 để biết thêm chi tiết</string>
+    <string name="campaign1_to">đến</string>
+    <string name="campaign2_btn1">Đồng ý</string>
+    <string name="campaign2_btn2">Từ chối</string>
+    <string name="cancel1">Bỏ qua</string>
+    <string name="cancel_date">Ngày hủy</string>
+    <string name="cancel_payment_order">Hủy giao dịch</string>
+    <string name="cancelled">Đã hủy</string>
+    <string name="cant_close_seri">Bạn không được đóng tài khoản tiết kiệm dự thưởng.</string>
+    <string name="cant_open_account">Số lượng tài khoản thanh toán được mở tối đa là 03 tài khoản. Bạn không thể mở thêm.</string>
+    <string name="card_account_number">Số tài khoản thẻ</string>
+    <string name="card_activated">Thẻ đã kích hoạt</string>
+    <string name="card_field_require">Vui lòng nhập số Thẻ</string>
+    <string name="card_holder">Chủ thẻ</string>
+    <string name="card_holder_name">Tên chủ thẻ</string>
+    <string name="card_locked">Thẻ đã khóa</string>
+    <string name="card_management_title">Quản lý thẻ</string>
+    <string name="card_name">Tên chủ thẻ</string>
+    <string name="card_no_">Số thẻ</string>
+    <string name="card_no_empty">Vui lòng nhập số thẻ</string>
+    <string name="card_no_length_invalid">Số thẻ phải bao gồm ít nhất 16 số</string>
+    <string name="card_number">Số thẻ</string>
+    <string name="card_off">TẮT</string>
+    <string name="card_on">MỞ</string>
+    <string name="card_unlocked">Thẻ hoạt động</string>
+    <string name="cardholder_name">Tên chủ thẻ</string>
+    <string name="cartHeader">Thẻ NH khác</string>
+    <string name="cash">Tiền mặt</string>
+    <string name="cash_less">Tiền mặt &lt; 50</string>
+    <string name="cash_over">Tiền mặt >= 50</string>
+    <string name="change_pin_success_mess">Thay đổi PIN thành công</string>
+    <string name="change_pin_success_title">Thay đổi PIN</string>
+    <string name="change_pin_title">Vui lòng nhập PIN mới:</string>
+    <string name="changed_date">Ngày thay đổi</string>
+    <string name="check">Kiểm tra</string>
+    <string name="choose">Vui lòng chọn</string>
+    <string name="choose_account">Chọn tài khoản</string>
+    <string name="choose_branch">Vui lòng chọn chi nhánh.</string>
+    <string name="choose_city">Vui lòng chọn Tỉnh/Thành phố của chi nhánh mở.</string>
+    <string name="choose_country">Vui lòng chọn quốc tịch.</string>
+    <string name="choose_currency">Vui lòng chọn loại tiền.</string>
+    <string name="choose_debit_account">Vui lòng chọn tài khoản chuyển tiền.</string>
+    <string name="choose_deny_reason">Vui lòng chọn hoặc nhập lý do từ chối.</string>
+    <string name="choose_district">Vui lòng chọn Quận.</string>
+    <string name="choose_dob">Vui lòng chọn ngày sinh.</string>
+    <string name="choose_doe">Bạn vui lòng nhập ngày hết hạn của hộ chiếu.</string>
+    <string name="choose_doi">Vui lòng chọn ngày cấp CMND/Hộ chiếu.</string>
+    <string name="choose_email_client">Chọn ứng dụng gửi mail:</string>
+    <string name="choose_feature">Vui lòng chọn loại tài khoản.</string>
+    <string name="choose_id_type">Vui lòng chọn loại CMND/Hộ chiếu</string>
+    <string name="choose_marial">Vui lòng chọn tình trạng hôn nhân.</string>
+    <string name="choose_occupation">Vui lòng chọn nghề nghiệp.</string>
+    <string name="choose_place_of_birth">Vui lòng chọn nơi sinh.</string>
+    <string name="choose_place_to_meet">Vui lòng chọn địa điểm gặp.</string>
+    <string name="choose_pref_branch">Chọn chi nhánh xác thực</string>
+    <string name="choose_province">Vui lòng chọn Tỉnh/Thành phố.</string>
+    <string name="choose_rollover">Vui lòng chọn yêu cầu khi đến hạn.</string>
+    <string name="choose_settlement_acc">Vui lòng chọn tài khoản nhận gốc và lãi khi đến hạn.</string>
+    <string name="choose_settlement_acc_to_close">Vui lòng chọn tài khoản nhận gốc và lãi.</string>
+    <string name="choose_term">Vui lòng chọn kỳ hạn gửi.</string>
+    <string name="choose_time">Vui lòng chọn thời gian mong muốn gặp nhân viên VIB để xác thực thông tin mở tài khoản.</string>
+    <string name="choose_title">Vui lòng chọn danh xưng.</string>
+    <string name="choose_verification_mess">Bạn vui lòng chọn phương thức xác thực thông tin mở tài khoản.</string>
+    <string name="choose_verification_mess2">Vui lòng chọn chi nhánh xác thực.</string>
+    <string name="choose_wallpaper_text">Chọn hình từ bộ sưu tập</string>
+    <string name="choose_you_acc">"Chọn tài khoản
+xem số dư nhanh"</string>
+    <string name="city">Tỉnh/TP</string>
+    <string name="cityTitle">&lt;b>Tỉnh/TP: &lt;/b></string>
+    <string name="city_province">Tỉnh/Thành phố</string>
+    <string name="city_selected_pre_step">Chi nhánh mở bạn đã chọn ở bước trước. Nếu muốn thay đổi, bạn vui lòng quay lại bước trước.</string>
+    <string name="claim_date">Ngày nhận</string>
+    <string name="client_name_invalid">Client name không hợp lệ. Bạn vui lòng thử lại.</string>
+    <string name="client_name_must_not_null">Vui lòng nhập client name</string>
+    <string name="close_account_note">Nếu bạn đóng tài khoản tiết kiệm trước ngày đến hạn, bạn sẽ nhận được lãi suất không kỳ hạn theo quy định của VIB.</string>
+    <string name="close_account_title">Đóng tài khoản tiết kiệm</string>
+    <string name="close_reason_invalid">Lý do đóng tài khoản không bao gồm các ký tự đặc biệt. Bạn vui lòng thử lại.</string>
+    <string name="close_savings_account">Đóng tài khoản tiết kiệm</string>
+    <string name="closed_date">Ngày đóng tài khoản</string>
+    <string name="code">"Mã
+ngoại tệ"</string>
+    <string name="collected">Đã nhận tiền</string>
+    <string name="coming_soon">"Gặp nhân viên VIB tại nhà để xác thực thông tin
+
+Phương thức xác thực thông tin mở tài khoản của Khách hàng tại nhà sẽ được triển khai vào Tháng 11/2015"</string>
+    <string name="complete">Hoàn thành</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="confirm1">Xác nhận thay đổi</string>
+    <string name="confirm_cancel">Xác nhận hủy giao dịch</string>
+    <string name="confirm_delete">Xác nhận xóa</string>
+    <string name="confirm_payment">Xác nhận giao dịch</string>
+    <string name="confirm_transaction">Xác nhận giao dịch</string>
+    <string name="confirm_transfer">Xác nhận giao dịch</string>
+    <string name="confirrm_reg">Xác nhận</string>
+    <string name="connection_problem_message">Vui lòng kiểm tra điện thoại không ở Chế độ máy bay. Nếu bạn vẫn gặp lỗi, hãy gọi 1800 8180 để được hỗ trợ.</string>
+    <string name="connection_problem_title">Lỗi kết nối.</string>
+    <string name="contact_detail">Từ danh bạ liên lạc trên điện thoại</string>
+    <string name="content">Nội dung</string>
+    <string name="content1">"Kính gửi: Anh/Chị
+ 
+ Theo yêu cầu, Ngân hàng Quốc tế (VIB) xin gửi thông tin mở tài khoản thanh toán của Khách hàng %1$s tới Anh/Chị như sau:
+ 
+ THÔNG TIN KHÁCH HÀNG
+ Họ tên: %1$s
+ CMND: %2$s
+ Ngày cấp : %3$s
+ Số điện thoại: %4$s
+ Email: %5$s
+ Địa chỉ: %6$s
+ 
+ THÔNG TIN TÀI KHOẢN
+ 
+ Đơn mở tài khoản số: %7$s
+ Ngày thực hiện: %8$s
+ Số tài khoản: %9$s
+ Loại tiền : %10$s
+ Số dư tối thiểu: %11$s
+ Chi nhánh mở: %12$s
+ 
+ Trân trọng,
+"</string>
+    <string name="content2">"Đơn mở tài khoản số: %1$s
+ Trạng thái giao dịch: Thành công Ngày thực hiện: %2$s
+ Số tài khoản: %3$s
+ Loai tài khoản: %4$s
+ Số tiền gửi: %5$s
+ Kỳ hạn: %6$s
+ Ngày hiệu lực: %8$s
+ Ngày đến hạn: %9$s
+ Chỉ thị tất toán: %10$s
+ Tài khoản nhận gốc và lãi: %11$s
+ Trạng thái tài khoản: %12$s
+ 
+ Trân trọng,"</string>
+    <string name="content2_seri">"Đơn mở tài khoản số: %1$s
+ Trạng thái giao dịch: Thành công Ngày thực hiện: %2$s
+ Số tài khoản: %3$s
+ Loai tài khoản: %4$s
+ Số tiền gửi: %5$s
+ Kỳ hạn: %6$s
+ Ngày hiệu lực: %8$s
+ Ngày đến hạn: %9$s
+ Chỉ thị tất toán: %10$s
+ Tài khoản nhận gốc và lãi: %11$s
+ Trạng thái tài khoản: %12$s
+ Seri dự thưởng: %13$s
+ 
+ Trân trọng,"</string>
+    <string name="content3">"THÔNG TIN KHÁCH HÀNG:
+ 
+ Họ tên: %1$s
+ Ngày sinh: %2$s
+ CMND: %3$s
+ Ngày cấp : %4$s
+ Nơi cấp: %5$s
+ Quốc tịch: %6$s
+ Tỉnh/Thành phố: %7$s
+ Nghề nghiệp: %8$s
+ Chức danh: %9$s
+ Tình trạng hôn nhân: %10$s
+ Địa chỉ thường trú: %11$s
+ Địa chỉ hiện tại: %12$s
+ Số điện thoại di động: %13$s
+ Email: %14$s
+ 
+ THÔNG TIN TÀI KHOẢN:
+ 
+ Đơn mở tài khoản số: %15$s
+ Ngày thực hiện: %16$s
+ Số tài khoản: %17$s
+ Loại tiền : %18$s
+ Số dư tối thiểu: %19$s
+ Chi nhánh mở: %20$s
+ 
+ ĐĂNG KÝ INTERNET BANKING:
+ Username: %21$s
+ 
+ Trân trọng,"</string>
+    <string name="content4">"THÔNG TIN KHÁCH HÀNG:
+ 
+ Họ tên: %1$s
+ Ngày sinh: %2$s
+ CMND: %3$s
+ Ngày cấp : %4$s
+ Nơi cấp: %5$s
+ Quốc tịch: %6$s
+ Tỉnh/Thành phố: %7$s
+ Nghề nghiệp: %8$s
+ Chức danh: %9$s
+ Tình trạng hôn nhân: %10$s
+ Địa chỉ thường trú: %11$s
+ Địa chỉ hiện tại: %12$s
+ Số điện thoại di động: %13$s
+ Email: %14$s
+ 
+ THÔNG TIN TÀI KHOẢN:
+ 
+ Đơn mở tài khoản số: %15$s
+ Trạng thái giao dịch: Thành công
+ Ngày thực hiện: %16$s
+ Số tài khoản: %17$s
+ Loại tài khoản: %18$s
+ Loại tiền: %19$s
+ Số tiền gửi: %20$s
+ Kỳ hạn: %21$s
+ Chi nhánh mở: %22$s
+ 
+ ĐĂNG KÝ INTERNET BANKING:
+ Username: %23$s
+ 
+ Trân trọng,"</string>
+    <string name="content5">Xin chào! Tôi vừa chuyển %1$s cho bạn qua dịch vụ VIB Mobile app.  Mã nhận tiền: %2$s.  Link nhận tiền: https://vib.com.vn/cm_vn</string>
+    <string name="content5_email">Xin chào! Tôi vừa chuyển %1$s cho bạn qua dịch vụ VIB Mobile app.  Mã nhận tiền: %2$s.  Link nhận tiền: https://vib.com.vn/wps/portal/money-claim-site/quick-claim</string>
+    <string name="content_pay_mc">Xin chào, tôi vừa thanh toán %1$s cho thẻ tín dụng %2$s qua dịch vụ VIB Mobile app.</string>
+    <string name="continue_text">Tiếp tục</string>
+    <string name="continue_to_share">Tiếp tục chia sẻ</string>
+    <string name="country">Quốc gia</string>
+    <string name="country_of_nationality">Quốc tịch</string>
+    <string name="create_pin_fail_mess">Mã PIN không khớp. Vui lòng thử lại.</string>
+    <string name="create_pin_fail_title">PIN không hợp lệ.</string>
+    <string name="create_pin_success_mess">Khởi tạo PIN thành công!</string>
+    <string name="create_pin_success_title" />
+    <string name="created_date">Ngày đặt lịch</string>
+    <string name="created_date2">Ngày giao dịch</string>
+    <string name="creation_date">Ngày tạo</string>
+    <string name="credit_card">Thẻ tín dụng</string>
+    <string name="credit_card_number">Số thẻ</string>
+    <string name="credit_remaining">Hạn mức còn lại</string>
+    <string name="currency">Loại tiền</string>
+    <string name="current_address">Địa chỉ hiện tại</string>
+    <string name="current_location">Địa điểm hiện tại</string>
+    <string name="customer_and_account_info">Thông tin Khách hàng và Tài khoản</string>
+    <string name="customer_info">Thông tin cá nhân</string>
+    <string name="customer_name">Tên Khách hàng</string>
+    <string name="daily">Hàng ngày</string>
+    <string name="daily_saving_number">Số đơn mở tài khoản</string>
+    <string name="date">Ngày</string>
+    <string name="date_of_birth">Ngày sinh</string>
+    <string name="date_of_expiry">Ngày hết hạn</string>
+    <string name="date_of_issue">Ngày cấp</string>
+    <string name="days_ago">ngày trước</string>
+    <string name="debit_account">Tài khoản chuyển tiền</string>
+    <string name="decline">Từ chối</string>
+    <string name="delete">Xóa</string>
+    <string name="delete_">Hủy bỏ</string>
+    <string name="delete_payment_order">Xóa giao dịch</string>
+    <string name="delete_schedule_payment_receipt_title">Hóa đơn giao dịch</string>
+    <string name="delete_schedule_payment_title">Hủy bỏ giao dịch</string>
+    <string name="delete_setting_confirm_msg">Bạn có chắc chắn muốn xóa cài đặt tài khoản?</string>
+    <string name="delete_setting_confirm_title">Xóa</string>
+    <string name="depo_rate">Tỉ lệ lãi</string>
+    <string name="deposit_amount">Số tiền gửi</string>
+    <string name="deposit_amount_not_null">Vui lòng nhập số tiền gửi.</string>
+    <string name="deposit_ccy">Loại tiền gửi</string>
+    <string name="deposit_rate">Mức tiền gửi</string>
+    <string name="deposit_term">Kỳ hạn gửi</string>
+    <string name="des_must_not_null">Làm ơn nhập mô tả</string>
+    <string name="des_must_not_null_title">Nội dung là bắt buộc</string>
+    <string name="description">Nội dung</string>
+    <string name="detail">Chi tiết</string>
+    <string name="dialog_amount_invalid_mess">Số tiền không hợp lệ</string>
+    <string name="dialog_amount_invalid_title">Số tiền không hợp lệ</string>
+    <string name="dialog_closed_account_mess">Tài khoản nhận đã bị đóng. Vui lòng gọi 1800 8180 để được hỗ trợ.</string>
+    <string name="dialog_closed_account_title">Tài khoản không hợp lệ.</string>
+    <string name="dialog_invalid_bill_message">Hóa đơn chưa được phép thanh toán.</string>
+    <string name="dialog_invalid_bill_title">Hóa đơn không hợp lệ</string>
+    <string name="dialog_invalid_min_max_message">Số tiền thanh toán phải nhỏ hơn hoặc bằng dư nợ tối đa hoặc lớn hơn hoặc bằng dư nợ tối thiểu.</string>
+    <string name="dialog_invalid_min_max_title" />
+    <string name="dialog_reg_text0">"Vui lòng kiểm tra lại thông tin
+và xác nhận đăng ký"</string>
+    <string name="dialog_restrained_account_mess">Tài khoản nhận bị gắn hạn chế. Vui lòng gọi 1800 8180 để được hỗ trợ.</string>
+    <string name="dialog_restrained_account_title">Tài khoản không hợp lệ.</string>
+    <string name="dialog_transfer_to_vib_card_error_mess">Không thể thực hiện chuyển khoản sang số Thẻ của VIB. Vui lòng sử dụng số tài khoản thanh toán của VIB.</string>
+    <string name="dialog_transfer_to_vib_card_error_title">Số thẻ không hợp lệ</string>
+    <string name="district">Quận</string>
+    <string name="do_you_have_current_account">Bạn đã có tài khoản thanh toán tại VIB?</string>
+    <string name="do_you_want_use_fast_pay">Bạn có muốn dùng Fast pay</string>
+    <string name="doe_nic_invalid">CMND chỉ có hiệu lực trong vòng %1$s năm kể từ ngày cấp.</string>
+    <string name="doe_passport_invalid">Hộ chiếu chỉ có hiệu lực trong vòng %1$s năm kể từ ngày cấp.</string>
+    <string name="done">Hoàn tất</string>
+    <string name="dont_choose_holiday">Ngày bạn chọn không phải ngày làm việc của Ngân hàng. Bạn vui lòng chọn ngày khác.</string>
+    <string name="due_date">Ngày đến hạn</string>
+    <string name="e_active">Thương mại điện tử mở</string>
+    <string name="e_inactive">Thương mại điện tử tắt</string>
+    <string name="edit">Thay đổi</string>
+    <string name="edit_schedule_payment_receipt_title">Hóa đơn giao dịch</string>
+    <string name="edit_schedule_payment_review_title">Xem lại giao dịch</string>
+    <string name="edit_schedule_payment_title">Thay đổi giao dịch</string>
+    <string name="eff_date">Ngày hiệu lực</string>
+    <string name="email">Email</string>
+    <string name="email_address">Địa chỉ email</string>
+    <string name="email_invalid">Ðịa chỉ email bạn nhập không đúng định dạng. Vui lòng nhập lại.</string>
+    <string name="email_invalid2">Sai định dạng email. Bạn vui lòng thử lại.</string>
+    <string name="email_must_not_null">Vui lòng nhập địa chỉ email.</string>
+    <string name="empty_string"> </string>
+    <string name="end">Kết thúc</string>
+    <string name="end_after">Kết thúc sau</string>
+    <string name="end_date_not_null">Vui lòng chọn ngày kết thúc.</string>
+    <string name="end_date_validate">Ngày kết thúc phải sau ngày bắt đầu.</string>
+    <string name="end_on">Kết thúc vào</string>
+    <string name="english">English</string>
+    <string name="enter">Nhập</string>
+    <string name="enter_acc_atm_number">Nhập số tài khoản/số thẻ của bạn</string>
+    <string name="enter_account_name">Nhập tên người nhận</string>
+    <string name="enter_account_number">Nhập số tài khoản</string>
+    <string name="enter_address">Vui lòng nhập địa chỉ liên hệ.</string>
+    <string name="enter_amount_title">Số tiền</string>
+    <string name="enter_an_amount">Nhập số tiền</string>
+    <string name="enter_bank_name">Nhập tên ngân hàng</string>
+    <string name="enter_branch">Nhập chi nhánh</string>
+    <string name="enter_branch_name">Nhập tên chi nhánh</string>
+    <string name="enter_card_number">Nhập số thẻ</string>
+    <string name="enter_content">Vui lòng nhập nội dung.</string>
+    <string name="enter_current_address">Vui lòng nhập địa chỉ hiện tại.</string>
+    <string name="enter_deny_reason">Vui lòng nhập lý do từ chối.</string>
+    <string name="enter_description">Nhập nội dung</string>
+    <string name="enter_description_title">Nội dung</string>
+    <string name="enter_email">Nhập địa chỉ email</string>
+    <string name="enter_full_name">Nhập họ tên đầy đủ của bạn</string>
+    <string name="enter_id_number">Vui lòng nhập CMND/Hộ chiếu.</string>
+    <string name="enter_id_pp_number">Nhập số CMND/Hộ chiếu của bạn</string>
+    <string name="enter_mobile_number">Nhập số điện thoại</string>
+    <string name="enter_name">Nhập tên</string>
+    <string name="enter_number">Nhập số</string>
+    <string name="enter_old_pin">Vui lòng nhập mã PIN hiện tại</string>
+    <string name="enter_poi">Vui lòng nhập nơi cấp CMND/Hộ chiếu.</string>
+    <string name="enter_position">Vui lòng nhập chức vụ.</string>
+    <string name="enter_purpose">Vui lòng nhập mục đích mở thêm tài khoản.</string>
+    <string name="enter_receiver_id">"Enter Receiver's ID number"</string>
+    <string name="enter_receiver_name">Nhập họ tên</string>
+    <string name="enter_rep_mobile">Nhập SĐT người nhận</string>
+    <string name="enter_res_address">Vui lòng nhập hộ khẩu thường trú.</string>
+    <string name="enter_user_name">Nhập tên đăng nhập mong muốn</string>
+    <string name="enter_your_email_address">Nhập địa chỉ email của bạn</string>
+    <string name="enter_your_mobile_num">Nhập số điện thoại di động của bạn</string>
+    <string name="eod_close_warning">Hệ thống không xử lý được yêu cầu hiện tại. Bạn vui lòng thử lại sau.</string>
+    <string name="eod_warning">Giao dịch tiết kiệm điện tử tạm ngừng. Quý khách vui lòng thực hiện sau.</string>
+    <string name="error">Có lỗi</string>
+    <string name="error_acc_title">Tài khoản hưởng không hợp lệ</string>
+    <string name="error_expiry_date">Ngày hết hạn phải lớn hơn ngày hiện tại. Bạn vui lòng thử lại.</string>
+    <string name="error_field_required">Trường %1$s bắt buộc</string>
+    <string name="error_incorrect_password">Mật khẩu không hợp lệ</string>
+    <string name="error_invalid_email">Tên đăng nhập không hợp lệ</string>
+    <string name="error_invalid_password">Mật khẩu không đủ độ dài</string>
+    <string name="error_invalid_username">Tên đăng nhập không hợp lệ</string>
+    <string name="error_local_img">Hãy chọn ảnh từ thiết bị của bạn.</string>
+    <string name="error_str_acc_number">Số tài khoản hưởng lợi không hợp lệ, tài khoản hưởng bao gồm dãy số hoặc cả chữ lẫn số, tối đa 25 ký tự</string>
+    <string name="error_str_add">Địa chỉ ko được chứ ký tự đặc biệt</string>
+    <string name="error_str_ben_name">Tên người hưởng phải là tiếng việt ko dấu</string>
+    <string name="error_str_bencity">Tỉnh/TP ko được chứ ký tự đặc biệt</string>
+    <string name="error_str_branch">Chi nhánh phải là tiếng việt ko dấu</string>
+    <string name="error_str_branch_city">Tỉnh/TP phải là tiếng việt ko dấu</string>
+    <string name="error_system">Hệ thống tạm thời ngưng phục vụ.</string>
+    <string name="error_timeout">Hệ thống hiện không xử lý được yêu cầu của bạn. Vui lòng thử lại sau ít phút</string>
+    <string name="error_timeout_transfer">Vui lòng xem lịch sử giao dịch tài khoản hoặc tin nhắn để kiểm tra lại kết quả giao dịch. MyVIB không nhận được kết quả giao dịch từ máy chủ do 3G/Wifi rất yếu hoặc không ổn định.</string>
+    <string name="eur">EUR</string>
+    <string name="exchange_rates">Tỷ giá ngoại tệ</string>
+    <string name="exit">Thoát</string>
+    <string name="exit_mes">Bạn có chắc chắn muốn thoát ứng dụng Ngân hàng di động của VIB không?</string>
+    <string name="exit_title">Thoát ứng dụng</string>
+    <string name="expire_date">Ngày hết hạn</string>
+    <string name="expired">Hết hạn</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebook_account">Tài khoản Facebook</string>
+    <string name="failed">Thất bại</string>
+    <string name="fast_transfer">Chuyển tiền nhanh</string>
+    <string name="fast_transfer_desc">Chuyển tiền ngay trong vòng 5 phút. Phí giao dịch cố định: %1$s VND/giao dịch</string>
+    <string name="fast_transfer_desc2">Chuyển tiền ngay trong vòng 5 phút. Phí giao dịch: %1$s%%/số tiền chuyển, tối thiểu: %2$s VND</string>
+    <string name="fast_transfer_desc3">Chuyển tiền ngay trong vòng 5 phút.</string>
+    <string name="fb">Vui lòng tải ứng dụng Facebook để sử dụng tính năng này.</string>
+    <string name="fb_account">tài khoản Facebook</string>
+    <string name="fb_app_id">127672327608959</string>
+    <string name="fb_friends">Danh sách bạn bè Facebook</string>
+    <string name="fb_permission_ask">Cho phép Ứng dụng MyVIB truy cập danh sách bạn bè trên Facebook của bạn</string>
+    <string name="fee_amount">Số tiền phí</string>
+    <string name="filter">Lọc</string>
+    <string name="find_us">Tìm kiếm</string>
+    <string name="first_account">Mở mới</string>
+    <string name="forget_username_message">"Bạn đã quên mật khẩu đăng nhập?
+Hãy gọi 1800 8180 để được hỗ trợ."</string>
+    <string name="forget_username_title">Quên tên đăng nhập?</string>
+    <string name="forgotten_your">Quên</string>
+    <string name="friend_facebook">Friend Facebook</string>
+    <string name="from">Từ</string>
+    <string name="from_acc_require">Vui lòng chọn tài khoản nguồn</string>
+    <string name="from_phone_contact_list">Từ danh bạ điện thoại</string>
+    <string name="from_phone_contact_list_title">Từ danh bạ điện thoại</string>
+    <string name="from_seri">"Từ số "</string>
+    <string name="from_to_trung_nhau">Tài khoản nguồn và tài khoản hưởng không được trùng nhau. Vui lòng thử lại!</string>
+    <string name="full_name_invalid">Họ tên không bao gồm các ký tự đặc biệt. Bạn vui lòng thử lại.</string>
+    <string name="full_name_not_null">Vui lòng nhập họ tên.</string>
+    <string name="fullname">Họ và tên</string>
+    <string name="getting_start_to_open">Bắt đầu mở</string>
+    <string name="go_to_view_account">Xem tài khoản</string>
+    <string name="guest_home">"Trang dành
+cho khách"</string>
+    <string name="hello">Xin chào</string>
+    <string name="here">tại đây</string>
+    <string name="hint_card">Vui lòng nhập 04 số in trên thẻ lương</string>
+    <string name="hint_other">Thông tin khác (nếu có)</string>
+    <string name="hint_staff">Vui lòng nhập mã nhân viên</string>
+    <string name="holiday_warning">Ngân hàng tạm ngừng giao dịch vào ngày nghỉ, lễ. Nếu bạn mở tài khoản tiết kiệm, số tiền gửi sẽ được tạm giữ trên tài khoản thanh toán và hiệu lực vào ngày làm việc tiếp theo.</string>
+    <string name="home">Danh mục</string>
+    <string name="i_want_try_again">Tôi muốn nhập lại thông tin đăng ký</string>
+    <string name="id_card">CMND/Hộ chiều</string>
+    <string name="id_card_invalid">Số CMND của bạn đã hết hạn sử dụng. Bạn vui lòng kiểm tra lại.</string>
+    <string name="id_number">Số CMND/Hộ chiếu</string>
+    <string name="id_pp_invalid">Số CMND/Hộ chiếu không bao gồm các ký tự đặc biệt. Bạn vui lòng thử lại.</string>
+    <string name="id_pp_must_not_null">Vui lòng nhập số CMND/Hộ chiếu của bạn.</string>
+    <string name="id_pp_number">Số CMND/Hộ chiếu</string>
+    <string name="id_type">Loại CMND/Hộ chiếu</string>
+    <string name="identification">Xác thực Khách hàng</string>
+    <string name="identification_method">Phương thức xác thực</string>
+    <string name="img_description">Image View</string>
+    <string name="in">vào</string>
+    <string name="inbox">Hộp thư</string>
+    <string name="information">Thông tin</string>
+    <string name="install_fb_app">Cài đặt Facebook</string>
+    <string name="instance_top_up">Nạp tiền nhanh</string>
+    <string name="instance_top_up_confirm_msg">Cho số điện thoại %1$s</string>
+    <string name="instance_top_up_msg">"Đang nạp %1$s 
+vào số điện thoại của bạn %2$s"</string>
+    <string name="interest_amount">Số tiền lãi</string>
+    <string name="interest_rates">Lãi suất tiết kiệm</string>
+    <string name="interest_received">Lãi dự thu</string>
+    <string name="intro_btn">Trải nghiệm ngay!</string>
+    <string name="intro_text1">"VIB mới triển khai tính năng
+ \"Mở tài khoản\" nhằm mang lại sự
+thuận tiện nhất cho các khách hàng"</string>
+    <string name="intro_text_1">"Trải nghiệm các tính năng mới
+của MyVIB ngay"</string>
+    <string name="intro_text_2">"Thanh toán và quản lý dư nợ thẻ tín dụng
+dễ dàng và hiệu quả với MyVIB."</string>
+    <string name="intro_text_3">"Chủ động kích hoạt, mở/khóa thẻ của
+bạn hoặc đăng ký thương mại điện tử bất
+kỳ lúc nào mà không cần đến chi nhánh
+của Ngân hàng."</string>
+    <string name="intro_text_4">"Bạn đang tìm kiếm giải pháp ngân hàng
+giao dịch ngân hàng dễ dàng hơn?
+Mở tài khoản thanh toán và tài khoản
+tiết kiệm trực tuyến tại VIB chỉ trong
+vòng 5 phút và nhận ngay số tài khoản."</string>
+    <string name="intro_text_5">"Với MyVIB, bạn có thể chuyển tiền cho
+tất cả bạn bè, người thân của mình
+thông qua kết nối tới số điện
+thoại/email."</string>
+    <string name="intro_text_6">Đặt lịch thanh toán</string>
+    <string name="intro_text_7">Mở tài khoản thanh toán VIB trực tuyến</string>
+    <string name="intro_text_8">Thanh toán hóa đơn</string>
+    <string name="intro_title_1">Chuyển tiền mới</string>
+    <string name="intro_title_2">Quản lý thẻ</string>
+    <string name="invalid_account_transfer_mess">Tài khoản không được phép giao dịch</string>
+    <string name="invalid_account_transfer_title">Lỗi tài khoản</string>
+    <string name="invalid_pin_diff_digit">Bạn đã nhập PIN với 04 mã số giống nhau. Vì lý do bảo mật, chúng tôi khuyến nghị bạn chọn mã PIN khác.</string>
+    <string name="invalid_pin_mess">Pin không hợp lệ, vui lòng thử lại</string>
+    <string name="invalid_pin_nonconsecutive_digit">Mã PIN không được là các số liên tiếp.</string>
+    <string name="invalid_pin_not_enough">PIN phải gồm 4 số</string>
+    <string name="invalid_pin_not_same">Mã PIN không khớp</string>
+    <string name="invalid_pin_similar_birthday">PIN không được trùng với ngày sinh.</string>
+    <string name="invalid_pin_title">PIN không hợp lệ</string>
+    <string name="invalid_pin_title1">PIN không hợp lệ.</string>
+    <string name="issue_date">Ngày bắt đầu</string>
+    <string name="issue_date_error">Ngày cấp CMND/Hộ chiếu không được lớn hơn ngày hiện tại. Bạn vui lòng thử lại.</string>
+    <string name="issued_date">Ngày phát hành</string>
+    <string name="jump_to">Chuyển đến:</string>
+    <string name="just_5_min">Chỉ &lt;font color=#f28121>5 phút&lt;/font> và&lt;br/>mất phí &lt;font color=#f28121>11.000 VND&lt;/font></string>
+    <string name="last_term">Cuối kỳ</string>
+    <string name="later">Sau</string>
+    <string name="limit">Bạn đã nhập tên đăng nhập quá số lần cho phép. Bạn vui lòng thử lại sau.</string>
+    <string name="link">www.vib.com.vn</string>
+    <string name="live_chat_info_out_of_service">"Dịch vụ tạm thời không hoạt động.
+Vui lòng thử lại sau ít phút."</string>
+    <string name="live_chat_title">Chat với VIB</string>
+    <string name="live_chat_waiting">Quý khách vui lòng đợi trong giây lát</string>
+    <string name="live_chat_waiting_1">Online representative will be with you shortly.</string>
+    <string name="localAccHeader">Tài khoản NH khác</string>
+    <string name="local_language">vi-vn</string>
+    <string name="local_transfer_title">Yêu cầu của bạn đã được gửi tới VIB thành công. Chúng tôi sẽ xử lý yêu cầu trong vòng 24h tới hoặc ngày làm việc kế tiếp.</string>
+    <string name="location_fail_msg">Hiện tại hệ thống không định vị được địa điểm ATM/chi nhánh gần nhất. Vui lòng thử lại sau ít phút!</string>
+    <string name="location_fail_title" />
+    <string name="location_require_msg">Ứng dụng không có quyền truy cập vào Dịch vụ định vị trên điện thoại của bạn. Vui lòng cài đặt tại mục Bảo mật.</string>
+    <string name="location_require_title">Định vị địa điểm</string>
+    <string name="location_to_meet">Địa điểm gặp</string>
+    <string name="locator_title">ATM gần nhất</string>
+    <string name="lock">Khóa thẻ</string>
+    <string name="lock_card">Khóa thẻ</string>
+    <string name="locked">KHÓA</string>
+    <string name="log_on">ĐĂNG NHẬP</string>
+    <string name="log_on2">"Đăng nhập
+MyVIB"</string>
+    <string name="login">Đăng nhập</string>
+    <string name="login_hint">Vui lòng nhập tài khoản VIB Internet Banking</string>
+    <string name="login_pin_text1">Vui lòng nhập PIN:</string>
+    <string name="login_pin_text2">Quên PIN?</string>
+    <string name="login_pin_text3">Đăng nhập bằng tài khoản VIB Internet Banking</string>
+    <string name="logo_title_login">Ngân hàng di động VIB</string>
+    <string name="logout_fail_msg">Đăng xuất thất bại</string>
+    <string name="logout_success_msg">Cảm ơn bạn đã sử dụng dịch vụ</string>
+    <string name="logout_title">Đăng xuất</string>
+    <string name="marial_status">Tình trạng hôn nhân</string>
+    <string name="married">Đã kết hôn</string>
+    <string name="maturity_date">Ngày đến hạn</string>
+    <string name="max_amount_saving_acc">Tham gia chương trình tiết kiệm dự thưởng, số tiền gửi tối đa cho phép là %1$s</string>
+    <string name="maximum_payment">Thanh toán tối đa</string>
+    <string name="me">Tôi</string>
+    <string name="menu_card_self">Dịch vụ thẻ</string>
+    <string name="menu_group1">Chuyển tiền &amp; Thanh toán</string>
+    <string name="menu_group2">Sản phẩm</string>
+    <string name="menu_group3">CT Ưu đãi &amp; Sản phẩm</string>
+    <string name="menu_group4">Công cụ</string>
+    <string name="menu_group5">Cài đặt</string>
+    <string name="menu_mobile_top_up">Nạp tiền\nĐTDĐ</string>
+    <string name="menu_mobile_top_up2">Nạp tiền ĐTDĐ</string>
+    <string name="menu_pay_a_bill">Thanh toán\nhóa đơn/ thẻ TD</string>
+    <string name="menu_promotion_location">ATM/Chi Nhánh &amp; Điểm khuyến mại</string>
+    <string name="menu_text">Chương trình ưu đãi</string>
+    <string name="menu_text0">Đăng ký tiện ích tài khoản lương</string>
+    <string name="menu_text1">Đăng ký sử dụng sản phẩm</string>
+    <string name="menu_text10">Chọn ngôn ngữ/Select language</string>
+    <string name="menu_text11">Thay đổi PIN</string>
+    <string name="menu_text12">Đăng xuất</string>
+    <string name="menu_text13">Số dư nhanh</string>
+    <string name="menu_text14">Đổi hình ảnh trang chủ</string>
+    <string name="menu_text15">Xem đơn mở tài khoản</string>
+    <string name="menu_text16">Hộp thư</string>
+    <string name="menu_text17">Quản lý giao dịch đặt lịch</string>
+    <string name="menu_text2">Lãi suất tiết kiệm</string>
+    <string name="menu_text3">Tỷ giá ngoại tệ</string>
+    <string name="menu_text4">Chat với VIB</string>
+    <string name="menu_text5">Trợ giúp</string>
+    <string name="menu_text6">Tìm hiểu thêm</string>
+    <string name="menu_text7">Tham quan</string>
+    <string name="menu_text7_2">vib.com.vn</string>
+    <string name="menu_text8">ATM/Chi nhánh &amp; Điểm khuyến mại</string>
+    <string name="menu_text9">Cài đặt</string>
+    <string name="menu_transfer_between_account">Chuyển tiền\ncá nhân</string>
+    <string name="menu_view_account_balance">Truy vấn\ntài khoản</string>
+    <string name="merchant">Khuyến mại</string>
+    <string name="message">Tin nhắn</string>
+    <string name="min_amount_saving_acc">Số tiền gửi phải tối thiểu %1$s</string>
+    <string name="min_amount_saving_acc_hint">Số tiền tối thiểu %1$s</string>
+    <string name="min_balance">Số dư tối thiểu</string>
+    <string name="minimum_payment">Thanh toán tối thiểu</string>
+    <string name="missing_payment_detail">Vui lòng nhập đầy đủ thông tin GD.</string>
+    <string name="mobile">Số điện thoại</string>
+    <string name="mobile_field_invalid">Số điện thoại phải bắt đầu bằng số 09, 01 hoặc 84 và không vượt quá 12 số</string>
+    <string name="mobile_field_invalid_title">Số điện thoại không hợp lệ</string>
+    <string name="mobile_field_require">Trường số điện thoại là cần thiết</string>
+    <string name="mobile_invalid">Số điện thoại di động bạn nhập không hợp lệ. Số điện thoại chỉ chứa ký tự là Số và tối đa là 11 số.</string>
+    <string name="mobile_must_not_null">Vui lòng nhập số điện thoại di động.</string>
+    <string name="mobile_no_to_get">SĐT nhận mã xác thực</string>
+    <string name="mobile_number">Số điện thoại di động</string>
+    <string name="mobile_number2">SĐT di động</string>
+    <string name="monthly">Hàng tháng</string>
+    <string name="morning">Buổi sáng</string>
+    <string name="mos_pick_date_warning">Thời gian gặp nhân viên VIB phải lớn hơn ngày hiện tại.</string>
+    <string name="mr">Ông</string>
+    <string name="mrs">Cô</string>
+    <string name="ms">Bà</string>
+    <string name="my_application_title">Xem đơn mở tài khoản</string>
+    <string name="na">N/A</string>
+    <string name="name">Tên</string>
+    <string name="name_invalid">Họ và tên không bao gồm các ký tự đặc biệt. Bạn vui lòng thử lại.</string>
+    <string name="name_must_not_null">Vui lòng nhập họ tên.</string>
+    <string name="nation_id">Mã quốc gia</string>
+    <string name="nation_invalid">Số CMTND/Hộ chiếu không bao gồm các ký tự đặc biệt. Bạn vui lòng thử lại.</string>
+    <string name="nation_must_not_null">Vui lòng nhập CMTND hoặc Hộ chiếu.</string>
+    <string name="need_fb_app">Vui lòng cài đặt ứng dụng Facebook Messenger!</string>
+    <string name="net_position">Số dư thuần</string>
+    <string name="network_error">Lỗi kết nối đến máy chủ</string>
+    <string name="network_error_transfer_title">Trạng thái giao dịch không xác định</string>
+    <string name="never">Không có ngày kết thúc</string>
+    <string name="new_biller_title">Hóa đơn mới</string>
+    <string name="new_card">Thẻ của NH khác</string>
+    <string name="new_vib_account">Tài khoản VIB</string>
+    <string name="next">Tiếp tục</string>
+    <string name="next_payment">Lần chuyển tiếp theo</string>
+    <string name="ngay_cap">Ngày cấp</string>
+    <string name="nic">CMND</string>
+    <string name="nic_no">Số CMND</string>
+    <string name="nic_passport">CMND/Hộ chiếu</string>
+    <string name="nick_must_not_null">Vui lòng nhập tên.</string>
+    <string name="nick_name">Biệt danh</string>
+    <string name="no">Không</string>
+    <string name="no_acc_text_hint">"Vui lòng đăng nhập 
+"<a href="https://ib.vib.com.vn">ib.vib.com.vn</a>"
+để thêm tài khoản mới vào danh sách hưởng lợi"</string>
+    <string name="no_application">Bạn Không có đơn mở tài khoản nào</string>
+    <string name="no_balance">Không có giá trị nào.</string>
+    <string name="no_bank_found">Không tìm thấy kết quả nào.</string>
+    <string name="no_choose_city">Chi nhánh này là chi nhánh quản lý mã khách hàng của bạn. Nếu mốn thay đổi, bạn vui lòng quay lại bước trước.</string>
+    <string name="no_fb_fr">Không tìm thấy bạn bè.</string>
+    <string name="no_img">Không có hình ảnh thẻ này</string>
+    <string name="no_message">Bạn không có tin nhắn nào.</string>
+    <string name="no_password_message">Vui lòng nhập mật khẩu.</string>
+    <string name="no_password_title">Mật khẩu là bắt buộc</string>
+    <string name="no_phone_number">Không tìm thấy số điện thoại nào.</string>
+    <string name="no_result">Không tìm thấy kết quả nào.</string>
+    <string name="no_schedule_transfer">Không tìm thấy giao dịch.</string>
+    <string name="no_scooter_mess">Chi nhánh đăng ký chưa triển khai dịch vụ thu thập hồ sơ tại nhà, anh/chị vui lòng đến quầy giao dịch của VIB để hoàn thiện thủ tục mở tài khoản.</string>
+    <string name="no_select_branch">Chi nhánh mở là chi nhánh quản lý mã khách hàng của bạn. Nếu muốn thay đổi, bạn vui lòng quay lại bước trước.</string>
+    <string name="no_thank">Không, cảm ơn. Tôi muốn chuyển tiền bình thường</string>
+    <string name="no_transaction">Không tìm thấy giao dịch</string>
+    <string name="no_username_message">Vui lòng nhập tên đăng nhập.</string>
+    <string name="no_username_title">Tên đăng nhập là bắt buộc</string>
+    <string name="no_valid_accounts_found_">Không tìm thấy tài khoản nào phù hợp.</string>
+    <string name="none">Hủy tài khoản đã chọn</string>
+    <string name="none_">Vô thời hạn</string>
+    <string name="normal_transfer">Chuyển tiền thông thường</string>
+    <string name="normal_transfer_desc">Chuyển tiền trong vòng 24 giờ. Phí giao dịch: %1$s%%/số tiền chuyển, tối thiểu: %2$s VND</string>
+    <string name="normal_transfer_desc2">Chuyển tiền trong vòng 24 giờ. Phí giao dịch cố định: %1$s VND/giao dịch</string>
+    <string name="normal_transfer_desc3">Chuyển tiền trong vòng 24 giờ.</string>
+    <string name="not_select_account">Chọn tài khoản</string>
+    <string name="note">Bạn có thể chọn thanh toán tối thiểu, thanh toán tối đa hoặc nhập số tiền khác</string>
+    <string name="note_interest_rates">Ghi chú: Trường hợp khách hàng gửi tiết kiệm có kỳ hạn rút trước hạn sẽ hưởng lãi suất không kỳ hạn tương ứng với loại tiền gửi của khách hàng</string>
+    <string name="notes">Thông tin lưu ý khác</string>
+    <string name="num_pad_0">0</string>
+    <string name="num_pad_1">1</string>
+    <string name="num_pad_2">2</string>
+    <string name="num_pad_3">3</string>
+    <string name="num_pad_4">4</string>
+    <string name="num_pad_5">5</string>
+    <string name="num_pad_6">6</string>
+    <string name="num_pad_7">7</string>
+    <string name="num_pad_8">8</string>
+    <string name="num_pad_9">9</string>
+    <string name="num_pad_decimal">.</string>
+    <string name="num_pad_done">Xong</string>
+    <string name="occupation">Nghề nghiệp</string>
+    <string name="ok">OK</string>
+    <string name="on">ngày</string>
+    <string name="online_payment">Thanh toán trực tuyến</string>
+    <string name="open">Mở</string>
+    <string name="open_a_current_account">Mở tài khoản thanh toán</string>
+    <string name="open_a_daily_saving_account">Mở tài khoản tiết kiệm gửi góp</string>
+    <string name="open_saving_account">Mở tài khoản tiết kiệm </string>
+    <string name="open_a_regular_saving_account">Mở tài khoản tiết kiệm thông thường</string>
+    <string name="open_account">Mở tài khoản</string>
+    <string name="open_account1_name">TK thanh toán</string>
+    <string name="open_account2_name">Tiết kiệm gửi góp Daily savings</string>
+    <string name="open_account3_name">Tiết kiệm thường</string>
+    <string name="open_account_getting_start_text1">Bắt đầu mở tài khoản thanh toán</string>
+    <string name="open_account_getting_start_text2">Vui lòng cung cấp thông tin liên hệ của bạn</string>
+    <string name="open_account_getting_start_text3">Tất cả các thông tin cá nhân bạn cung cấp sẽ được bảo mật. Chúng tôi cam kết sẽ không chia sẻ bất cứ thông tin nào của bạn với bất kỳ tổ chức nào.</string>
+    <string name="open_account_now">Mở ngay</string>
+    <string name="open_account_text1">Lựa chọn tài khoản của bạn</string>
+    <string name="open_account_text2">Cần thêm thông tin?</string>
+    <string name="open_account_text3">Chọn sản phẩm mà bạn mong muốn, chúng tôi sẽ liên lạc lại sớm</string>
+    <string name="open_account_text4">1. Vui lòng chuẩn bị giấy tờ sau để xác thực thông tin</string>
+    <string name="open_account_text5">2. Vui lòng chọn phương thức xác thực thông tin</string>
+    <string name="open_account_text6">2. Vui lòng đến chi nhánh VIB để xác thực thông tin mở tài khoản</string>
+    <string name="open_account_title">Mở\ntài khoản</string>
+    <string name="open_account_title1">Cảm ơn bạn đã giao dịch với Ngân hàng</string>
+    <string name="open_account_title2">Tài khoản thanh toán của bạn đã được tạo thành công</string>
+    <string name="open_account_title_sa">Tài khoản tiết kiệm của bạn đã được tạo thành công</string>
+    <string name="open_account_title_sa_holiday_open">Tài khoản tiết kiệm của bạn đã được mở thành công và có hiệu lực vào ngày làm việc tiếp theo</string>
+    <string name="open_account_title_sa_open">Tài khoản tiết kiệm của bạn đã được mở thành công</string>
+    <string name="open_my_vib_id_title">"Ðăng ký sử dụng
+Ngân hàng điện tử"</string>
+    <string name="open_my_vib_text1">Ðể đăng ký sử dụng Ngân hàng điện tử, bạn cần:</string>
+    <string name="open_my_vib_text2">Sử dụng tài khoản thanh toán tại VIB;</string>
+    <string name="open_my_vib_text3">Ðăng ký mở tài khoản tại đây nếu bạn chưa sở hữu tài khoản thanh toán của VIB.</string>
+    <string name="open_my_vib_text4">Bạn vui lòng cung cấp các thông tin sau đây để VIB tiến hành xác thực:</string>
+    <string name="open_my_vib_text5">Tôi đã đọc và đồng ý với</string>
+    <string name="open_my_vib_text6">điều khoản sử dụng dịch vụ</string>
+    <string name="open_now">Ðăng ký</string>
+    <string name="open_now_">Mở ngay</string>
+    <string name="optional">Không bắt buộc</string>
+    <string name="or">Hoặc</string>
+    <string name="other">Khác</string>
+    <string name="other_account">Chọn tài khoản khác</string>
+    <string name="otp">OTP</string>
+    <string name="otp_number">Mã bảo mật</string>
+    <string name="otp_sent_msg">Mã OTP đã được gửi tới số điện thoại bạn đăng ký. Vui lòng nhập mã OTP.</string>
+    <string name="otp_text1">Vui lòng lấy mã bảo mật từ thiết bị bảo mật nếu bạn đăng ký sử dụng thiết bị.</string>
+    <string name="otp_text2">Mã OTP sẽ được gửi tới số điện thoại bạn đã đăng ký %1$s</string>
+    <string name="otp_text3">Lấy mã bảo mật</string>
+    <string name="otp_title">Lấy mã bảo mật</string>
+    <string name="outstanding">Dư nợ hiện tại</string>
+    <string name="owner_credit_card">Thẻ chính</string>
+    <string name="passport">Hộ chiếu</string>
+    <string name="passport_no">Số hộ chiếu</string>
+    <string name="password">mật khẩu.</string>
+    <string name="pay">Chuyển</string>
+    <string name="pay2">Trả</string>
+    <string name="pay3">Thanh toán</string>
+    <string name="pay_a_bill">"Thanh toán hóa đơn"</string>
+    <string name="pay_a_bill_title">"Thanh toán hóa đơn/
+thẻ tín dụng"</string>
+    <string name="pay_a_bill_title2">Thanh toán\nhóa đơn</string>
+    <string name="pay_anyone">Chuyển tiền khác</string>
+    <string name="pay_anyone_details">Chi tiết giao dịch</string>
+    <string name="pay_bill_enter_phone_number">Nhập số điện thoại</string>
+    <string name="pay_bill_phone_number_contact">Số điện thoại liên lạc</string>
+    <string name="pay_bills_details_title">Chi tiết giao dịch</string>
+    <string name="pay_confirm_msg">"Từ %1$s
+Đến %2$s"</string>
+    <string name="pay_mc_success">Thanh toán dư nợ thẻ tín dụng thành công</string>
+    <string name="pay_social_warning">Lưu ý: Người thụ hưởng phải từ đủ 15 tuổi trở lên, không bị mất hoặc hạn chế năng lực hành vi dân sự</string>
+    <string name="pay_someone">"Chuyển tiền
+khác"</string>
+    <string name="pay_someone_detail_title">Chi tiết giao dịch</string>
+    <string name="pay_someone_new_title">Chuyển tiền khác</string>
+    <string name="pay_someone_title">Chuyển tiền\nkhác</string>
+    <string name="pay_to">Chuyển cho</string>
+    <string name="pay_to2">Thanh toán hóa đơn</string>
+    <string name="pay_to_bank">"Tài khoản
+Ngân hàng"</string>
+    <string name="pay_to_email">"Chuyển tiền
+qua email"</string>
+    <string name="pay_to_email_or_mobile">"Số điện thoại
+hoặc email"</string>
+    <string name="pay_to_mobile">"Chuyển tiền
+qua số điện thoại"</string>
+    <string name="pay_to_new_atm_cards">Thẻ của NH khác</string>
+    <string name="pay_to_new_vib_accounts">Tài khoản VIB</string>
+    <string name="pay_to_social">"Tài khoản
+Facebook"</string>
+    <string name="payable">Có thể TT</string>
+    <string name="payment">Thanh toán dư nợ</string>
+    <string name="payment_code">Mã nhận tiền</string>
+    <string name="payment_date">Ngày thanh toán</string>
+    <string name="payment_success">Chuyển tiền</string>
+    <string name="payoff">Thanh toán dư nợ</string>
+    <string name="pending_trans">GD chờ xử lý</string>
+    <string name="percentage_completed">% Hoàn thành</string>
+    <string name="period">Ngày đến hạn</string>
+    <string name="phone_">Số điện thoại</string>
+    <string name="phone_address_book">Danh sách điện thoại hưởng lợi</string>
+    <string name="phone_iao">Số điện thoại di động phải ít nhất 10 số và bắt đầu bằng số \"0\". Bạn vui lòng thử lại.</string>
+    <string name="pin_code">Mã xác thực</string>
+    <string name="place_of_birth">Quê quán</string>
+    <string name="place_of_issue">Nơi cấp</string>
+    <string name="place_to_meet">Nhập địa chỉ gặp</string>
+    <string name="please_enter">Vui lòng nhập</string>
+    <string name="please_enter_branch">Vui lòng nhập chi nhánh</string>
+    <string name="please_review_your_info">Vui lòng cập nhật thông tin liên hệ của bạn (nếu có)</string>
+    <string name="please_select_branch">Chọn chi nhánh</string>
+    <string name="please_select_city">Chọn Tỉnh/Thành phố</string>
+    <string name="please_select_district">Chọn Quận</string>
+    <string name="poa_invalid">Mục đích mở thêm không bao gồm các ký tự đặc biệt. Bạn vui lòng thử lại.</string>
+    <string name="poi_invalid">Nơi cấp không bao gồm các ký tự đặc biệt. Bạn vui lòng thử lại.</string>
+    <string name="position">Chức vụ</string>
+    <string name="position_invalid">Chức vụ không bao gồm các ký tự đặc biệt. Bạn vui lòng thử lại.</string>
+    <string name="prefer_branch">Chi nhánh mở</string>
+    <string name="principal">Dư nợ gốc</string>
+    <string name="principal2">Số tiền gốc</string>
+    <string name="principal_amount">Số tiền gốc</string>
+    <string name="progressive_saving">"Biểu lãi suất
+tiết kiệm lũy tiến"</string>
+    <string name="promotion2_apply_text1">"Cảm ơn Quý Khách đã đăng ký thẻ tín dụng
+VIB Platinum Double Cash Back"</string>
+    <string name="promotion2_apply_text2">Lưu ý:</string>
+    <string name="promotion2_apply_text3">VIB sẽ liên hệ lại quý khách trong vòng 24 giờ làm việc.</string>
+    <string name="promotion2_apply_text4">Xác nhận:</string>
+    <string name="promotion2_apply_text5">Bằng việc bấm nút Hoàn thành nghĩa là tôi đồng ý nâng cấp thẻ tín dụng, biểu phí và các điều kiện &amp; điều khoản sử dụng thẻ của VIB.</string>
+    <string name="promotion2_deny_text1">Cảm ơn Quý Khách đã phản hồi</string>
+    <string name="promotion2_deny_text2">"Với mong muốn phục vụ Quý Khách ngày một tốt hơn,
+Quý Khách hàng vui lòng cho biết
+lý do không tham gia Chương trình:"</string>
+    <string name="promotion2_option1">Đã sở hữu thẻ tín dụng ngân hàng khác</string>
+    <string name="promotion2_option2">Không có nhiều chương trình ưu đãi</string>
+    <string name="promotion2_option3">Phí cao</string>
+    <string name="promotion2_option4">Không có nhu cầu sử dụng</string>
+    <string name="promotion2_option5">Lý do khác</string>
+    <string name="promotion2_popup_text1">&lt;font color=#f28121>Ưu đãi hơn! Đẳng cấp hơn!&lt;/font> &lt;br/>Đừng chờ đợi, hãy nâng cấp lên thẻ tín dụng&lt;br/> &lt;font color=#f28121>VIB Platinum Double Cash Back&lt;/font> ngay hôm nay!</string>
+    <string name="promotion2_popup_text2">"Hoàn tiền gấp đôi
+Miễn phí nâng cấp
+Thời gian miễn lãi tối đa lên tới 55 ngày"</string>
+    <string name="promotion2_popup_text3">Liên hệ &lt;font color=#f28121>1800 8180&lt;/font> để biết thêm chi tiết</string>
+    <string name="promotion_list_empty">"Hiện tại không có chương trình ưu đãi nào.
+Vui lòng đợi trong thời gian tới."</string>
+    <string name="promotion_list_title">Chương trình ưu đãi</string>
+    <string name="promotion_option1">Đã sở hữu thẻ tín dụng ngân hàng khác</string>
+    <string name="promotion_option2">Không có nhiều chương trình ưu đãi</string>
+    <string name="promotion_option3">Không có nhu cầu sử dụng</string>
+    <string name="promotion_option4">Lý do khác:</string>
+    <string name="promotion_text1">"Cảm ơn Quý khách đã phản hồi.
+Với mong muốn được phục vụ Quý khách hàng ngày một tốt hơn, VIB mong nhận được phản hồi từ Quý khách về lý do không tham gia Chương trình:"</string>
+    <string name="promotion_text2">"Vui lòng xác nhận hoặc cập nhật thông tin dưới đây.
+Chúng tôi sẽ liên hệ với Quý khách trong thời gian sớm nhất."</string>
+    <string name="prompt_password">Mật khẩu</string>
+    <string name="prompt_username">Tên đăng nhập</string>
+    <string name="pso_empty_mobile_number">Vui lòng nhập số điện thoại di động của người nhận hoặc chọn trong danh bạ của bạn</string>
+    <string name="pso_empty_name">Vui lòng nhập họ tên người nhận</string>
+    <string name="pso_invalid_email">Email không đúng định dạng. Bạn vui lòng thử lại</string>
+    <string name="pso_invalid_mobile">Số điện thoại di động không hợp lệ. Bạn vui lòng thử lại</string>
+    <string name="pso_invalid_name">Họ tên người nhận tối đa 50 ký tự, không bao gồm số và các ký tự đặc biệt. Bạn vui lòng thử lại</string>
+    <string name="pso_mobile_null">Vui lòng nhập địa chỉ email của người nhận hoặc chọn địa chỉ email trong danh bạ của bạn</string>
+    <string name="purpose_hint">Mục đích mở thêm</string>
+    <string name="quarterly">Hàng quý</string>
+    <string name="quick_balance_description">Chức năng xem số dư nhanh giúp bạn xem được số dư nhanh chóng chỉ với một thao tác đơn giản.</string>
+    <string name="quit">Thoát</string>
+    <string name="ra_invalid">Hộ khẩu thường trú không bao gồm các ký tự đặc biệt. Bạn vui lòng thử lại.</string>
+    <string name="rate_description">Lãi suất và số tiền lãi chỉ mang tính tham khảo. Lãi suất thực tế được áp dụng vào ngày kích hoạt tài khoản tiết kiệm.</string>
+    <string name="reason_to_close">Lý do đóng tài khoản</string>
+    <string name="receipt">Hóa đơn</string>
+    <string name="receipt_no">Số hóa đơn</string>
+    <string name="receipt_number">Số hóa đơn</string>
+    <string name="receipt_text1">Vui lòng chuẩn bị 01 bản sao CMND hoặc Hộ chiếu khi bạn tới chi nhánh của VIB để xác thực thông tin mở tài khoản.</string>
+    <string name="receipt_text1_N">Vui lòng chuẩn bị 01 bản sao CMND hoặc Hộ chiếu khi nhân viên VIB tới gặp bạn để xác thực thông tin mở tài khoản.</string>
+    <string name="receipt_text2">01 bản sao</string>
+    <string name="receipt_text3">CMND</string>
+    <string name="receipt_text4">Hộ chiếu</string>
+    <string name="receipt_title">%1$s thành công</string>
+    <string name="receiver_id">"Receiver's ID number"</string>
+    <string name="receiver_name">Họ tên người nhận</string>
+    <string name="ref_must_not_null">Hãy nhập %1$s</string>
+    <string name="ref_must_not_null_title">%1$s là bắt buộc</string>
+    <string name="reference_no_">Mã hóa đơn</string>
+    <string name="reg_call_center_success">"Cảm ơn bạn đã đăng ký sử dụng dịch vụ Ngân hàng điện tử
+Thông tin đăng ký của bạn đã được gửi đến Trung tâm Dịch vụ khách hàng của VIB!
+Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất để hoàn thiện đơn đăng ký."</string>
+    <string name="reg_ib_text10">"Mật khẩu đăng nhập đã được gửi tới số điện thoại của bạn.
+Vui lòng đổi mật khẩu sau khi bạn đăng nhập lần đầu và trải nghiệm các tính năng tiện ích của dịch vụ"</string>
+    <string name="reg_note0">Số điện thoại di động phải là số bạn đã đăng ký sử dụng các dịch vụ của VIB</string>
+    <string name="reg_success">Bạn đã đăng ký sử dụng dịch vụ Ngân hàng điện tử thành công</string>
+    <string name="reg_text1">"3 bước đơn giản để hoàn thành
+yêu cầu đăng ký của bạn"</string>
+    <string name="reg_text11">Số điện thoại di động của bạn chưa được đăng ký với VIB.</string>
+    <string name="reg_text12">"Bạn có thể liên hệ số hotline
+Dịch vụ Khách hàng 24/7 của VIB"</string>
+    <string name="reg_text13">Hoặc cung cấp thêm thông tin để chúng tôi liên hệ lại với bạn.</string>
+    <string name="reg_text2">1. Xác thực thông tin</string>
+    <string name="reg_text3">CMND</string>
+    <string name="reg_text4">Hộ chiếu</string>
+    <string name="reg_text5">Số tài khoản</string>
+    <string name="reg_text6">Số thẻ</string>
+    <string name="reg_text7">2. Chọn Tên đăng nhập</string>
+    <string name="reg_text8">3. Đăng nhập và sử dụng dịch vụ</string>
+    <string name="reg_text9">"Đăng
+nhập"</string>
+    <string name="regis_username">Đăng ký tên đăng nhập</string>
+    <string name="registered_date">Ngày đăng ký</string>
+    <string name="release_date">Ngày phát hành</string>
+    <string name="repeat">Lặp lại vào</string>
+    <string name="reply">Trả lời</string>
+    <string name="reset_pin_mess">"Bạn quên mã PIN của mình?
+Chọn \"Có\" để đặt lại PIN"</string>
+    <string name="reset_pin_title"><br>Đặt lại PIN?</br></string>
+    <string name="reset_your">Đặt lại</string>
+    <string name="resident_address">Hộ khẩu thường trú</string>
+    <string name="retry">Thử lại</string>
+    <string name="revert_date">Revert date</string>
+    <string name="review_and_confirm">Xác nhận yêu cầu</string>
+    <string name="rollover_instruction">Yêu cầu khi đến hạn</string>
+    <string name="s_f">Tìm kiếm bạn bè</string>
+    <string name="salary_card_invalid">Số thẻ lương không hợp lệ. Vui lòng nhập 04 số in trên thẻ lương.</string>
+    <string name="salary_card_must_not_null">Vui lòng nhập 04 số in trên thẻ lương của bạn.</string>
+    <string name="salary_sign_up_note">"Vui lòng nhập đầy đủ các thông tin bên dưới để đăng ký sử dụng tài khoản Lương trên MyVIB.
+Lưu ý: Yêu cầu của Bạn sẽ được gửi tới Ban Nhân sự để xem xét và phê duyệt."</string>
+    <string name="salary_sign_up_success_mess">Ðơn đăng ký sử dụng tài khoản lương trên MyVIB của bạn đã được gửi tới Ban Nhân sự. Vui lòng liên hệ với Ban Nhân sự để biết thêm chi tiết.</string>
+    <string name="salary_sign_up_success_title">Ðơn đăng ký đã được gửi!</string>
+    <string name="salary_sign_up_text_success">Ðơn đăng ký sử dụng TK lương trên MyVIB của bạn đã được Ban Nhân sự phê duyệt. Bạn có thể xem chi tiết tại mục Truy vấn tài khoản.</string>
+    <string name="salary_sign_up_text_wait">Ðơn đăng ký sử dụng TK lương trên MyVIB của bạn đang được xem xét bởi Ban Nhân sự. Vui lòng liên hệ với Ban Nhân sự để biết thêm chi tiết.</string>
+    <string name="salary_sign_up_title">"Ðăng ký sử dụng
+tài khoản lương trên MyVIB"</string>
+    <string name="save_open_account_mess">Bạn có muốn lưu đơn mở tài khoản?</string>
+    <string name="save_to_account_address_book">Lưu vào danh sách hưởng lợi</string>
+    <string name="save_to_address_book">Lưu vào danh sách hưởng lợi</string>
+    <string name="save_to_ben">Lưu vào danh sách hưởng lợi</string>
+    <string name="save_to_biller_address_book">Lưu hóa đơn vào danh sách hưởng lợi</string>
+    <string name="schedule_add_success">"Bạn đã đặt lịch chuyển tiền thành công
+Vui lòng kiểm tra email để biết trạng thái thực hiện lệnh chuyển tiền."</string>
+    <string name="schedule_payment">Giao dịch đặt lịch</string>
+    <string name="schedule_payment_detail_title">Chi tiết giao dịch đặt lịch</string>
+    <string name="schedule_payment_manager">Quản lý giao dịch đặt lịch</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="searching">Đang tìm kiếm</string>
+    <string name="select_a_payment_method">Lựa chọn hình thức chuyển tiền</string>
+    <string name="select_acc">Chọn tài khoản</string>
+    <string name="select_amount">Chọn số tiền</string>
+    <string name="select_another_wallpaper">Chọn hình mới</string>
+    <string name="select_biller">Lựa chọn nhà cung cấp dịch vụ</string>
+    <string name="select_language">Vui lòng lựa chọn ngôn ngữ sử dụng</string>
+    <string name="select_language2">Please select your language</string>
+    <string name="select_one_method">Chọn 1 trong 2 phương thức</string>
+    <string name="select_transfer_date_title">Chọn ngày chuyển tiền</string>
+    <string name="sell">Bán</string>
+    <string name="semi_yearly">6 tháng 1 lần</string>
+    <string name="send_pin_to">SĐT nhận mã xác thực</string>
+    <string name="seri_Status">Trạng thái seri</string>
+    <string name="seri_Status_A">Hiệu lực</string>
+    <string name="seri_Status_C">Đã hủy</string>
+    <string name="seri_num">Seri dự thưởng</string>
+    <string name="service_fee">Phí dịch vụ</string>
+    <string name="services">Dịch vụ thanh toán</string>
+    <string name="session_timeout_msg">Hết phiên làm việc</string>
+    <string name="set">Chọn</string>
+    <string name="set_default_wallpaper">Chọn hình mặc định</string>
+    <string name="setting_language">Vui lòng lựa chọn ngôn ngữ sử dụng</string>
+    <string name="settings">Chọn ngôn ngữ/Select language</string>
+    <string name="settlement_account">Tài khoản nhận gốc, lãi</string>
+    <string name="setup_account_activity_title">Xem số dư nhanh</string>
+    <string name="setup_account_description">"Tính năng Xem số dư nhanh giúp bạn xem số dư
+tài khoản của mình chỉ với một thao tác đơn giản."</string>
+    <string name="setup_regular_transfer">Đặt lịch định kỳ</string>
+    <string name="setup_simple_balance_btn_title">Cài đặt xem số dư nhanh</string>
+    <string name="share">Chia sẻ</string>
+    <string name="share_fb">Chia sẻ trên Facebook</string>
+    <string name="share_fb_content">Tôi gửi bạn một mã nhận tiền, bấm ngay để nhận!</string>
+    <string name="share_fb_notice">Thông tin chia sẻ qua Facebook sẽ không bao gồm mã nhận tiền</string>
+    <string name="share_fb_title">Nhận tiền</string>
+    <string name="share_fund_transfer">Xin chào! Tôi vừa chuyển %1$s cho bạn tới tài khoản %2$s qua dịch vụ VIB Mobile app.</string>
+    <string name="share_fund_transfer_subject">Dịch vụ VIB Mobile App: Chi tiết giao dịch</string>
+    <string name="share_pay_bill">Xin chào. Tôi vừa thanh toán cho %1$s %2$s cho hóa đơn %3$s qua dịch vụ VIB Mobile app.</string>
+    <string name="share_pay_bill_subject">Dịch vụ VIB Mobile App: Chi tiết thanh toán</string>
+    <string name="share_schedule_transfer">Xin chào, Tôi vừa thiết lập một giao dịch định kỳ trên MyVIB với tổng số tiền là %1$s.</string>
+    <string name="share_top_up">Xin chào. Tôi đã nạp %1$s vào điện thoại di động của bạn số %2$s qua dịch vụ VIB Mobile app.</string>
+    <string name="share_top_up_subject">Dịch vụ VIB Mobile App: Nạp tiền điện thoại</string>
+    <string name="sign_up">Ðăng ký</string>
+    <string name="single">Độc thân</string>
+    <string name="skip">Bỏ qua</string>
+    <string name="smart_access">Tài khoản thanh toán</string>
+    <string name="staff_invalid">Mã nhân viên không hợp lệ.</string>
+    <string name="staff_must_not_null">Vui lòng nhập mã nhân viên.</string>
+    <string name="start">Bắt đầu</string>
+    <string name="start_on">Bắt đầu vào</string>
+    <string name="status">Trạng thái giao dịch</string>
+    <string name="status2">Trạng thái</string>
+    <string name="status_card">Trạng thái thẻ</string>
+    <string name="string_setting_pin_confirm">Vui lòng xác nhận mã PIN mới:</string>
+    <string name="string_setting_pin_next_screen">"Bạn vui lòng nhập lại PIN lần hai
+ở màn hình tiếp theo"</string>
+    <string name="string_setting_pin_note">"Vui lòng khởi tạo PIN
+để đăng nhập dễ dàng hơn"</string>
+    <string name="string_setting_pin_title">Chào mừng bạn đến với Ngân hàng di động VIB</string>
+    <string name="subject1">THÔNG TIN MỞ TÀI KHOẢN THANH TOÁN TẠI VIB</string>
+    <string name="subject2">THÔNG TIN MỞ TÀI KHOẢN TIẾT KIỆM TẠI VIB</string>
+    <string name="subject3">THÔNG TIN MỞ TÀI KHOẢN THANH TOÁN TẠI VIB</string>
+    <string name="subject4">THÔNG TIN MỞ TÀI KHOẢN TIẾT KIỆM TẠI VIB</string>
+    <string name="subject5">Dịch vụ VIB Mobile App: Chi tiết giao dịch</string>
+    <string name="subject_pay_mc">Dịch vụ VIB Mobile App: Chi tiết giao dịch</string>
+    <string name="submit">Ðăng ký</string>
+    <string name="successful_change">Thay đổi thành công</string>
+    <string name="successfully_changed">Thay đổi chức năng thẻ thành công</string>
+    <string name="sup_credit_card">Thẻ phụ</string>
+    <string name="supplier_must_not_null">Vui lòng chọn nhà cung cấp dịch vụ</string>
+    <string name="supplier_must_not_null_title">Bạn chưa chọn nhà cung cấp dịch vụ</string>
+    <string name="survey">Gửi đăng ký thành công</string>
+    <string name="survey_activity">Sản phẩm ưa thích ...</string>
+    <string name="survey_confirm_msg">"Cảm ơn bạn đã lựa chọn sản phẩm của VIB.
+Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất."</string>
+    <string name="survey_no_item_response">"Dịch vụ tạm thời không hoạt động.
+Vui lòng thử lại sau ít phút."</string>
+    <string name="swipe_down_to_select_biller">Lựa chọn nhà cung cấp dịch vụ</string>
+    <string name="tab_pay_anyone">Chuyển tiền\nkhác</string>
+    <string name="tab_schedule_transaction">Giao dịch đặt lịch</string>
+    <string name="tell_us">Vui lòng cung cấp thông tin cá nhân của bạn</string>
+    <string name="term">Kỳ hạn</string>
+    <string name="term_cb">Tôi đồng ý với điều khoản sử dụng dịch vụ của VIB</string>
+    <string name="term_cb_hl">điều khoản sử dụng dịch vụ</string>
+    <string name="term_require_msg">Vui lòng lựa chọn chấp nhận Điều khoản sử dụng dịch vụ VIB Mobile App</string>
+    <string name="term_warning">Bạn vui lòng đọc và đồng ý với các điều khoản</string>
+    <string name="the_branch_selected_in_pre_step">Chi nhánh ưa thích đã được chọn trong bước trước.</string>
+    <string name="tieng_viet">Tiếng Việt</string>
+    <string name="time_to_meet">Thời gian gặp</string>
+    <string name="title">Danh xưng</string>
+    <string name="title_507">Tiết kiệm điện tử có kỳ hạn</string>
+    <string name="title_519">Tiết kiệm dự thưởng</string>
+    <string name="title_activity_login">Đăng nhập</string>
+    <string name="title_activity_setting_pin">Cài đặt PIN</string>
+    <string name="title_activity_splash">Hoạt động</string>
+    <string name="title_credit_card_payment">"Thanh toán dư nợ
+thẻ tín dụng"</string>
+    <string name="title_identify">Xác thực thông tin</string>
+    <string name="title_pay_to_new_account">Thanh toán cho tài khoản mới</string>
+    <string name="title_regis">Đăng ký Ngân hàng điện tử</string>
+    <string name="title_register">Đăng ký dịch vụ Ngân hàng điện tử</string>
+    <string name="title_select_method">Chọn phương thức chuyển tiền</string>
+    <string name="to">Đến</string>
+    <string name="to_day">Hôm nay</string>
+    <string name="to_seri">" đến số "</string>
+    <string name="top_up">Nạp tiền</string>
+    <string name="top_up_confirm_msg">"Cho số điện thoại %1$s
+từ %2$s"</string>
+    <string name="top_up_detail">Chi tiết giao dịch</string>
+    <string name="top_up_success_title">Nạp tiền thành công</string>
+    <string name="top_up_title">Nạp tiền ĐTDĐ</string>
+    <string name="top_up_to">Nạp tiền cho</string>
+    <string name="total_credits">Tổng dư có</string>
+    <string name="total_debits">Tổng dư nợ</string>
+    <string name="total_unpaid_amount">Tống số tiền chưa thanh toán</string>
+    <string name="trans_history">Lịch sử giao dịch</string>
+    <string name="transaction_amount">Số tiền thanh toán</string>
+    <string name="transaction_management_title">Quản lý giao dịch</string>
+    <string name="transaction_number">Số hóa đơn</string>
+    <string name="transaction_success">Giao dịch thành công</string>
+    <string name="transfer">"Chuyển tiền
+cá nhân"</string>
+    <string name="transfer2">Chuyển khoản</string>
+    <string name="transfer_detail_from">Từ tài khoản</string>
+    <string name="transfer_detail_to">Đến tài khoản</string>
+    <string name="transfer_details">Chi tiết giao dịch</string>
+    <string name="transfer_later">Chuyển tiền vào ngày</string>
+    <string name="transfer_msg">"Từ %1$s
+Đến %2$s"</string>
+    <string name="transfer_now">Chuyển tiền ngay</string>
+    <string name="transfer_num_not_null">Vui lòng nhập số lần giao dịch.</string>
+    <string name="transfer_popup_title">Chuyển khoản</string>
+    <string name="transfer_social_receipt_text1">Chia sẻ code này cho người nhận tiền</string>
+    <string name="transfer_social_receipt_text2">Chạm vào đây để chia sẻ mã nhận tiền</string>
+    <string name="transfer_social_receipt_text3">Mã nhận tiền có hiệu lực trong vòng 7 ngày. Bạn lưu ý gửi mã nhận tiền tới đúng người nhận để đảm bảo an toàn.</string>
+    <string name="transfer_social_receipt_text4">Giao dịch đã được khởi tạo thành công</string>
+    <string name="transfers">lần chuyển tiền</string>
+    <string name="txtAccountNo">Số tài khoản</string>
+    <string name="txtAddress">Địa chỉ</string>
+    <string name="txtBankCity">Tỉnh/Thành phố</string>
+    <string name="txtBankName">Ngân hàng</string>
+    <string name="txtBenBankDetail">Thông tin ngân hàng nhận</string>
+    <string name="txtBenDetails">Thông tin người nhận</string>
+    <string name="txtBranch">Chi nhánh</string>
+    <string name="txtCity">Tỉnh/Thành phố</string>
+    <string name="txtFullName">Tên người nhận</string>
+    <string name="txtHintBankCity">Nhập tỉnh/thành phố</string>
+    <string name="txtHintBranch">Nhập tên chi nhánh</string>
+    <string name="txtHintCity">Nhập tỉnh/thành phố</string>
+    <string name="txtHintEnterAccountNum">Nhập số tài khoản</string>
+    <string name="txtHintEnterAdd">Nhập địa chỉ</string>
+    <string name="txtHintEnterName">Nhập tên người nhận</string>
+    <string name="txtHintSelectBank">Vui lòng chọn</string>
+    <string name="txtPayLocalBank">Tài khoản NH khác</string>
+    <string name="txtSelectLocalBankTitle">Chọn Ngân hàng nhận</string>
+    <string name="uncollected">Chưa nhận tiền</string>
+    <string name="unknown_error_msg">Có lỗi xảy ra, vui lòng thử lại sau ít phút. Nếu bạn vẫn gặp lỗi này, vui lòng gọi 1800 8180 để được hỗ trợ.</string>
+    <string name="unknown_error_title">Lỗi không xác định</string>
+    <string name="unlocked">MỞ KHÓA</string>
+    <string name="update_rate_description">(*)Tỷ giá được cập nhật lúc %1$s ngày %2$s và chỉ mang tính chất tham khảo</string>
+    <string name="usd">USD</string>
+
+    <string name="username">tên đăng nhập</string>
+    <string name="username_invalid">Tên đăng nhập bạn chọn không hợp lệ. Tên đăng nhập bao gồm chữ hoặc số và chứa 6–20 ký tự.</string>
+    <string name="username_invalid2">Tên đăng nhập không bao gồm các ký tự đặc biệt. Bạn vui lòng thử lại.</string>
+    <string name="username_must_not_null">Vui lòng nhập tên đăng nhập.</string>
+    <string name="username_must_not_null2">Bạn vui lòng nhập tên đăng nhập mong muốn.</string>
+    <string name="username_short">Tên đăng nhập phải bao gồm 6-20 ký tự. Bạn vui lòng thử lại.</string>
+
+    <string name="value_date">Ngày hiệu lực</string>
+    <string name="verification_1">Đến chi nhánh VIB để xác thực thông tin</string>
+    <string name="verification_2">Gặp nhân viên VIB để xác thực thông tin</string>
+    <string name="verification_method">Phương thức xác thực</string>
+    <string name="via_email">Qua email</string>
+    <string name="via_fb">Qua Facebook</string>
+    <string name="via_mobile">Qua số điện thoại</string>
+    <string name="vibAccHeader">Tài khoản VIB</string>
+    <string name="vib_staff_meet_me">Gặp nhân viên VIB</string>
+    <string name="vib_staff_meet_me_at">Gặp nhân viên VIB tại</string>
+    <string name="vietnam">Việt Nam</string>
+    <string name="view_all_details">Xem thông tin chi tiết</string>
+    <string name="view_details">Xem chi tiết</string>
+    <string name="view_my_application">Danh sách đơn mở tài khoản</string>
+    <string name="view_receipt"><u>Xem hóa đơn</u></string>
+    <string name="view_receipt2">Xem hóa đơn</string>
+    <string name="visit_vib_branch">Đến chi nhánh VIB</string>
+    <string name="vnd">VND</string>
+    <string name="wallpapers_title">Hình ảnh trang chủ</string>
+    <string name="weekly">Hàng tuần</string>
+    <string name="welcome">Chào mừng bạn đến với VIB</string>
+    <string name="welcome2">Chào mừng bạn đến với VIB!</string>
+    <string name="welcome_guest_tv7">Bạn chưa có tài khoản giao dịch với VIB?</string>
+    <string name="welcome_guest_tv8">"Bạn là khách hàng của VIB
+nhưng chưa đăng ký dịch vụ MyVIB?"</string>
+    <string name="welcome_guest_tv9">Đăng ký dịch vụ</string>
+    <string name="what_kind_schedule">Chọn loại giao dịch bạn muốn đặt lịch?</string>
+    <string name="when">Thời gian thực hiện</string>
+    <string name="yearly">Hàng năm</string>
+    <string name="yes">Có</string>
+    <string name="yes_i_want">Có, tôi muốn</string>
+    <string name="yesterday">Hôm qua</string>
+    <string name="you_have_no_accounts_in_your_address_book">"Bạn chưa có tài khoản nào trong
+danh sách tài khoản hưởng lợi"</string>
+    <string name="you_have_no_biller">"Bạn chưa có hóa đơn nào
+trong danh sách hưởng lợi"</string>
+    <string name="you_have_no_biller_2">"Bạn chưa có hóa đơn/số thẻ nào
+trong danh sách hưởng lợi"</string>
+    <string name="you_have_no_phone_in_your_address_book">"Bạn chưa có số điện thoại nào trong
+danh sách hưởng lợi"</string>
+    <string name="you_have_no_valid_accounts_">Bạn không có tài khoản nào.</string>
+    <string name="your_account_info">Thông tin tài khoản của bạn</string>
+    <string name="your_account_info_review">Thông tin mở tài khoản</string>
+    <string name="your_current_account_number">Số tài khoản thanh toán*</string>
+    <string name="your_email">Ðịa chỉ email*</string>
+    <string name="your_email_address">Địa chỉ email</string>
+    <string name="your_full_name">Họ và tên</string>
+    <string name="your_mobile_number">Số điện thoại di động*</string>
+    <string name="your_mobile_number_">Số điện thoại di động</string>
+    <string name="your_name">Họ tên*</string>
+    <string name="your_nation">Số CMTND hoặc Hộ chiếu*</string>
+    <string name="your_online_info">Thông tin đăng ký dịch vụ Ngân hàng điện tử</string>
+    <string name="your_personal_info">Thông tin cá nhân của bạn</string>
+    <string name="your_phone_number">Số điện thoại di động</string>
+    <string name="your_preffered_branch">Chi nhánh mở</string>
+    <string name="your_username">Tên đăng nhập</string>
+    <string name="your_wished_username">Tên đăng nhập bạn lựa chọn*</string>
+
+
+    <!--Create by HiepNK-->
+
+    <string name="allowance">Phụ Cấp</string>
+    <string name="bill">Hóa Đơn</string>
+    <string name="car">Ô tô</string>
+    <string name="mum">Mẹ</string>
+    <string name="savings">Tiết Kiệm</string>
+    <string name="shop">Mua Sắm</string>
+    <string name="rent">Cho Thuê</string>
+</resources>

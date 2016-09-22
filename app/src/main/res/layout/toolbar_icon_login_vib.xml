@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_schedule_height"
+    android:paddingBottom="@dimen/spacing_3_24dp"
+    android:paddingRight="@dimen/spacing_1_8dp"
+    android:paddingTop="@dimen/spacing_2_16dp">
+
+    <ImageButton
+        android:id="@+id/toolbar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:background="@color/transparent"
+        android:padding="@dimen/spacing_1_8dp"
+        android:src="@drawable/btn_back_custom" />
+
+    <RelativeLayout
+        android:id="@+id/group_icon_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/spacing_1_6dp"
+        android:layout_toRightOf="@+id/logo_vib"
+        android:gravity="right"
+        android:paddingRight="@dimen/spacing_0_4dp">
+
+        <com.vnapnic.myvib.customs.FontButton
+            android:id="@+id/btn_login"
+            style="@style/text_default"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_perssed_login"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/txt_customer"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/guest_home"
+            android:textColor="@color/orange_text"
+            android:textSize="@dimen/text_3_14sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/img_lock"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/icon_lock" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/logo_vib"
+        android:layout_width="@dimen/logo_width_menu"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo_notext" />
+</RelativeLayout>

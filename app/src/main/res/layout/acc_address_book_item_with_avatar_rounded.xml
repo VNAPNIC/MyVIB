@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutBenDynamic"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/item_address_height"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="@dimen/header_height"
+        android:layout_height="@dimen/header_height"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/spacing_1_8dp"
+        android:contentDescription="@string/img_description"
+        android:src="@drawable/account_icon_yellow" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/spacing_2_16dp"
+        android:paddingRight="@dimen/spacing_1_8dp">
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/tv_name"
+            style="@style/NORMAL_TEXT_STYLE_WHITE"
+            android:ellipsize="end"
+            android:lines="1"
+            android:singleLine="true" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/tv_id"
+            style="@style/SMALL_TEXT_STYLE_SILVER"
+            android:ellipsize="end"
+            android:lines="1"
+            android:singleLine="true"
+            android:textColor="@color/silver_text" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/tv_bank"
+            style="@style/NORMAL_TEXT_STYLE_WHITE"
+            android:ellipsize="end"
+            android:lines="1"
+            android:singleLine="true" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/tv_branch"
+            style="@style/NORMAL_TEXT_STYLE_WHITE"
+            android:ellipsize="end"
+            android:lines="1"
+            android:singleLine="true" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/tv_city"
+            style="@style/NORMAL_TEXT_STYLE_WHITE"
+            android:ellipsize="end"
+            android:lines="1"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <com.vnapnic.myvib.customs.FontTextView
+        android:id="@+id/module_id"
+        style="@style/SMALL_TEXT_STYLE_BLACK"
+        android:layout_marginRight="@dimen/spacing_1_8dp" />
+</LinearLayout>

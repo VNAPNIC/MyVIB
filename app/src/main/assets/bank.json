@@ -1,0 +1,164 @@
+{
+  "localbank": [
+    {
+      "id": "1",
+      "BankId": "307",
+      "Code": "ACB",
+      "Name": "NH TMCP A CHAU",
+      "city": "H\u00c0 N\u1ed8I",
+      "Branch": "NH TMCP A CHAU"
+    },
+    {
+      "id": "2",
+      "BankId": "204",
+      "Code": "AGRIBANK",
+      "Name": "NH No VA PT NT VN",
+      "city": "H\u00c0 N\u1ed8I",
+      "Branch": "NH No VA PT NT VN"
+    },
+    {
+      "id": "3",
+      "BankId": "323",
+      "Code": "AN BINH",
+      "Name": "NH TMCP AN BINH (ABBBANK)",
+      "city": "H\u1ed2 CH\u00cd MINH",
+      "Branch": "NH TMCP AN BINH (ABBBANK)"
+    },
+    {
+      "id": "4",
+      "BankId": "602",
+      "Code": "ANZ",
+      "Name": "NH TNHH ANZ VIET NAM",
+      "city": "H\u1ed2 CH\u00cd MINH",
+      "Branch": "NH TNHH ANZ VIET NAM"
+    },
+    {
+      "id": "5",
+      "BankId": "313",
+      "Code": "BAC A",
+      "Name": "NH TMCP BAC A (NASB)",
+      "city": "H\u00c0 N\u1ed8I",
+      "Branch": "NH TMCP BAC A (NASB)"
+    },
+    {
+      "id": "6",
+      "BankId": "327",
+      "Code": "BAN VIET",
+      "Name": "NH TMCP BAN VIET(VIETCAPITALBANK)",
+      "city": "H\u00c0 N\u1ed8I",
+      "Branch": "NH TMCP BAN VIET(VIETCAPITALBANK)"
+    },
+    {
+      "id": "7",
+      "BankId": "401",
+      "Code": "BANKNET",
+      "Name": "BANKNET",
+      "city": "H\u00c0 N\u1ed8I",
+      "Branch": "BANKNET"
+    },
+    {
+      "id": "8",
+      "BankId": "359",
+      "Code": "BAO VIET",
+      "Name": "NH TMCP BAO VIET (BVB)",
+      "city": "\u0110\u00c0 N\u1eb4NG",
+      "Branch": "NH TMCP BAO VIET (BVB)"
+    },
+    {
+      "id": "9",
+      "BankId": "615",
+      "Code": "BCC",
+      "Name": "BANK OF COMMUNICATIONS",
+      "city": "H\u00c0 N\u1ed8I",
+      "Branch": "BANK OF COMMUNICATIONS"
+    },
+    {
+      "id": "10",
+      "BankId": "202",
+      "Code": "BIDV",
+      "Name": "NH TMCP DT VA PT VN",
+      "city": "H\u1ed2 CH\u00cd MINH",
+      "Branch": "NH TMCP DT VA PT VN"
+    },
+    {
+      "id": "11",
+      "BankId": "612",
+      "Code": "BKB",
+      "Name": "BANGKOK BANK VN",
+      "city": "H\u1ed2 CH\u00cd MINH",
+      "Branch": "BANGKOK BANK VN"
+    },
+    {
+      "id": "12",
+      "BankId": "614",
+      "Code": "BNP",
+      "Name": "BNP PARIBAS BANK",
+      "city": "H\u1ed2 CH\u00cd MINH",
+      "Branch": "BNP PARIBAS BANK"
+    },
+    {
+      "id": "13",
+      "BankId": "620",
+      "Code": "BOC",
+      "Name": "BANK OF CHINA",
+      "city": "H\u1ed2 CH\u00cd MINH",
+      "Branch": "BANK OF CHINA"
+    },
+    {
+      "id": "14",
+      "BankId": "601",
+      "Code": "BPCEIOM",
+      "Name": "BPCEIOM BANK",
+      "city": "H\u00c0 N\u1ed8I",
+      "Branch": "BPCEIOM BANK"
+    },
+    {
+      "id": "15",
+      "BankId": "622",
+      "Code": "BTMU",
+      "Name": "BANK OF TOKYO-MITSUBISHI",
+      "city": "H\u00c0 N\u1ed8I",
+      "Branch": "BANK OF TOKYO-MITSUBISHI"
+    },
+    {
+      "id": "16",
+      "BankId": "621",
+      "Code": "CALYON",
+      "Name": "CREDIT AGRICOLE CIB (CA-CIB)",
+      "city": "H\u00c0 N\u1ed8I",
+      "Branch": "CREDIT AGRICOLE CIB (CA-CIB)"
+    },
+    {
+      "id": "17",
+      "BankId": "611",
+      "Code": "CCB",
+      "Name": "CHINA CONSTRUCTION BANK CORP",
+      "city": "H\u00c0 N\u1ed8I",
+      "Branch": "CHINA CONSTRUCTION BANK CORP"
+    },
+    {
+      "id": "18",
+      "BankId": "503",
+      "Code": "CHB",
+      "Name": "SHINHAN VINA BANK",
+      "city": "H\u1ed2 CH\u00cd MINH",
+      "Branch": "SHINHAN VINA BANK"
+    },
+    {
+      "id": "19",
+      "BankId": "605",
+      "Code": "CITI",
+      "Name": "CITI BANK VN",
+      "city": "H\u00c0 N\u1ed8I",
+      "Branch": "CITI BANK VN"
+    },
+    {
+      "id": "20",
+      "BankId": "629",
+      "Code": "CTBC",
+      "Name": "CTBC BANK CO.LTD",
+      "city": "H\u1ed2 CH\u00cd MINH",
+      "Branch": "CTBC BANK CO.LTD"
+    }
+  ]
+}

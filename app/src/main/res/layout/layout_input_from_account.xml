@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/spacing_1_8dp"
+    android:layout_marginRight="@dimen/spacing_1_8dp"
+    android:layout_marginTop="@dimen/spacing_2_16dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv"
+        style="@style/NORMAL_TEXT_STYLE_BLACK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="@dimen/spacing_1_6dp"
+        android:text="@string/transfer_detail_from"
+        android:textColor="@color/orange_text" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_marginLeft="@dimen/line_height"
+        android:layout_marginRight="@dimen/line_height"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/accountDetailView"
+            layout="@layout/transaction_account_detail_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+
+        <ImageView
+            android:id="@+id/ivEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/icon_menu_width"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/img_description"
+            android:padding="@dimen/spacing_1_8dp"
+            android:src="@drawable/icon_edit_dark" />
+    </LinearLayout>
+</LinearLayout>

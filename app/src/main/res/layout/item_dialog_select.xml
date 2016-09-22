@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.vnapnic.myvib.customs.FontEditext
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/filter_layout_height"
+        android:background="@color/white"
+        android:drawableRight="@drawable/icon_search_dark"
+        android:hint="@string/search"
+        android:paddingLeft="@dimen/spacing_2_16dp"
+        android:paddingRight="@dimen/spacing_2_16dp"
+        android:queryHint="Search"
+        android:textSize="@dimen/text_4_medium_16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color" />
+
+    <ListView
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>

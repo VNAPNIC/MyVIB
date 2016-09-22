@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/header_height"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/spacing_1_8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Hola"
+            android:textColor="#363636"
+            android:textSize="@dimen/text_3_14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_0_2dp"
+            android:layout_marginRight="@dimen/spacing_0_2dp"
+            android:text=" - "
+            android:textColor="#363636"
+            android:textSize="@dimen/text_3_14sp" />
+
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/SMALL_TEXT_STYLE_SILVER"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+0468457222"
+            android:textSize="@dimen/text_2_12sp" />
+    </LinearLayout>
+</LinearLayout>

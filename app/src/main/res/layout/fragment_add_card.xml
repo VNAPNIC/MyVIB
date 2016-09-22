@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <com.vnapnic.myvib.customs.FontTextView
+        style="@style/SMALL_TEXT_STYLE_WHITE"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spacing_1_6dp"
+        android:text="@string/link" />
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_schedule_height"
+        android:background="@drawable/transfer_header1_bg">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imv_down_arrow"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imv_icon"
+                android:layout_width="@dimen/service_icon_width"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imv_icon"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@drawable/icon_biller"
+                android:drawablePadding="@dimen/spacing_1_8dp"
+                android:gravity="center"
+                android:text="@string/swipe_down_to_select_biller"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_2_12sp" />
+        </RelativeLayout>
+
+        <ImageView
+
+            android:id="@+id/imv_down_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/spacing_1_8dp"
+            android:src="@drawable/arrow_down_white" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_layout"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_1_8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.vnapnic.myvib.customs.FontTextView
+                android:id="@+id/tvKey1"
+                style="@style/text_default_black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="left"
+                android:paddingBottom="@dimen/spacing_2_16dp"
+                android:paddingLeft="@dimen/spacing_1_8dp"
+                android:paddingRight="@dimen/spacing_1_8dp"
+                android:paddingTop="@dimen/spacing_2_16dp"
+                android:text="@string/so_thue_bao" />
+
+            <com.vnapnic.myvib.customs.FontEditext
+                android:id="@+id/card_number"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.0"
+                android:background="@color/white"
+                android:editable="false"
+                android:hint="@string/enter_mobile_number"
+                android:maxLength="11"
+                android:textSize="@dimen/text_2_12sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_marginLeft="@dimen/line_height"
+            android:layout_marginRight="@dimen/line_height"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:id="@+id/status_layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/spacing_2_16dp">
+
+            <TextView
+                android:id="@+id/tvKey3"
+                style="@style/text_default_black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="left"
+                android:paddingBottom="@dimen/spacing_2_16dp"
+                android:paddingLeft="@dimen/spacing_1_8dp"
+                android:paddingRight="@dimen/spacing_1_8dp"
+                android:paddingTop="@dimen/spacing_2_16dp"
+                android:text="@string/save_to_biller_address_book" />
+
+            <include
+                android:id="@+id/sw_biller_book"
+                layout="@layout/custom_switch" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_list_biller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_layout"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#f5f5f5"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/spacing_1_6dp"
+            android:text="Select biller"
+            android:textColor="@color/orange_text" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:background="@color/white">
+
+            <ListView
+                android:id="@+id/lv_list_bill"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imv_up_arrow" />
+
+            <ImageView
+                android:id="@+id/imv_up_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/spacing_1_8dp"
+                android:src="@drawable/arrow_up_black" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.vnapnic.myvib.customs.NumberPad
+        android:id="@+id/numberPad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible" />
+</RelativeLayout>

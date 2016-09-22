@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.vnapnic.myvib.customs.FontEditext
+        android:hint="@string/search"
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/filter_layout_height"
+        android:background="@color/white"
+        android:drawableRight="@drawable/icon_search_dark"
+        android:paddingLeft="@dimen/spacing_2_16dp"
+        android:textSize="@dimen/text_4_medium_16sp"
+        android:paddingRight="@dimen/spacing_2_16dp"
+        android:queryHint="Search" />
+
+
+    <ListView
+        android:id="@+id/lv_bank"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchView"
+        android:background="@color/view_divider_color_2" />
+
+    <LinearLayout
+        android:id="@+id/ll_area_title"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/searchView"
+        android:layout_gravity="right"
+        android:background="@color/view_divider_color_2"
+        android:orientation="vertical" />
+
+
+</RelativeLayout>

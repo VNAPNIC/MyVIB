@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="dialog_open_account">Do you want to open MyVIB?</string>
+    <string-array name="arrTitle">
+        <item>#</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string name="truy_van_tk">View accounts</string>
+    <string name="tt_hd_t_td">Pay a bill</string>
+    <string name="chuyen_tien_ca_nhan">Transfer between your accounts</string>
+
+    <string name="tai_vib">Download VIB</string>
+    <string name="thong_bao">Message</string>
+    <string name="thong_bao_desc">The data is for reference only at a time in the past and maybe no longer accurate. To update the latest data please install application MyVIB</string>
+
+    <string name="pay_vib">VIB Account</string>
+    <string name="card_nh_khac">Local ATM cards</string>
+    <string name="sdt">Mobile number</string>
+    <string name="local_email">Email</string>
+
+    <string name="pstn_code">PSTN code</string>
+    <string name="enter_pstn_code">Enter PSTN code</string>
+    <string name="adsl_code">ADSL Code</string>
+    <string name="enter_adsl_code">Enter ADSL Code</string>
+    <string name="reservation_code">Reservation Code</string>
+    <string name="enter_reservation_code">Enter Reservation Code</string>
+    <string name="reference_no">Reference No</string>
+    <string name="enter_reference_no">Enter Reference No</string>
+
+    <string name="jul">Jul</string>
+    <string name="jun">Jun</string>
+    <string name="service_1">Mobile BillPay</string>
+    <string name="service_2">Homephone BillPay</string>
+    <string name="service_3">EVN BillPay</string>
+    <string name="service_4">Water BillPay</string>
+    <string name="service_5">PSTN BillPay</string>
+    <string name="service_6">ADSL BillPay</string>
+    <string name="service_7">Airline ticket BillPlay</string>
+    <string name="service_8">Insurance</string>
+    <string name="service_9">Telecommunications</string>
+    <string name="service_10">Credit Card/Consumer Installment Loan</string>
+
+    <string name="ma_dich_vu_pstn">Enter code PSTN services</string>
+    <string name="nhap_ma_khach_hang">Enter customer code</string>
+    <string name="ma_khach_hang">Customer code</string>
+    <string name="so_thue_bao">Phone number</string>
+    <string name="tien_chua_thanh_toan">The total amount of unpaid</string>
+    <string name="title_get_code_dialog">wrong code</string>
+    <string name="get_code_dialog">Please enter 123456 to continue</string>
+    <string name="tien_gui_thanh_toan">Deposit payment</string>
+    <string name="transfer_between">Internal funds transfer</string>
+    <string name="pay_mc">Payment processed</string>
+    <string name="top_up_desc">Transfer money to the bank link</string>
+    <string name="pay_anyone_desc_phone">Transfer money by phone</string>
+    <string name="pay_bill_desc">Pay bill</string>
+
+    <string name="address_home">CTM School - 131 Nguyen trai, thanh xuan, Ha noi \n60m away</string>
+    <string name="inquery_fail">Inquery fail</string>
+    <string name="outstanding_bill">No outstanding bills</string>
+    <string name="enter_customer_id">Enter customer id</string>
+    <string name="customer_id">Customer id</string>
+    <string name="_for">For</string>
+    <string name="other_account_title">Other account</string>
+
+    <string name="sent_otp_ms_ss">Please enter 123456 to continue</string>
+    <string name="cardid">04870406006037</string>
+    <string name="sent_otp">Sent OTP</string>
+    <string name="sent_otp_ms">Sent OTP successfully</string>
+    <string name="card_promotion">Card promotion locator</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text">"%1$s won't run unless you update the Android Wear app."</string>
+    <string name="common_android_wear_update_title">Update Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by %1$s</string>
+    <string name="common_google_play_services_install_button">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone">"%1$s won't run without Google Play services, which are missing from your phone."</string>
+    <string name="common_google_play_services_install_text_tablet">"%1$s won't run without Google Play services, which are missing from your tablet."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="messenger_send_button_text">Send</string>
+    <string name="mr_media_route_button_content_description">Cast</string>
+    <string name="mr_media_route_chooser_searching">Searching for devices…</string>
+    <string name="mr_media_route_chooser_title">Connect to device</string>
+    <string name="mr_media_route_controller_disconnect">Disconnect</string>
+    <string name="mr_system_route_name">System</string>
+    <string name="mr_user_route_category_name">Devices</string>
+    <string name="wallet_buy_button_place_holder">Buy with Google</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_storage_card">No storage card</string>
+    <string name="not_enough_space">Not enough space</string>
+    <string name="preparing_card">Preparing card</string>
+    <string name="save">Save</string>
+    <string name="saving_image">Saving image</string>
+    <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log in</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="__user_name">Username</string>
+    <string name="_n_m">%/year</string>
+    <string name="_username">Username</string>
+    <string name="a_invalid">Address cannot contain special characters. Please try again.</string>
+    <string name="acc_atm_number">Your account number/card number</string>
+    <string name="acc_balance">Account balance</string>
+    <string name="acc_card_invalid">Account number/card number cannot contain special characters. Please try again.</string>
+    <string name="acc_card_short">Account number/card number must be greater than 15 characters length. Please try again.</string>
+    <string name="acc_field_require">Please enter account number</string>
+    <string name="acc_must_different_message">The ‘From’ and ‘To’ account are the same. Please select another account and try again</string>
+    <string name="acc_must_different_title">Invalid account</string>
+    <string name="accept">Accept</string>
+    <string name="account">Account</string>
+    <string name="account_address_book">Account address book</string>
+    <string name="account_address_book_2">Account address book</string>
+    <string name="account_details">Account details</string>
+    <string name="account_feature">Account feature</string>
+    <string name="account_info">Your account information</string>
+    <string name="account_info_note1">To help you easily access your account to manage your money whenever and wherever it suits you, on the device of your choice, please register online banking service free of charge.</string>
+    <string name="account_info_note2">Username must be 6-20 characters long containing numbers or letters, case sensitive.</string>
+    <string name="account_invalid">Your current account number is invalid for contains invalid character. Please re-check and re-enter using only numbers and letters.</string>
+    <string name="account_invalid2">Account number cannot contain special characters. Please try again.</string>
+    <string name="account_must_not_null">Please enter your current account number.</string>
+    <string name="account_name">Account name</string>
+    <string name="account_name_">Account name</string>
+    <string name="account_name_invalid">Account name cannot contain special characters. Please try again.</string>
+    <string name="account_no_">Account No.</string>
+    <string name="account_number">Account number</string>
+    <string name="account_open_detail1">Current account opening application</string>
+    <string name="account_open_detail2">Savings account opening details</string>
+    <string name="account_owner">Account owner</string>
+    <string name="account_transfer">Transfer between your accounts</string>
+    <string name="account_type">Account type</string>
+    <string name="accounts">Accounts</string>
+    <string name="accounts_title">View accounts</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="action_network">Settings</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_sign_in">Log On</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="activate_card">Active card</string>
+    <string name="activated">Activated</string>
+    <string name="activation">Activation</string>
+    <string name="active_card">Activate card</string>
+    <string name="active_ecommerce">E-commerce</string>
+    <string name="activity_login_show_password">Show Password</string>
+    <string name="add_account">Additional account</string>
+    <string name="add_new_credit_card">Add new credit card</string>
+    <string name="add_new_email">Add a new email address</string>
+    <string name="add_new_mobile">"Add a new
+mobile number"</string>
+    <string name="add_new_mobile_title">Add a new mobile number</string>
+    <string name="address_contain_special_char">Address to meet cannot contain special characters. Please try again.</string>
+    <string name="address_must_not_null">Please enter the address you want VIB staff to meet and identify you.</string>
+    <string name="afternoon">In the afternoon</string>
+    <string name="agree">I agree</string>
+    <string name="all">All</string>
+    <string name="allow_transfer">Your service package is for account information enquiry only. Please go to VIB nearest branch to register the limit for financial transactions</string>
+    <string name="amount">Amount</string>
+    <string name="amount_must_not_null">Please enter amount.</string>
+    <string name="amount_must_not_null_title">Amount is mandatory</string>
+    <string name="api_fail">Error</string>
+    <string name="app_name">VIB Simulator</string>
+    <string name="application_date">Application date</string>
+    <string name="application_method">Application status</string>
+    <string name="application_number">Application number</string>
+    <string name="apply_new_product_title">Apply for VIB products</string>
+    <string name="apply_now_text1">"Please leave us your contact details below and We'll contact you shortly with further information."</string>
+    <string name="ask_customer_message">"Are you already a customer
+banking online with us?"</string>
+    <string name="at">at</string>
+    <string name="atm">ATM</string>
+    <string name="auto_display">Auto display</string>
+    <string name="available">available</string>
+    <string name="available_funds">Available funds</string>
+    <string name="awaiting_for_payment">Awaiting for payment</string>
+    <string name="away">away</string>
+    <string name="back">Back</string>
+    <string name="bank">&lt;b>Bank: &lt;/b></string>
+    <string name="bank_name_empty">Please enter Bank name</string>
+    <string name="bank_name_invalid">Bank name cannot contain special characters. Please try again.</string>
+    <string name="beneficiary_name">Beneficiary name</string>
+    <string name="bieu_lai_suat_dailysaving">Daily savings</string>
+    <string name="bieu_lai_suat_esaving">E-savings</string>
+    <string name="bieu_lai_suat_tiet_kiem_thuong">Ordinary savings</string>
+    <string name="bill_success">Payment</string>
+    <string name="biller">Biller</string>
+    <string name="biller2">Biller</string>
+    <string name="biller_address_book">Biller address book</string>
+    <string name="birth_15">To open an account at a bank, you must be at least 15 years old.</string>
+    <string name="branch">Branch</string>
+    <string name="branchTitle">&lt;b>Branch: &lt;/b></string>
+    <string name="branch_name_invalid">Branch name cannot contain special characters. Please try again.</string>
+    <string name="branch_name_too_long">Branch name exceeds max character length. Please check and try again.</string>
+    <string name="branches">Branches</string>
+    <string name="btn_add_new_bill">"Add new biller and
+customer reference"</string>
+    <string name="btn_choose">Choose</string>
+    <string name="btn_joint_vib_now">Join VIB now</string>
+    <string name="btn_new_payment">New payment</string>
+    <string name="btn_new_schedule">Set up new</string>
+    <string name="btn_set_simple_balance">Set up Quick balance</string>
+    <string name="buy">Buy</string>
+    <string name="ca_invalid">Current address cannot contain special characters. Please try again.</string>
+    <string name="call_center">I want VIB Customer service to contact me</string>
+    <string name="campaign1_btn1">Apply Now</string>
+    <string name="campaign1_btn2">Not interested in</string>
+    <string name="campaign1_effective">Effective until</string>
+    <string name="campaign1_text1">"Special offer for
+VIB’s valuable customers"</string>
+    <string name="campaign1_text4">You are able to get pre-approved limit for vib CREDIT CARD</string>
+    <string name="campaign1_text5">"100% cash back -  1st year annual fee
+waiver – income proof  waiver"</string>
+    <string name="campaign1_text6">Contact us at: 1800 8180 for further information</string>
+    <string name="campaign1_to">to</string>
+    <string name="campaign2_btn1">Apply Now</string>
+    <string name="campaign2_btn2">Not interested in</string>
+    <string name="cancel1">Cancel</string>
+    <string name="cancel_date">Cancelled date</string>
+    <string name="cancel_payment_order">Cancel payment order</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="cant_close_seri">You cannot close the online term deposit of promotion program.</string>
+    <string name="cant_open_account">You can only open maximum 03 current accounts online.</string>
+    <string name="card_account_number">Card account number</string>
+    <string name="card_activated">Card activated</string>
+    <string name="card_field_require">Please enter card number</string>
+    <string name="card_holder">Card holder</string>
+    <string name="card_holder_name">"Cardholder's name"</string>
+    <string name="card_locked">Card locked</string>
+    <string name="card_management_title">Card management</string>
+    <string name="card_name">Card name</string>
+    <string name="card_no_">Card No.</string>
+    <string name="card_no_empty">Please enter card number</string>
+    <string name="card_no_length_invalid">Card number must contain at least 16 digits</string>
+    <string name="card_number">Card number</string>
+    <string name="card_off">OFF</string>
+    <string name="card_on">ON</string>
+    <string name="card_unlocked">Card unlocked</string>
+    <string name="cardholder_name">Cardholder name</string>
+    <string name="cartHeader">Local ATM cards</string>
+    <string name="cash">Cash</string>
+    <string name="cash_less">Cash &lt; 50</string>
+    <string name="cash_over">Cash >= 50</string>
+    <string name="change_pin_success_mess">Change PIN successfully</string>
+    <string name="change_pin_success_title">Change PIN</string>
+    <string name="change_pin_title">Please enter your new PIN:</string>
+    <string name="changed_date">Changed date</string>
+    <string name="check">Check</string>
+    <string name="choose">Please select</string>
+    <string name="choose_account">Choose your account</string>
+    <string name="choose_branch">Please select branch.</string>
+    <string name="choose_city">Please select city/province of preferred branch.</string>
+    <string name="choose_country">Please select your country of nationality.</string>
+    <string name="choose_currency">Please select currency.</string>
+    <string name="choose_debit_account">Please select debit account.</string>
+    <string name="choose_deny_reason">Please advise your refusal reason.</string>
+    <string name="choose_district">Please select district.</string>
+    <string name="choose_dob">Please select your date of birth.</string>
+    <string name="choose_doe">Please select expiry date of your passport.</string>
+    <string name="choose_doi">Please select date of issue.</string>
+    <string name="choose_email_client">Choose email client:</string>
+    <string name="choose_feature">Please select account feature.</string>
+    <string name="choose_id_type">Please select your ID type.</string>
+    <string name="choose_marial">Please select your marital status.</string>
+    <string name="choose_occupation">Please select your occupation.</string>
+    <string name="choose_place_of_birth">Please select place of birth.</string>
+    <string name="choose_place_to_meet">Please select location to meet.</string>
+    <string name="choose_pref_branch">Select your preferred branch</string>
+    <string name="choose_province">Please select city/province.</string>
+    <string name="choose_rollover">Please select rollover instruction.</string>
+    <string name="choose_settlement_acc">Please select settlement account.</string>
+    <string name="choose_settlement_acc_to_close">Please select settlement account.</string>
+    <string name="choose_term">Please select deposit term.</string>
+    <string name="choose_time">Please select the time you want to meet VIB staff to identify you.</string>
+    <string name="choose_title">Please select your title.</string>
+    <string name="choose_verification_mess">Please choose identification method that you would like us to verify you.</string>
+    <string name="choose_verification_mess2">Please select your preferred branch.</string>
+    <string name="choose_wallpaper_text">Choose a new image</string>
+    <string name="choose_you_acc">"Choose your
+Quick balance account"</string>
+    <string name="city">City</string>
+    <string name="cityTitle">&lt;b>City: &lt;/b></string>
+    <string name="city_province">City/Province</string>
+    <string name="city_selected_pre_step">The branch was selected in the previous step. If you want to change, please go back to the previous step.</string>
+    <string name="claim_date">Claimed date</string>
+    <string name="client_name_invalid">Invalid client name. Please try again.</string>
+    <string name="client_name_must_not_null">Please enter client name</string>
+    <string name="close_account_note">If you close online savings accounts before maturity date, you will receive only non-term interest rates in accordance with the VIB policy.</string>
+    <string name="close_account_title">Close savings account</string>
+    <string name="close_reason_invalid">Reason to close cannot contain special characters. Please try again.</string>
+    <string name="close_savings_account">Close savings account</string>
+    <string name="closed_date">Closed date</string>
+    <string name="code">Code</string>
+    <string name="collected">Collected</string>
+    <string name="coming_soon">"I like VIB staff to meet
+ me for identification
+
+The identification method at home by VIB staff will be launched in Nov 2015"</string>
+    <string name="complete">Complete</string>
+    <string name="confirm">Submit</string>
+    <string name="confirm1">Confirm</string>
+    <string name="confirm_cancel">Confirm cancellation</string>
+    <string name="confirm_delete">Confirm deletion</string>
+    <string name="confirm_payment">Confirm payment</string>
+    <string name="confirm_transaction">Confirm transaction</string>
+    <string name="confirm_transfer">Confirm transfer</string>
+    <string name="confirrm_reg">Confirm registration</string>
+    <string name="connection_problem_message">We’re having trouble connecting to the bank. Please ensure that Airplane mode is switched off. If you have further problems, please call us on 1800 8180.</string>
+    <string name="connection_problem_title">Connection problem</string>
+    <string name="contact_detail">Contact details</string>
+    <string name="content">Content</string>
+    <string name="content1">"Dear Mr/Mrs ,
+ 
+ As requested, Vietnam International Bank (VIB) would like to send current account opening information applied by our customer %1$s for your reference as following:
+ 
+ CUSTOMER INFORMATION
+ Full name: %1$s
+ ID/Passport: %2$s
+ Date of issue: %3$s
+ Mobile number: %4$s
+ Email : %5$s
+ Address: %6$s
+ CURRENT ACCOUNT INFORMATION
+ 
+ Application No: %7$s
+ Application date: %8$s
+ Account number: %9$s
+ Currency: %10$s
+ Min balance: %11$s
+ Preferred branch: %12$s
+ 
+ Regards,"</string>
+    <string name="content2">"Application No: %1$s
+ Application status: SUCCESS
+ Application date: %2$s
+ Account number: %3$s
+ Account type: %4$s
+ Deposit amount: %5$s
+ Deposit Term: %6$s
+ Value date: %8$s
+ Maturity date: %9$s
+ Rollover instruction: %10$s
+ Settlement account : %11$s
+ Account status: %12$s
+ 
+ Regards,"</string>
+    <string name="content2_seri">"Application No: %1$s
+ Application status: SUCCESS
+ Application date: %2$s
+ Account number: %3$s
+ Account type: %4$s
+ Deposit amount: %5$s
+ Deposit Term: %6$s
+ Value date: %8$s
+ Maturity date: %9$s
+ Rollover instruction: %10$s
+ Settlement account : %11$s
+ Account status: %12$s
+ Lucky series: %13$s
+ 
+ Regards,"</string>
+    <string name="content3">"CUSTOMER INFORMATION:
+ 
+ Full name: %1$s
+ Date of birth: %2$s
+ ID/Passport: %3$s
+ Date of issue: %4$s
+ Place of issue: %5$s
+ Nationality: %6$s
+ City/Province: %7$s
+ Occupation: %8$s
+ Position: %9$s
+ Marital status: %10$s
+ Permanent address: %11$s
+ Current address: %12$s
+ Mobile number: %13$s
+ Email : %14$s
+ 
+ CURRENT ACCOUNT INFORMATION:
+ 
+ Application No: %15$s
+ Application date: %16$s
+ Account number: %17$s
+ Currency: %18$s
+ Min balance: %19$s
+ Preferred branch: %20$s
+ 
+ ONLINE BANKING REGISTRATION:
+ Username: %21$s
+ 
+ Regards,"</string>
+    <string name="content4">"CUSTOMER INFORMATION:
+ 
+ Full name: %1$s
+ Date of birth: %2$s
+ ID/Passport: %3$s
+ Date of issue: %4$s
+ Place of issue: %5$s
+ Nationality: %6$s
+ City/Province: %7$s
+ Occupation: %8$s
+ Position: %9$s
+ Marital status: %10$s
+ Permanent address: %11$s
+ Current address: %12$s
+ Mobile number: %13$s
+ Email : %14$s
+ 
+ YOUR ACCOUN INFORMATION:
+ 
+ Application No: %15$s
+ Application status: SUCCESS
+ Application date: %16$s
+ Account number: %17$s
+ Account type: %18$s
+ Currency: %19$s
+ Deposit amount: %20$s
+ Deposit Term: %21$s
+ Preferred branch: %22$s
+ 
+ ONLINE BANKING REGISTRATION:
+ Username: %23$s
+ 
+ Regards,"</string>
+    <string name="content5">Hi, I just sent you %1$s through VIB Mobile app. Payment code:  %2$s.  Claim site: https://vib.com.vn/cm_en</string>
+    <string name="content5_email">Hi, I just sent you %1$s through VIB Mobile app. Payment code:  %2$s.  Claim site: https://vib.com.vn/wps/portal/money-claim-site-en/quick-claim</string>
+    <string name="content_pay_mc">Hi, I just paid %1$s for credit card number %2$s through VIB Mobile app.</string>
+    <string name="continue_text">Continue</string>
+    <string name="continue_to_share">Continue to share</string>
+    <string name="country">Country</string>
+    <string name="country_of_nationality">Country of nationality</string>
+    <string name="create_pin_fail_mess">"The PINs you entered do not match.
+Please try again."</string>
+    <string name="create_pin_fail_title">PIN does not match</string>
+    <string name="create_pin_success_mess">"Congratulations.
+We have created your new PIN."</string>
+    <string name="create_pin_success_title">PIN created</string>
+    <string name="created_date">Creation date</string>
+    <string name="created_date2">Creation date</string>
+    <string name="creation_date">Creation date</string>
+    <string name="credit_card">Credit card</string>
+    <string name="credit_card_number">Credit card number</string>
+    <string name="credit_remaining">Available funds</string>
+    <string name="currency">Currency</string>
+    <string name="current_address">Current address</string>
+    <string name="current_location">Your current location</string>
+    <string name="customer_and_account_info">Customer and Account information</string>
+    <string name="customer_info">Your personal information</string>
+    <string name="customer_name">Customer name</string>
+    <string name="daily">Daily</string>
+    <string name="daily_saving_number">Daily saving number</string>
+    <string name="date">Date</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="date_of_expiry">Date of expiry</string>
+    <string name="date_of_issue">Date of issue</string>
+    <string name="days_ago">days ago</string>
+    <string name="debit_account">Debit account</string>
+    <string name="decline">Decline</string>
+    <string name="delete">Delete</string>
+    <string name="delete_">Delete</string>
+    <string name="delete_payment_order">Delete payment order</string>
+    <string name="delete_schedule_payment_receipt_title">Scheduled payment Receipt</string>
+    <string name="delete_schedule_payment_title">Delete scheduled payment</string>
+    <string name="delete_setting_confirm_msg">Are you sure you want to delete this setting?</string>
+    <string name="delete_setting_confirm_title">Delete</string>
+    <string name="depo_rate">Deposit rate</string>
+    <string name="deposit_amount">Deposit amount</string>
+    <string name="deposit_amount_not_null">Please enter deposit amount.</string>
+    <string name="deposit_ccy">Deposit currency</string>
+    <string name="deposit_rate">Deposit amount</string>
+    <string name="deposit_term">Deposit term</string>
+    <string name="des_must_not_null">Please enter description</string>
+    <string name="des_must_not_null_title">Description is mandatory</string>
+    <string name="description">Description</string>
+    <string name="detail">View detail</string>
+    <string name="dialog_amount_invalid_mess">Amount is invalid</string>
+    <string name="dialog_amount_invalid_title" />
+    <string name="dialog_closed_account_mess">The selected to account has been closed. Please call us on 1800 8180 for assistance.</string>
+    <string name="dialog_closed_account_title">Invalid account.</string>
+    <string name="dialog_invalid_bill_message">Bill is unpayable.</string>
+    <string name="dialog_invalid_bill_title">Invalid bill</string>
+    <string name="dialog_invalid_min_max_message">The payment amount must be larger or equal to minimum amount or smaller or equal to full balance.</string>
+    <string name="dialog_invalid_min_max_title" />
+    <string name="dialog_reg_text0">"Please review and confirm
+your registration"</string>
+    <string name="dialog_restrained_account_mess">The to account has been restricted. Please call us on 1800 8180 for assistance.</string>
+    <string name="dialog_restrained_account_title">Invalid account.</string>
+    <string name="dialog_transfer_to_vib_card_error_mess">Transfer money to a VIB card is not allowed but a VIB transactional account number.</string>
+    <string name="dialog_transfer_to_vib_card_error_title">Invalid card number</string>
+    <string name="district">District</string>
+    <string name="do_you_have_current_account">Do you have a current account with VIB?</string>
+    <string name="do_you_want_use_fast_pay">Do you want to use Fast pay</string>
+    <string name="doe_nic_invalid">NIC is valid only for %1$s years from the date of issue.</string>
+    <string name="doe_passport_invalid">Passport is valid only for %1$s years from the date of issue.</string>
+    <string name="done">Done</string>
+    <string name="dont_choose_holiday">"Time to meet is not a VIB's business day. Please choose another day."</string>
+    <string name="due_date">Maturity date</string>
+    <string name="e_active">E-commerce active</string>
+    <string name="e_inactive">E-commerce inactive</string>
+    <string name="edit">Edit</string>
+    <string name="edit_schedule_payment_receipt_title">Scheduled payment Receipt</string>
+    <string name="edit_schedule_payment_review_title">View Payment details</string>
+    <string name="edit_schedule_payment_title">Edit scheduled payment</string>
+    <string name="eff_date">Effective date</string>
+    <string name="email">Email</string>
+    <string name="email_address">Email address</string>
+    <string name="email_invalid">Invalid email address. Please try again.</string>
+    <string name="email_invalid2">Invalid email address. Please try again.</string>
+    <string name="email_must_not_null">Please enter your email address.</string>
+    <string name="empty_string"> </string>
+    <string name="end">End</string>
+    <string name="end_after">End after</string>
+    <string name="end_date_not_null">Please choose end on date.</string>
+    <string name="end_date_validate">End date must be after start date.</string>
+    <string name="end_on">End on</string>
+    <string name="english">English</string>
+    <string name="enter">Enter</string>
+    <string name="enter_acc_atm_number">Enter your account number/card number</string>
+    <string name="enter_account_name">Enter account name</string>
+    <string name="enter_account_number">Enter account number</string>
+    <string name="enter_address">Please enter your address.</string>
+    <string name="enter_amount_title">Amount</string>
+    <string name="enter_an_amount">Enter an amount</string>
+    <string name="enter_bank_name">Enter Bank name</string>
+    <string name="enter_branch">Enter branch</string>
+    <string name="enter_branch_name">Enter branch name</string>
+    <string name="enter_card_number">Enter card number</string>
+    <string name="enter_content">Please enter content.</string>
+    <string name="enter_current_address">Please enter your current address.</string>
+    <string name="enter_deny_reason">Please enter your refusal reason.</string>
+    <string name="enter_description">Enter description</string>
+    <string name="enter_description_title">Description</string>
+    <string name="enter_email">Enter email address</string>
+    <string name="enter_full_name">Enter your full name</string>
+    <string name="enter_id_number">Please enter ID number.</string>
+    <string name="enter_id_pp_number">Enter your NIC/Passport number</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_number">Enter number</string>
+    <string name="enter_old_pin">Please enter your current PIN</string>
+    <string name="enter_poi">Please enter place of issue.</string>
+    <string name="enter_position">Please enter your position.</string>
+    <string name="enter_purpose">Please enter purpose of additional account.</string>
+    <string name="enter_receiver_id">"Enter Receiver's ID number"</string>
+    <string name="enter_receiver_name">Enter full name</string>
+    <string name="enter_rep_mobile">Enter recipient’s mobile no.</string>
+    <string name="enter_res_address">Please enter your permanent address.</string>
+    <string name="enter_user_name">Enter your username</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="enter_your_mobile_num">Enter your mobile number</string>
+    <string name="eod_close_warning">Service is temporarily unavailable. Please try again later.</string>
+    <string name="eod_warning">This functionality is temporarily unavailable. Please try again later.</string>
+    <string name="error">Error</string>
+    <string name="error_acc_title">Invalid beneficiary account</string>
+    <string name="error_expiry_date">Expiry date must be greater than current date. Please try again.</string>
+    <string name="error_field_required">Field %1$s is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_email">This user name is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_invalid_username">This user name is invalid</string>
+    <string name="error_local_img">Please choose an image from your local gallery.</string>
+    <string name="error_str_acc_number">"Invalid beneficiary's account, the account is 25 character limit and contains only numbers or numbers and alphabet characters"</string>
+    <string name="error_str_add">Địa chỉ ko được chứ ký tự đặc biệt</string>
+    <string name="error_str_ben_name">Tên người hưởng phải là tiếng việt ko dấu</string>
+    <string name="error_str_bencity">Tỉnh/TP ko được chứ ký tự đặc biệt</string>
+    <string name="error_str_branch">Chi nhánh phải là tiếng việt ko dấu</string>
+    <string name="error_str_branch_city">Tỉnh/TP phải là tiếng việt ko dấu</string>
+    <string name="error_system">System not available.</string>
+    <string name="error_timeout">We’re unable to process your request at the moment. Please try again later</string>
+    <string name="error_timeout_transfer">Please refer to account transaction history or SMS for transaction result. MyVIB did not receive transaction result from server due to poor or unstable 3G/Wifi.</string>
+    <string name="eur">EUR</string>
+    <string name="exchange_rates">Exchange Rates</string>
+    <string name="exit">Exit</string>
+    <string name="exit_mes">Are you sure you want to exit VIB Mobile App?</string>
+    <string name="exit_title">Exit application</string>
+    <string name="expire_date">Expired date</string>
+    <string name="expired">Expired</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebook_account">Facebook account</string>
+    <string name="failed">Failed</string>
+    <string name="fast_transfer">Fast transfer</string>
+    <string name="fast_transfer_desc">Transfer will be processed immediately within 5 minutes. Fixed fee of %1$s VND applies to every transaction</string>
+    <string name="fast_transfer_desc2">Transfer will be processed immediately within 5 minutes. Transaction fee is %1$s%%/amount, minimum %2$s VND</string>
+    <string name="fast_transfer_desc3">Transfer will be processed immediately within 5 minutes.</string>
+    <string name="fb">Please download Facebook app to use this feature.</string>
+    <string name="fb_account">Facebook account</string>
+    <string name="fb_app_id">127672327608959</string>
+    <string name="fb_friends">Facebook friend list</string>
+    <string name="fb_permission_ask">VIB app would like to use your facebook profile to get friend list</string>
+    <string name="fee_amount">Fee amount</string>
+    <string name="filter">Filter</string>
+    <string name="find_us">Find us</string>
+    <string name="first_account">First account</string>
+    <string name="forget_username_message">"Please call us on 1800 8180 and
+we will help you obtain your Internet Banking username."</string>
+    <string name="forget_username_title">Forgotten username?</string>
+    <string name="forgotten_your">Forgotten your</string>
+    <string name="friend_facebook">Friend Facebook</string>
+    <string name="from">From</string>
+    <string name="from_acc_require">Source Account is required</string>
+    <string name="from_phone_contact_list">"From phone
+contact list"</string>
+    <string name="from_phone_contact_list_title">From phone contact list</string>
+    <string name="from_seri">"From "</string>
+    <string name="from_to_trung_nhau">The ‘From’ and ‘To’ account are the same. Please select another account and try again!</string>
+    <string name="full_name_invalid">Your full name cannot contain special characters. Please try again.</string>
+    <string name="full_name_not_null">Please enter your full name.</string>
+    <string name="fullname">Full name</string>
+    <string name="getting_start_to_open">Getting started to open</string>
+    <string name="go_to_view_account">Go to View account</string>
+    <string name="guest_home">"Homepage
+for Guest"</string>
+    <string name="hello">Welcome</string>
+    <string name="here">here</string>
+    <string name="hint_card">Enter 04 digits printed on your salary card</string>
+    <string name="hint_other">Other information (if any)</string>
+    <string name="hint_staff">Enter your staff ID</string>
+    <string name="holiday_warning">Bank suspended trading on holidays. If you open savings account, the deposit amount will be held in current account balance and effective on the next working day.</string>
+    <string name="home">Home</string>
+    <string name="i_want_try_again">I want to try once again</string>
+    <string name="id_card">ID Card/Passport</string>
+    <string name="id_card_invalid">Your NIC was expired. Please check again.</string>
+    <string name="id_number">ID number</string>
+    <string name="id_pp_invalid">NIC/Passport number cannot contain special characters. Please try again.</string>
+    <string name="id_pp_must_not_null">Please enter your NIC/Passport number.</string>
+    <string name="id_pp_number">Your NIC/Passport number</string>
+    <string name="id_type">ID type</string>
+    <string name="identification">Identification</string>
+    <string name="identification_method">Identification method</string>
+    <string name="img_description">Image View</string>
+    <string name="in" />
+    <string name="inbox">Inbox</string>
+    <string name="information">Information</string>
+    <string name="install_fb_app">Install Facebook app</string>
+    <string name="instance_top_up">"Instant
+top up"</string>
+    <string name="instance_top_up_confirm_msg">For mobile %1$s</string>
+    <string name="instance_top_up_msg">"Recharging %1$s in your mobile
+phone %2$s"</string>
+    <string name="interest_amount">Interest amount</string>
+    <string name="interest_rates">Interest Rates</string>
+    <string name="interest_received">Accrued interest</string>
+    <string name="intro_btn">Enjoy it now!</string>
+    <string name="intro_text1">"We have just added new feature
+ \"Open an account\" to bring
+customers the utmost convenience"</string>
+    <string name="intro_text_1">"Check out MyVIB's new features"</string>
+    <string name="intro_text_2">"Pay and manage your credit card more
+convenient online to make the best use
+of your time."</string>
+    <string name="intro_text_3">"Manage your cards in one touch:
+activate a new card, lock/unlock card, or
+register e-commerce without going to
+any of our branch."</string>
+    <string name="intro_text_4">"How to make your everyday banking so
+easy and manage your money effectively?
+Open a VIB current account and
+savings account online just in 5 minutes
+and get your account number instantly."</string>
+    <string name="intro_text_5">"Expand your payment capabilities with
+our new fund transfer method on
+MyVIB: Pay to mobile number or email
+address."</string>
+    <string name="intro_text_6">Schedule payment</string>
+    <string name="intro_text_7">Account Opening</string>
+    <string name="intro_text_8">Bill payment</string>
+    <string name="intro_title_1">New fund transfer</string>
+    <string name="intro_title_2">Card self service</string>
+    <string name="invalid_account_transfer_mess">Account transfer denied</string>
+    <string name="invalid_account_transfer_title">Invalid account</string>
+    <string name="invalid_pin_diff_digit">You have entered a PIN with four repeating digits. For security reasons, we recommend selecting a different PIN. Please try again.</string>
+    <string name="invalid_pin_mess">Invalid pin, please try again</string>
+    <string name="invalid_pin_nonconsecutive_digit">PIN must not be consecutive numbers</string>
+    <string name="invalid_pin_not_enough">Pin must have 4 digit</string>
+    <string name="invalid_pin_not_same">The PINs you entered do not match. Please try again.</string>
+    <string name="invalid_pin_similar_birthday">PIN must be different from your birthday</string>
+    <string name="invalid_pin_title">Invalid PIN</string>
+    <string name="invalid_pin_title1">PIN doesn’t match</string>
+    <string name="issue_date">Issue date</string>
+    <string name="issue_date_error">Date of issue cannot be greater than current date. Please try again.</string>
+    <string name="issued_date">Issued date</string>
+    <string name="jump_to">Jump to:</string>
+    <string name="just_5_min">Just &lt;font color=#f28121>5 minutes&lt;/font> and&lt;br/>cost only &lt;font color=#f28121>11.000 VND&lt;/font> of transfer fee</string>
+    <string name="last_term">Last term</string>
+    <string name="later">Later</string>
+    <string name="limit">You have attempted to enter username too many times. Please try again later.</string>
+    <string name="link">www.vib.com.vn</string>
+    <string name="live_chat_info_out_of_service">"The service is temporarily unavailable at the moment.
+Please try again later."</string>
+    <string name="live_chat_title">Live Chat</string>
+    <string name="live_chat_waiting">Quý khách vui lòng đợi trong giây lát</string>
+    <string name="live_chat_waiting_1">Online representative will be with you shortly.</string>
+    <string name="localAccHeader">"Local banks' accounts"</string>
+    <string name="local_language">en-us</string>
+    <string name="local_transfer_title">Your payment has been successfully sent to Payment center. It will be processed within 24 hours or in the next working day.</string>
+    <string name="location_fail_msg">We are unable to retrieve the nearest location at the moment. Please try again later.</string>
+    <string name="location_fail_title" />
+    <string name="location_require_msg">The app does not have access to your Location Services. Please enable access in Privacy Settings</string>
+    <string name="location_require_title">Location Service access</string>
+    <string name="location_to_meet">Location to meet</string>
+    <string name="locator_title">Nearest ATM</string>
+    <string name="lock">Lock</string>
+    <string name="lock_card">Lock card</string>
+    <string name="locked">LOCKED</string>
+    <string name="log_on">LOG ON</string>
+    <string name="log_on2">Login to MyVIB</string>
+    <string name="login">Login</string>
+    <string name="login_hint">Please enter your VIB Internet Banking details</string>
+    <string name="login_pin_text1">Please enter your PIN:</string>
+    <string name="login_pin_text2">Forgotten your PIN?</string>
+    <string name="login_pin_text3">Log on with your VIB Internet Banking details</string>
+    <string name="logo_title_login">VIB Mobile App</string>
+    <string name="logout_fail_msg">Log out failed!</string>
+    <string name="logout_success_msg">Thank you!</string>
+    <string name="logout_title">Log out</string>
+    <string name="marial_status">Marital status</string>
+    <string name="married">Married</string>
+    <string name="maturity_date">Maturity date</string>
+    <string name="max_amount_saving_acc">Joining this promotion program, your maximum deposit amount is %1$s</string>
+    <string name="maximum_payment">Maximum payment</string>
+    <string name="me">Me</string>
+    <string name="menu_card_self">Card self service</string>
+    <string name="menu_group1">Transfer &amp; Payment</string>
+    <string name="menu_group2">Product</string>
+    <string name="menu_group3">Offers &amp; Products</string>
+    <string name="menu_group4">Tools</string>
+    <string name="menu_group5">Settings</string>
+    <string name="menu_mobile_top_up">Mobile phone\ntop-up</string>
+    <string name="menu_mobile_top_up2">Mobile phone top-up</string>
+    <string name="menu_pay_a_bill">Pay a bill</string>
+    <string name="menu_promotion_location">ATM /Branch &amp; Promotion locator</string>
+    <string name="menu_text">Offers</string>
+    <string name="menu_text0">Sign up for salary account usage</string>
+    <string name="menu_text1">Apply now</string>
+    <string name="menu_text10">Select language/Chọn ngôn ngữ</string>
+    <string name="menu_text11">Change PIN</string>
+    <string name="menu_text12">Log out</string>
+    <string name="menu_text13">Quick balance</string>
+    <string name="menu_text14">Change front page image</string>
+    <string name="menu_text15">View my applications</string>
+    <string name="menu_text16">Inbox</string>
+    <string name="menu_text17">Scheduled payment management</string>
+    <string name="menu_text2">Latest interest rates</string>
+    <string name="menu_text3">Latest foreign exchange rates</string>
+    <string name="menu_text4">Chat to us now</string>
+    <string name="menu_text5">Help &amp; Contact us</string>
+    <string name="menu_text6">Find out more</string>
+    <string name="menu_text7">Visit</string>
+    <string name="menu_text7_2">vib.com.vn</string>
+    <string name="menu_text8">ATM/Branch &amp; Promotion locator</string>
+    <string name="menu_text9">Settings</string>
+    <string name="menu_transfer_between_account">Transfer between your accounts</string>
+    <string name="menu_view_account_balance">View accounts</string>
+    <string name="merchant">Promotion</string>
+    <string name="message">Message</string>
+    <string name="min_amount_saving_acc">Deposit amount is at least %1$s</string>
+    <string name="min_amount_saving_acc_hint">Minimum amount is %1$s</string>
+    <string name="min_balance">Min balance</string>
+    <string name="minimum_payment">Minimum payment</string>
+    <string name="missing_payment_detail">Please enter the information transaction.</string>
+    <string name="mobile">Mobile</string>
+    <string name="mobile_field_invalid">Numbers must start with a 09, 01, or 84 and 12 digit limit</string>
+    <string name="mobile_field_invalid_title">Invalid mobile number</string>
+    <string name="mobile_field_require">Mobile number field is require</string>
+    <string name="mobile_invalid">Your registered mobile number is invalid for Vietnamese mobile number. It should contain numbers only and the maximum length is 11 numbers.</string>
+    <string name="mobile_must_not_null">Please enter your mobile number.</string>
+    <string name="mobile_no_to_get">Mobile No. to get PIN code</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="mobile_number2">Mobile number</string>
+    <string name="monthly">Monthly</string>
+    <string name="morning">In the morning</string>
+    <string name="mos_pick_date_warning">Time to meet VIB staff must be greater than current date.</string>
+    <string name="mr">Mr</string>
+    <string name="mrs">Mrs</string>
+    <string name="ms">Ms.</string>
+    <string name="my_application_title">View my applications</string>
+    <string name="na">N/A</string>
+    <string name="name">Name</string>
+    <string name="name_invalid">Your registered name contains invalid character. Please re-enter your name using only letters.</string>
+    <string name="name_must_not_null">Please enter your name.</string>
+    <string name="nation_id">Nation ID</string>
+    <string name="nation_invalid">NIC/Passport cannot contains special characters. Please try again.</string>
+    <string name="nation_must_not_null">Please enter your Nation ID or Passport number.</string>
+    <string name="need_fb_app">To share this, you need Facebook app. Please install Facebook app then try again!</string>
+    <string name="net_position">Net position</string>
+    <string name="network_error">Connection problem</string>
+    <string name="network_error_transfer_title">Undefined transaction status.</string>
+    <string name="never">Never</string>
+    <string name="new_biller_title">New Biller</string>
+    <string name="new_card">"Pay to a
+new card"</string>
+    <string name="new_vib_account">"Pay to a
+VIB account"</string>
+    <string name="next">Next</string>
+    <string name="next_payment">Next payment is on</string>
+    <string name="ngay_cap">Date of issue</string>
+    <string name="nic">NIC</string>
+    <string name="nic_no">NIC No.</string>
+    <string name="nic_passport">NIC/Passport</string>
+    <string name="nick_must_not_null">Please enter your nick name.</string>
+    <string name="nick_name">Nickname</string>
+    <string name="no">No</string>
+    <string name="no_acc_text_hint">"To add a new account, 
+please log on to "<a href="https://ib.vib.com.vn">ib.vib.com.vn</a></string>
+    <string name="no_application">No application found</string>
+    <string name="no_balance">No balance found.</string>
+    <string name="no_bank_found">No bank found.</string>
+    <string name="no_choose_city">This branch is the current branch managing your customer number. If you want to change, please go back to the previous step.</string>
+    <string name="no_fb_fr">No Facebook friends available.</string>
+    <string name="no_img">No image available.</string>
+    <string name="no_message">No messages found.</string>
+    <string name="no_password_message">Please enter your internet banking password.</string>
+    <string name="no_password_title">Password is mandatory</string>
+    <string name="no_phone_number">No phone number available.</string>
+    <string name="no_result">No result.</string>
+    <string name="no_schedule_transfer">No schedule transfer found.</string>
+    <string name="no_scooter_mess">No scooter message (not wording).</string>
+    <string name="no_select_branch">This branch is the current branch managing your customer number. If you want to change, please go back to the previous step.</string>
+    <string name="no_thank">No, thanks. I prefer the normal one</string>
+    <string name="no_transaction">No transactions found</string>
+    <string name="no_username_message">Please enter your internet banking username.</string>
+    <string name="no_username_title">Username is mandatory</string>
+    <string name="no_valid_accounts_found_">No valid accounts found.</string>
+    <string name="none">Remove selected account</string>
+    <string name="none_">None</string>
+    <string name="normal_transfer">Normal transfer</string>
+    <string name="normal_transfer_desc">Transfer will be processed within 24 working hours. Transaction fee is %1$s%%/amount, minimum %2$s VND</string>
+    <string name="normal_transfer_desc2">Transfer will be processed immediately within 5 minutes. Fixed fee of %1$s VND applies to every transaction</string>
+    <string name="normal_transfer_desc3">Transfer will be processed within 24 working hours.</string>
+    <string name="not_select_account">Select an account</string>
+    <string name="note">You can select minimum/ maximum payment or enter other amount</string>
+    <string name="note_interest_rates">Note: For withdrawal prior to maturity, non-term interest rate will be applied</string>
+    <string name="notes">Notes</string>
+    <string name="num_pad_0">0</string>
+    <string name="num_pad_1">1</string>
+    <string name="num_pad_2">2</string>
+    <string name="num_pad_3">3</string>
+    <string name="num_pad_4">4</string>
+    <string name="num_pad_5">5</string>
+    <string name="num_pad_6">6</string>
+    <string name="num_pad_7">7</string>
+    <string name="num_pad_8">8</string>
+    <string name="num_pad_9">9</string>
+    <string name="num_pad_decimal">.</string>
+    <string name="num_pad_done">Done</string>
+    <string name="occupation">Occupation</string>
+    <string name="ok">OK</string>
+    <string name="on">on</string>
+    <string name="online_payment">Online payment</string>
+    <string name="open">Open</string>
+    <string name="open_a_current_account">Open a current account</string>
+    <string name="open_a_daily_saving_account">Open a daily savings account</string>
+    <string name="open_saving_account">Open saving account </string>
+    <string name="open_a_regular_saving_account">Open a regular saving account</string>
+    <string name="open_account">Open account</string>
+    <string name="open_account1_name">Current account</string>
+    <string name="open_account2_name">Daily saving account</string>
+    <string name="open_account3_name">Regular saving account</string>
+    <string name="open_account_getting_start_text1">Getting start to open a current account</string>
+    <string name="open_account_getting_start_text2">Please advise us your contact details</string>
+    <string name="open_account_getting_start_text3">All the information you provide to us is securely maintained and is kept strictly confidential. We do not, and will not sell or rent our customer lists or private health information to other companies.</string>
+    <string name="open_account_now">Open now</string>
+    <string name="open_account_text1">Your choice of bank accounts</string>
+    <string name="open_account_text2">Need more information?</string>
+    <string name="open_account_text3">"Click the product that you're interested in,
+we will contact you shortly"</string>
+    <string name="open_account_text4">1. Please prepare your document for verification</string>
+    <string name="open_account_text5">2. Please choose identification method that you would like us to verify you</string>
+    <string name="open_account_text6">2. Please visit VIB branch to identify yourself</string>
+    <string name="open_account_title">Open an\naccount</string>
+    <string name="open_account_title1">Thank you for banking with us</string>
+    <string name="open_account_title2">Your account has been successfully created</string>
+    <string name="open_account_title_sa">Your savings account has been successfully created</string>
+    <string name="open_account_title_sa_holiday_open">Your savings account has been successfully opened and will be effective on the next working day</string>
+    <string name="open_account_title_sa_open">Your savings account has been successfully opened</string>
+    <string name="open_my_vib_id_title">Register for MyVIB ID</string>
+    <string name="open_my_vib_text1">What you need to register for MyVIB ID:</string>
+    <string name="open_my_vib_text2">Having at least one current account opened in VIB;</string>
+    <string name="open_my_vib_text3">"If you don't have a current account, click here to apply online."</string>
+    <string name="open_my_vib_text4">For verification purpose, please provide the following information:</string>
+    <string name="open_my_vib_text5">I have read and agree to</string>
+    <string name="open_my_vib_text6">term of use</string>
+    <string name="open_now">Register</string>
+    <string name="open_now_">Open now</string>
+    <string name="optional">Optional</string>
+    <string name="or">OR</string>
+    <string name="other">Other</string>
+    <string name="other_account">Select another account</string>
+    <string name="otp">OTP</string>
+    <string name="otp_number">OTP number</string>
+    <string name="otp_sent_msg">OTP code has been sent to your mobile , please check and write it to the form below</string>
+    <string name="otp_text1">Please generate the security code from registered security token if you register for this device.</string>
+    <string name="otp_text2">Your security code will be sent to: %1$s</string>
+    <string name="otp_text3">Get security code</string>
+    <string name="otp_title">Get security code</string>
+    <string name="outstanding">Outstanding</string>
+    <string name="owner_credit_card">Primary cardholder</string>
+    <string name="passport">Passport</string>
+    <string name="passport_no">Passport No.</string>
+    <string name="password">password.</string>
+    <string name="pay">Pay</string>
+    <string name="pay2">Pay</string>
+    <string name="pay3">Pay</string>
+    <string name="pay_a_bill">Pay a bill</string>
+    <string name="pay_a_bill_title">"Pay a bill/
+credit card"</string>
+    <string name="pay_a_bill_title2">Pay a bill</string>
+    <string name="pay_anyone">Pay anyone</string>
+    <string name="pay_anyone_details">Pay anyone-details</string>
+    <string name="pay_bill_enter_phone_number">Enter phone number</string>
+    <string name="pay_bill_phone_number_contact">Phone number contact</string>
+    <string name="pay_bills_details_title">Pay a bill – details</string>
+    <string name="pay_confirm_msg">"From %1$s
+ To %2$s"</string>
+    <string name="pay_mc_success">Payment successfully processed</string>
+    <string name="pay_social_warning">Note: Recipient must be at least 15 years old or older who does not lose or limit his or her civil act capacity</string>
+    <string name="pay_someone">Pay anyone</string>
+    <string name="pay_someone_detail_title">Pay anyone-details</string>
+    <string name="pay_someone_new_title">Pay anyone new</string>
+    <string name="pay_someone_title">Pay anyone</string>
+    <string name="pay_to">Pay to</string>
+    <string name="pay_to2">Pay to</string>
+    <string name="pay_to_bank">"Pay to
+bank account"</string>
+    <string name="pay_to_email">"Pay to
+email"</string>
+    <string name="pay_to_email_or_mobile">"Pay to
+mobile or email"</string>
+    <string name="pay_to_mobile">"Pay to
+mobile number"</string>
+    <string name="pay_to_new_atm_cards">"Pay to a
+new card"</string>
+    <string name="pay_to_new_vib_accounts">"Pay to a
+VIB account"</string>
+    <string name="pay_to_social">"Pay to
+Facebook"</string>
+    <string name="payable">Payable</string>
+    <string name="payment">Pay off credit card</string>
+    <string name="payment_code">Payment code</string>
+    <string name="payment_date">Payment date</string>
+    <string name="payment_success">Payment</string>
+    <string name="payoff">Pay off</string>
+    <string name="pending_trans">Pending transactions</string>
+    <string name="percentage_completed">Percentage completed</string>
+    <string name="period">Due date</string>
+    <string name="phone_">Phone</string>
+    <string name="phone_address_book">Mobile address book</string>
+    <string name="phone_iao">Mobile number must be at least 10 digits and begins with \"0\". Please try again.</string>
+    <string name="pin_code">PIN code</string>
+    <string name="place_of_birth">Place of Birth</string>
+    <string name="place_of_issue">Place of issue</string>
+    <string name="place_to_meet">Enter address to meet</string>
+    <string name="please_enter">Please enter</string>
+    <string name="please_enter_branch">Please enter branch</string>
+    <string name="please_review_your_info">Please review your contact details below and update (if any)</string>
+    <string name="please_select_branch">Please select branch</string>
+    <string name="please_select_city">Please select City/Province</string>
+    <string name="please_select_district">Please select district</string>
+    <string name="poa_invalid">Purpose of additional account cannot contain special characters. Please try again.</string>
+    <string name="poi_invalid">Place of issue cannot contain special characters. Please try again.</string>
+    <string name="position">Position</string>
+    <string name="position_invalid">Position cannot contain special characters. Please try again.</string>
+    <string name="prefer_branch">Preferred branch</string>
+    <string name="principal">Principal</string>
+    <string name="principal2">Principal</string>
+    <string name="principal_amount">Principal amount</string>
+    <string name="progressive_saving">Progressive savings</string>
+    <string name="promotion2_apply_text1">"Thank you for choosing
+to upgrade to VIB Platinum Double Cash Back"</string>
+    <string name="promotion2_apply_text2">Note:</string>
+    <string name="promotion2_apply_text3">VIB staff will contact you within 24 working hours to complete necessary procedures to upgrade card.</string>
+    <string name="promotion2_apply_text4">Confirm:</string>
+    <string name="promotion2_apply_text5">By clicking Complete button, I confirm that I agree and comply with the fee tariff &amp; Terms and Conditions of using VIB credit card product.</string>
+    <string name="promotion2_deny_text1">Thank you for your feedback</string>
+    <string name="promotion2_deny_text2">"To serve you better, please let us know the reason
+why you do not agree to update your card:"</string>
+    <string name="promotion2_option1">I use other banks credit card</string>
+    <string name="promotion2_option2">I do not find the feature of Platinum attractive</string>
+    <string name="promotion2_option3">I do not want to pay higher fee for Platinum</string>
+    <string name="promotion2_option4">I am happy with my current card</string>
+    <string name="promotion2_option5">Others</string>
+    <string name="promotion2_popup_text1">&lt;font color=#f28121>Experience rewards like never before!&lt;/font> &lt;br/>The wait is over. &lt;br/>Upgrade to &lt;font color=#f28121>VIB Platinum Double Cash Back&lt;/font> NOW!</string>
+    <string name="promotion2_popup_text2">"Earn cash back twice
+Free to upgrade
+Up to 55 days free interest"</string>
+    <string name="promotion2_popup_text3">Contact us at: &lt;font color=#f28121>1800 8180&lt;/font> for futher information</string>
+    <string name="promotion_list_empty">"No offer available at the moment.
+Please wait in the coming time."</string>
+    <string name="promotion_list_title">Offer List</string>
+    <string name="promotion_option1">I’ve used other Bank’s</string>
+    <string name="promotion_option2">There are not many offers</string>
+    <string name="promotion_option3">I do not have demand on this card</string>
+    <string name="promotion_option4">Other:</string>
+    <string name="promotion_text1">"Thank you for your feedback.
+We continually strive to improve our products and services to serve you better. Please kindly advise us why you are not interested in this promotion:"</string>
+    <string name="promotion_text2">"Please kindly update or confirm your information
+below. We will shortly contact you"</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_username">Username</string>
+    <string name="pso_empty_mobile_number">Please enter recipient’s mobile number or select from your phone contact list</string>
+    <string name="pso_empty_name">Please enter recipient’s fullname</string>
+    <string name="pso_invalid_email">Invalid email address. Please try again</string>
+    <string name="pso_invalid_mobile">Invalid mobile number. Please try again</string>
+    <string name="pso_invalid_name">Recipient’s name cannot contain special characters and max 50 letters. Please try again</string>
+    <string name="pso_mobile_null">Please enter recipient’s email address or select from your phone contact list</string>
+    <string name="purpose_hint">Purpose of additional account</string>
+    <string name="quarterly">Quarterly</string>
+    <string name="quick_balance_description">Quick balance gives you a quick view of your accounts by swiping your finger at the top of the home screen.</string>
+    <string name="quit">Quit</string>
+    <string name="ra_invalid">Permanent address cannot contain special characters. Please try again.</string>
+    <string name="rate_description">Interest rate is for reference only. The interest rate will be applied based on actual date of activating savings account.</string>
+    <string name="reason_to_close">Reason to close</string>
+    <string name="receipt">Receipt</string>
+    <string name="receipt_no">Receipt no.</string>
+    <string name="receipt_number">Receipt number</string>
+    <string name="receipt_text1">Please remember to prepare 01 copy of your ID card or passport when you visit our branch to identity yourself.</string>
+    <string name="receipt_text1_N">Please remember to prepare 01 copy of your ID card or passport when our staff visit and identify you.</string>
+    <string name="receipt_text2">01 copy</string>
+    <string name="receipt_text3">ID card</string>
+    <string name="receipt_text4">passport</string>
+    <string name="receipt_title">%1$s successful</string>
+    <string name="receiver_id">"Receiver's ID number"</string>
+    <string name="receiver_name">Recipient’s name</string>
+    <string name="ref_must_not_null">Please enter %1$s</string>
+    <string name="ref_must_not_null_title">%1$s is mandatory</string>
+    <string name="reference_no_">Reference No.</string>
+    <string name="reg_call_center_success">"Thank you for your registration
+Your information will be sent
+to our customer services!
+We will contact you shortly"</string>
+    <string name="reg_ib_text10">"Password was automatically sent to your mobile number.
+Please change your password for the first logon to Internet Banking or MyVIB"</string>
+    <string name="reg_note0">Your mobile number must be already registered at VIB</string>
+    <string name="reg_success">You have successfully registered for online banking services</string>
+    <string name="reg_text1">"Just 3 simple steps to complete
+your registration"</string>
+    <string name="reg_text11">"Your mobile number has not been
+registered with VIB."</string>
+    <string name="reg_text12">"You can contact our
+Customer Service 24/7 at"</string>
+    <string name="reg_text13">Or provide your more information for us to contact later.</string>
+    <string name="reg_text2">1. Identify yourself</string>
+    <string name="reg_text3">NIC number</string>
+    <string name="reg_text4">Passport number</string>
+    <string name="reg_text5">Account number</string>
+    <string name="reg_text6">Card number</string>
+    <string name="reg_text7">2. Choose Username</string>
+    <string name="reg_text8">3. Logon MyVIB</string>
+    <string name="reg_text9">"Logon
+page"</string>
+    <string name="regis_username">Username</string>
+    <string name="registered_date">Registered date</string>
+    <string name="release_date">Release date</string>
+    <string name="repeat">Repeat</string>
+    <string name="reply">Reply</string>
+    <string name="reset_pin_mess">"Have you really forgotten your PIN?
+Click Yes to create a new PIN."</string>
+    <string name="reset_pin_title"><br>Reset your PIN?</br></string>
+    <string name="reset_your">Reset your</string>
+    <string name="resident_address">Permanent address</string>
+    <string name="retry">Retry</string>
+    <string name="revert_date">Revert date</string>
+    <string name="review_and_confirm">Review and submit</string>
+    <string name="rollover_instruction">Rollover instruction</string>
+    <string name="s_f">Search friend</string>
+    <string name="salary_card_invalid">The card number is invalid. It should contains 04 numbers only.</string>
+    <string name="salary_card_must_not_null">Please enter the last 4 digits of your salary card.</string>
+    <string name="salary_sign_up_note">"To apply for using your Salary account online, Please fill in all required fields.
+Please note: Your application will be sent to Human Resource department for reviewing and approval."</string>
+    <string name="salary_sign_up_success_mess">Your application has been sent to Human resource department. Please contact Human resource for more details.</string>
+    <string name="salary_sign_up_success_title">Application successfully sent!</string>
+    <string name="salary_sign_up_text_success">Your application has been approved by Human resource department. Please check your account portfolio for your salary account details. If you couldn’t retrieve the account, please call our Online banking team for help.</string>
+    <string name="salary_sign_up_text_wait">You have already applied for using Salary account online. Your application is now reviewed by Human Resource department. Please contact them for more details.</string>
+    <string name="salary_sign_up_title">Register to use your Salary account online</string>
+    <string name="save_open_account_mess">Would you like to save this application?</string>
+    <string name="save_to_account_address_book">Save to account address book</string>
+    <string name="save_to_address_book">Save to account address book</string>
+    <string name="save_to_ben">Add to biller address book</string>
+    <string name="save_to_biller_address_book">Add to biller address book</string>
+    <string name="schedule_add_success">"Your schedule has been added successfully
+Please kindly check our email notification on value date of payment."</string>
+    <string name="schedule_payment">View schedule payments</string>
+    <string name="schedule_payment_detail_title">Payment details</string>
+    <string name="schedule_payment_manager">Scheduled payment management</string>
+    <string name="search">Search</string>
+    <string name="searching">Searching</string>
+    <string name="select_a_payment_method">Select a payment method</string>
+    <string name="select_acc">Select account</string>
+    <string name="select_amount">Select amount</string>
+    <string name="select_another_wallpaper">Choose a new image</string>
+    <string name="select_biller">Select biller</string>
+    <string name="select_language">Vui lòng lựa chọn ngôn ngữ sử dụng</string>
+    <string name="select_language2">Please select your language</string>
+    <string name="select_one_method">Select one of the following methods</string>
+    <string name="select_transfer_date_title">Select transfer date</string>
+    <string name="sell">Sell</string>
+    <string name="semi_yearly">Semi-yearly</string>
+    <string name="send_pin_to">Send PIN code to</string>
+    <string name="seri_Status">Series status</string>
+    <string name="seri_Status_A">Valid</string>
+    <string name="seri_Status_C">Cancelled</string>
+    <string name="seri_num">Lucky series</string>
+    <string name="service_fee">Service fee applied</string>
+    <string name="services">Services</string>
+    <string name="session_timeout_msg">Session Timeout</string>
+    <string name="set">Set</string>
+    <string name="set_default_wallpaper">Set default image</string>
+    <string name="setting_language">Please select your language</string>
+    <string name="settings">Select language/Chọn ngôn ngữ</string>
+    <string name="settlement_account">Settlement account</string>
+    <string name="setup_account_activity_title">Quick balance</string>
+    <string name="setup_account_description">"Quick balance gives you a quick view of 
+ your accounts by swiping your finger 
+ at the top of the home screen."</string>
+    <string name="setup_regular_transfer">Set up a regular payment</string>
+    <string name="setup_simple_balance_btn_title">Set up quick balance</string>
+    <string name="share">Share</string>
+    <string name="share_fb">Share on Facebook</string>
+    <string name="share_fb_content">I’ve just sent you a payment code, click here to claim</string>
+    <string name="share_fb_notice">Payment code will not be shared via Facebook</string>
+    <string name="share_fb_title">Claim your money</string>
+    <string name="share_fund_transfer">Hi, I just sent you %1$s for %2$s through VIB Mobile app.</string>
+    <string name="share_fund_transfer_subject">VIB Mobile App: Pay anyone details</string>
+    <string name="share_pay_bill">Hi, I just paid %1$s %2$s for %3$s bill through VIB Mobile app.</string>
+    <string name="share_pay_bill_subject">VIB Mobile App: Paybill details</string>
+    <string name="share_schedule_transfer">Hi, I just scheduled a payment through MyVIB with total amount %1$s.</string>
+    <string name="share_top_up">Hi, I just top up %1$s to your mobile phone %2$s through VIB Mobile app.</string>
+    <string name="share_top_up_subject">VIB Mobile App: Top up mobile</string>
+    <string name="sign_up">Register</string>
+    <string name="single">Single</string>
+    <string name="skip">Skip</string>
+    <string name="smart_access">Smart Access</string>
+    <string name="staff_invalid">The staff ID is invalid.</string>
+    <string name="staff_must_not_null">Please enter your staff ID.</string>
+    <string name="start">Start</string>
+    <string name="start_on">Start on</string>
+    <string name="status">Status</string>
+    <string name="status2">Status</string>
+    <string name="status_card">Card status</string>
+    <string name="string_setting_pin_confirm">Please confirm your new PIN:</string>
+    <string name="string_setting_pin_next_screen">"On the next screen,
+we will ask you to re-enter it a second time."</string>
+    <string name="string_setting_pin_note">"To make logging in easier,
+please create a new login PIN below"</string>
+    <string name="string_setting_pin_title">Welcome to your new VIB app</string>
+    <string name="subject1">CURRENT ACCOUNT OPENING NOTIFICATION</string>
+    <string name="subject2">SAVINGS ACCOUNT OPENING NOTIFICATION</string>
+    <string name="subject3">CURRENT ACCOUNT OPENING NOTIFICATION</string>
+    <string name="subject4">SAVINGS ACCOUNT OPENING NOTIFICATION</string>
+    <string name="subject5">VIB Mobile App: Pay anyone details</string>
+    <string name="subject_pay_mc">VIB Mobile App: Pay off credit card details</string>
+    <string name="submit">Submit</string>
+    <string name="successful_change">Successful change</string>
+    <string name="successfully_changed">Successfully changed</string>
+    <string name="sup_credit_card">Supplementary cardholder</string>
+    <string name="supplier_must_not_null">Please select Biller</string>
+    <string name="supplier_must_not_null_title">Biller is required</string>
+    <string name="survey">Request successfully sent</string>
+    <string name="survey_activity">"I'm interested in ..."</string>
+    <string name="survey_confirm_msg">"Thank you for submitting your application. We're contact you shortly for more information if needed."</string>
+    <string name="survey_no_item_response">"The service is temporarily unavailable at the moment.
+Please try again later."</string>
+    <string name="swipe_down_to_select_biller">"Swipe down to select biller
+from existing list"</string>
+    <string name="tab_pay_anyone">Pay anyone</string>
+    <string name="tab_schedule_transaction">Schedule transaction</string>
+    <string name="tell_us">Tell us about yourself</string>
+    <string name="term">Term</string>
+    <string name="term_cb">I have read and agreed to the terms of use</string>
+    <string name="term_cb_hl">the terms of use</string>
+    <string name="term_require_msg">You need to agree to accept to the Terms and Conditions to proceed</string>
+    <string name="term_warning">Please Read and Agree on terms of use</string>
+    <string name="the_branch_selected_in_pre_step">The preferred branch was selected in previous step.</string>
+    <string name="tieng_viet">Tiếng Việt</string>
+    <string name="time_to_meet">Time to meet</string>
+    <string name="title">Title</string>
+    <string name="title_507">Online term deposit</string>
+    <string name="title_519">Lucky draw savings</string>
+    <string name="online_flexible_savings">Online flexible savings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_setting_pin">SettingPinActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_credit_card_payment">Pay off credit card</string>
+    <string name="title_identify">Identify yourself</string>
+    <string name="title_pay_to_new_account">Pay to new account</string>
+    <string name="title_regis">Register for MyVIB ID</string>
+    <string name="title_register">Register for MyVIB ID</string>
+    <string name="title_select_method">Select transfer method</string>
+    <string name="to">To</string>
+    <string name="to_day">Today</string>
+    <string name="to_seri">" to "</string>
+    <string name="top_up">Top up</string>
+    <string name="top_up_confirm_msg">"For mobile %1$s
+from %2$s"</string>
+    <string name="top_up_detail">Top up details</string>
+    <string name="top_up_success_title">Top up successful</string>
+    <string name="top_up_title">Top up</string>
+    <string name="top_up_to">Top up to</string>
+    <string name="total_credits">Total credits</string>
+    <string name="total_debits">Total debits</string>
+    <string name="total_unpaid_amount">Total unpaid amount</string>
+    <string name="trans_history">Transaction history</string>
+    <string name="transaction_amount">Transaction amount</string>
+    <string name="transaction_management_title">Transaction management</string>
+    <string name="transaction_number">Transaction number</string>
+    <string name="transaction_success">Transaction successful</string>
+    <string name="transfer">Transfer</string>
+    <string name="transfer2">Transfer</string>
+    <string name="transfer_detail_from">From</string>
+    <string name="transfer_detail_to">To</string>
+    <string name="transfer_details">Transfer details</string>
+    <string name="transfer_later">Pay later</string>
+    <string name="transfer_msg">"From %1$s
+To %2$s"</string>
+    <string name="transfer_now">Pay now</string>
+    <string name="transfer_num_not_null">Please input transfer number.</string>
+    <string name="transfer_popup_title">Transfer</string>
+    <string name="transfer_social_receipt_text1">"Provide this payment code
+to the Recipient"</string>
+    <string name="transfer_social_receipt_text2">Touch here to share the payment code</string>
+    <string name="transfer_social_receipt_text3">Payment code is valid within 7 days. Remember this code is confidential and should only be shared with your recipient.</string>
+    <string name="transfer_social_receipt_text4">Successfully created transaction</string>
+    <string name="transfers">payment(s)</string>
+    <string name="txtAccountNo">Account No.</string>
+    <string name="txtAddress">Address</string>
+    <string name="txtBankCity">City</string>
+    <string name="txtBankName">Bank name</string>
+    <string name="txtBenBankDetail">"Beneficiary's bank details"</string>
+    <string name="txtBenDetails">Beneficiary details</string>
+    <string name="txtBranch">Branch</string>
+    <string name="txtCity">City</string>
+    <string name="txtFullName">Full name</string>
+    <string name="txtHintBankCity">Enter city</string>
+    <string name="txtHintBranch">Enter branch</string>
+    <string name="txtHintCity">Enter city</string>
+    <string name="txtHintEnterAccountNum">Enter account number</string>
+    <string name="txtHintEnterAdd">Enter address</string>
+    <string name="txtHintEnterName">Enter name</string>
+    <string name="txtHintSelectBank">Select bank</string>
+    <string name="txtPayLocalBank">"Pay to Local banks' account"</string>
+    <string name="txtSelectLocalBankTitle">"Select beneficiary's bank"</string>
+    <string name="uncollected">Uncollected</string>
+    <string name="unknown_error_msg">An unknown error occurred, please try again later.If the problem persists, please call us on 1800 8180.</string>
+    <string name="unknown_error_title">Unknown Error</string>
+    <string name="unlocked">UNLOCKED</string>
+    <string name="update_rate_description">(*) The exchange rate is updated at %1$s, %2$s and for reference only</string>
+    <string name="usd">USD</string>
+    <string name="username">username</string>
+    <string name="username_invalid">Your chosen username is invalid. It should contain only letters and numbers and 6–20 characters in length.</string>
+    <string name="username_invalid2">Username cannot contain special characters. Please try again.</string>
+    <string name="username_must_not_null">Please enter your username.</string>
+    <string name="username_must_not_null2">Please enter your username.</string>
+    <string name="username_short">Username must be 6-20 characters long. Please try again.</string>
+    <string name="value_date">Value date</string>
+    <string name="verification_1">"I will visit VIB branch
+to identify myself"</string>
+    <string name="verification_2">I like VIB staff to meet me for identification</string>
+    <string name="verification_method">Identification method</string>
+    <string name="via_email">Via email</string>
+    <string name="via_fb">Via Facebook</string>
+    <string name="via_mobile">Via mobile</string>
+    <string name="vibAccHeader">VIB accounts</string>
+    <string name="vib_staff_meet_me">VIB staff meet me</string>
+    <string name="vib_staff_meet_me_at">VIB staff meet me at</string>
+    <string name="vietnam">Vietnam</string>
+    <string name="view_all_details">View all details</string>
+    <string name="view_details">View details</string>
+    <string name="view_my_application">Application list</string>
+    <string name="view_receipt"><u>View receipt</u></string>
+    <string name="view_receipt2">View receipt</string>
+    <string name="visit_vib_branch">Visit VIB branch</string>
+    <string name="vnd">VND</string>
+    <string name="wallpapers_title">Front page image</string>
+    <string name="weekly">Weekly</string>
+    <string name="welcome">Welcome VIB</string>
+    <string name="welcome2">Welcome VIB!</string>
+    <string name="welcome_guest_tv7">You are new customer?</string>
+    <string name="welcome_guest_tv8">"You're already a customer
+but don't bank online with us?"</string>
+    <string name="welcome_guest_tv9">Register for MyVIB ID</string>
+    <string name="what_kind_schedule">What kind of Schedule payment would you like to process?</string>
+    <string name="when">When</string>
+    <string name="yearly">Yearly</string>
+    <string name="yes">Yes</string>
+    <string name="yes_i_want">Yes, I want</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="you_have_no_accounts_in_your_address_book">"You have no accounts 
+in your address book."</string>
+    <string name="you_have_no_biller">"You have no biller in your
+address book"</string>
+    <string name="you_have_no_biller_2">"You have no accounts
+in your address book"</string>
+    <string name="you_have_no_phone_in_your_address_book">"You have no contacts in your
+phone address book"</string>
+    <string name="you_have_no_valid_accounts_">You have no valid accounts.</string>
+    <string name="your_account_info">Your account information</string>
+    <string name="your_account_info_review">Your account information</string>
+    <string name="your_current_account_number">Your current account number*</string>
+    <string name="your_email">Your email address*</string>
+    <string name="your_email_address">Your email address</string>
+    <string name="your_full_name">Your full name</string>
+    <string name="your_mobile_number">Your mobile number*</string>
+    <string name="your_mobile_number_">Your mobile number</string>
+    <string name="your_name">Your name*</string>
+    <string name="your_nation">Your Nation ID number or Passport number*</string>
+    <string name="your_online_info">Your online banking registration information</string>
+    <string name="your_personal_info">Your personal information</string>
+    <string name="your_phone_number">Your mobile number</string>
+    <string name="your_preffered_branch">Your preferred branch</string>
+    <string name="your_username">Your username</string>
+    <string name="your_wished_username">Choose your username*</string>
+    <string name="API_KEY">AIzaSyCVeSTuWh9DjO2zhIG17tHbguW7CgQBYzA</string>
+    <string name="API_SEARCH_AND_DISTANCE_KEY">AIzaSyCVeSTuWh9DjO2zhIG17tHbguW7CgQBYzA</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
+    <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <string name="cast_notification_connected_message">Connected to %1$s</string>
+    <string name="cast_notification_connecting_message">Connecting to %1$s</string>
+    <string name="cast_notification_disconnect">Disconnect</string>
+    <string name="com_facebook_like_button_liked">Liked</string>
+    <string name="com_facebook_like_button_not_liked">Like</string>
+    <string name="com_facebook_loginview_log_in_button_long">Log in with Facebook</string>
+    <string name="com_facebook_send_button_text">Send</string>
+    <string name="com_facebook_share_button_text">Share</string>
+    <string name="com_facebook_tooltip_default">"New! You're in control - choose what info you want to share with apps."</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="md__drawerClosedIndicatorDesc">Open drawer</string>
+    <string name="md__drawerOpenIndicatorDesc">Close drawer</string>
+    <string name="mr_media_route_controller_pause">Pause</string>
+    <string name="mr_media_route_controller_play">Play</string>
+    <string name="mr_media_route_controller_settings_description">Route settings</string>
+    <string name="mr_media_route_controller_stop">Stop casting</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="store_picture_message">Allow Ad to store image in Picture gallery?</string>
+    <string name="store_picture_title">Save image</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Create by HiepNK-->
+
+    <string name="allowance">Allowance</string>
+    <string name="bill">Bill</string>
+    <string name="car">Car</string>
+    <string name="mum">Mum</string>
+    <string name="savings">Savings</string>
+    <string name="shop">Shop</string>
+    <string name="rent">Rent</string>
+
+
+</resources>

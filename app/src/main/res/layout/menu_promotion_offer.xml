@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vnapnic.myvib.customs.menu.MenuPromotionOffer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layoutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_item_height"
+        android:background="@drawable/menu_selector">
+
+        <View
+            android:layout_width="@dimen/spacing_0_4dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@color/orange_text" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/tvTitleGroup3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/spacing_2_16dp"
+            android:text="@string/menu_group3"
+            android:textColor="@color/orange_text"
+            android:textSize="@dimen/text_4_medium_16sp" />
+
+        <ImageView
+            android:id="@+id/ivExpand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/spacing_1_8dp"
+            android:src="@drawable/icon_expand_arrow" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_marginLeft="@dimen/spacing_2_16dp"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:id="@+id/layoutContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/menu_promotion_location"
+            style="@style/LeftSlideMenu"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/menu_item_height"
+            android:layout_marginLeft="@dimen/spacing_2_16dp"
+            android:drawableLeft="@drawable/icon_promotion_locator"
+            android:gravity="center_vertical"
+            android:text="@string/menu_promotion_location" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_marginLeft="@dimen/spacing_2_16dp"
+            android:background="@color/line_color" />
+
+        <com.vnapnic.myvib.customs.FontTextView
+            android:id="@+id/menu_apply_product"
+            style="@style/LeftSlideMenu"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/menu_item_height"
+            android:layout_marginLeft="@dimen/spacing_2_16dp"
+            android:drawableLeft="@drawable/icon_apply_now"
+            android:text="@string/apply_new_product_title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_marginLeft="@dimen/spacing_2_16dp"
+            android:background="@color/line_color" />
+    </LinearLayout>
+</com.vnapnic.myvib.customs.menu.MenuPromotionOffer>

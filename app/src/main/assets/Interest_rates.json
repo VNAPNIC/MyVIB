@@ -1,0 +1,217 @@
+{
+  "daily_savings": [
+    {
+      "deposit_amount": "From 1 mil VND to 100 thousand trillion VND",
+      "term": "1 month(s)",
+      "value": "4.75",
+      "id": "1"
+    },
+    {
+      "deposit_amount": "From 100 thousand 100 thousans trillion VND or more",
+      "term": "1 month(s)",
+      "value": "4.9",
+      "id": "2"
+    },
+    {
+      "deposit_amount": "To 1 mil VND",
+      "term": "1 month(s)",
+      "value": "4.75",
+      "id": "3"
+    },
+    {
+      "deposit_amount": "to 1 mil VND to thousand VND",
+      "term": "2 month(s)",
+      "value": "4.75",
+      "id": "6"
+    },
+    {
+      "deposit_amount": "From 1mil VND  to 100 thousand trillion VND",
+      "term": "2 month(s)",
+      "value": "4.75",
+      "id": "7"
+    },
+    {
+      "deposit_amount": "From 100 thousand trillion VND or more",
+      "term": "2 month(s)",
+      "value": "4.9",
+      "id": "8"
+    },
+    {
+      "deposit_amount": "To 1 mil",
+      "term": "3 month(s)",
+      "value": "5.1",
+      "id": "9"
+    },
+    {
+      "deposit_amount": "From 1 mil VND to 100 thousand trillion VND",
+      "term": "3 month(s)",
+      "value": "5.1",
+      "id": "10"
+    },
+    {
+      "deposit_amount": "From 100  thousand trillion VND to 100 thousand trillion VND",
+      "term": "3 month(s)",
+      "value": "5.25",
+      "id": "11"
+    }
+  ],
+  "e_savings": [
+    {
+      "deposit_amount": "To 5 mil VND",
+      "percent_year": "0.5",
+      "id": "1"
+    },
+    {
+      "deposit_amount": "From 5 mil VND or more",
+      "percent_year": "0.5",
+      "id": "2"
+    },
+    {
+      "deposit_amount": "100 trieu",
+      "percent_year": "0.5",
+      "id": "3"
+    }
+  ],
+  "ordinary_savings": [
+    {
+      "id": "1",
+      "term": "1 month(s)",
+      "last_term": "4.75",
+      "quarterly": "0",
+      "monthly": "4.75",
+      "type": "VND"
+    },
+    {
+      "id": "2",
+      "term": "1 week",
+      "last_term": "0.5",
+      "quarterly": null,
+      "monthly": null,
+      "type": "VND"
+    },
+    {
+      "id": "3",
+      "term": "12 month(s)",
+      "last_term": "6.7",
+      "quarterly": "6.55",
+      "monthly": "6.5",
+      "type": "VND"
+    },
+    {
+      "id": "4",
+      "term": "15 month(s)",
+      "last_term": "6.2",
+      "quarterly": "6.05",
+      "monthly": "5.9",
+      "type": "VND"
+    },
+    {
+      "id": "5",
+      "term": "18 month(s)",
+      "last_term": "6.2",
+      "quarterly": "6",
+      "monthly": "5.9",
+      "type": "VND"
+    },
+    {
+      "id": "6",
+      "term": "2 month(s)",
+      "last_term": "4.75",
+      "quarterly": null,
+      "monthly": "4.7",
+      "type": "VND"
+    },
+    {
+      "id": "7",
+      "term": "2 week(s)",
+      "last_term": "0.5",
+      "quarterly": null,
+      "monthly": null,
+      "type": "VND"
+    },
+    {
+      "id": "8",
+      "term": "24 month(s)",
+      "last_term": "6.2",
+      "quarterly": "6",
+      "monthly": "5.8",
+      "type": "VND"
+    },
+    {
+      "id": "9",
+      "term": "3 week(s)",
+      "last_term": "0.5",
+      "quarterly": null,
+      "monthly": null,
+      "type": "VND"
+    },
+    {
+      "id": "10",
+      "term": "36 month(s)",
+      "last_term": "6.2",
+      "quarterly": "6",
+      "monthly": "5.6",
+      "type": "VND"
+    },
+    {
+      "id": "11",
+      "term": "4 month(s)",
+      "last_term": "5.1",
+      "quarterly": null,
+      "monthly": "5",
+      "type": "VND"
+    },
+    {
+      "id": "12",
+      "term": "6 month(s)",
+      "last_term": "5.6",
+      "quarterly": "5.55",
+      "monthly": "5.5",
+      "type": "VND"
+    },
+    {
+      "id": "13",
+      "term": "7 months",
+      "last_term": "5.6",
+      "quarterly": null,
+      "monthly": "5.5",
+      "type": "VND"
+    },
+    {
+      "id": "14",
+      "term": "8 months",
+      "last_term": "5.6",
+      "quarterly": null,
+      "monthly": "5.5",
+      "type": "VND"
+    },
+    {
+      "id": "15",
+      "term": "9 month(s)",
+      "last_term": "5.6",
+      "quarterly": "5.5",
+      "monthly": "5.4",
+      "type": "VND"
+    }
+  ],
+  "progressive_savings": [
+    {
+      "id": "1",
+      "term": "1 Week",
+      "type": "VND",
+      "value": "0.5"
+    },
+    {
+      "id": "2",
+      "term": "2 Week(s)",
+      "type": "VND",
+      "value": "0.5"
+    },
+    {
+      "id": "3",
+      "term": "3 Week(s)",
+      "type": "VND",
+      "value": "0.5"
+    }
+  ]
+}

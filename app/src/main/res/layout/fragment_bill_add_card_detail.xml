@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <com.vnapnic.myvib.customs.FontTextView
+        style="@style/SMALL_TEXT_STYLE_WHITE"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spacing_1_6dp"
+        android:text="@string/link" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/spacing_3_24dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/edittext_pin_margin">
+
+            <LinearLayout
+                android:id="@+id/profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_1_8dp"
+                android:layout_marginRight="@dimen/spacing_1_8dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/NORMAL_TEXT_STYLE_BLACK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/spacing_1_6dp"
+                    android:text="@string/pay_to2"
+                    android:textColor="@color/orange_text" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/line_height"
+                    android:layout_marginLeft="@dimen/line_height"
+                    android:layout_marginRight="@dimen/line_height"
+                    android:background="@color/common_signin_btn_light_text_focused" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/bg2_height"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/icon_home_height"
+                            android:layout_marginRight="@dimen/button_header_padding"
+                            android:src="@drawable/viettel" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <com.vnapnic.myvib.customs.FontTextView
+                                android:id="@+id/title"
+                                style="@style/text_default_black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mobifone"
+                                android:textSize="@dimen/text_3_14sp" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="@dimen/spacing_0_2dp">
+
+                                <com.vnapnic.myvib.customs.FontTextView
+                                    android:id="@+id/phone_name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_toLeftOf="@+id/phone"
+                                    android:text="@string/so_thue_bao"
+                                    android:textSize="@dimen/text_2_12sp" />
+
+                                <com.vnapnic.myvib.customs.FontTextView
+                                    android:id="@+id/phone"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="0936066386"
+                                    android:textSize="@dimen/text_2_12sp" />
+                            </RelativeLayout>
+
+
+                            <com.vnapnic.myvib.customs.FontTextView
+                                android:id="@+id/address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="address"
+                                android:visibility="gone" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/icon_menu_width"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/img_description"
+                        android:padding="@dimen/spacing_1_8dp"
+                        android:src="@drawable/icon_edit_dark" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Detail-->
+            <LinearLayout
+                android:id="@+id/detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile"
+                android:layout_marginLeft="@dimen/spacing_1_8dp"
+                android:layout_marginRight="@dimen/spacing_1_8dp"
+                android:layout_marginTop="@dimen/edittext_pin_margin"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/NORMAL_TEXT_STYLE_BLACK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/spacing_1_8dp"
+                    android:text="@string/awaiting_for_payment"
+                    android:textColor="@color/orange_text" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/line_height"
+                    android:layout_marginLeft="@dimen/line_height"
+                    android:layout_marginRight="@dimen/line_height"
+                    android:background="@color/common_signin_btn_light_text_focused" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/bg2_height"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/background_floating_material_light"
+                        android:gravity="center_vertical">
+
+                        <com.vnapnic.myvib.customs.FontTextView
+                            style="@style/SMALL_TEXT_STYLE_SILVER"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            android:editable="false"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/spacing_1_8dp"
+                            android:singleLine="true"
+                            android:text="@string/tien_chua_thanh_toan"
+                            android:textSize="@dimen/text_3_14sp" />
+
+                        <com.vnapnic.myvib.customs.FontTextView
+                            style="@style/NORMAL_TEXT_STYLE_BLACK"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:padding="@dimen/spacing_1_8dp"
+                            android:text="104,177 VND" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical">
+
+                        <com.vnapnic.myvib.customs.FontTextView
+                            android:id="@+id/monney"
+                            style="@style/NORMAL_TEXT_STYLE_BLACK"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:padding="@dimen/spacing_1_8dp"
+                            android:text="104,177 VND" />
+
+                        <com.vnapnic.myvib.customs.FontTextView
+                            style="@style/SMALL_TEXT_STYLE_SILVER"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_toRightOf="@+id/monney"
+                            android:background="@color/transparent"
+                            android:editable="false"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/spacing_1_8dp"
+                            android:singleLine="true"
+                            android:text="@string/enter_amount_title"
+                            android:textSize="@dimen/text_3_14sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Amount-->
+            <LinearLayout
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detail"
+                android:layout_marginLeft="@dimen/spacing_1_8dp"
+                android:layout_marginRight="@dimen/spacing_1_8dp"
+                android:layout_marginTop="@dimen/edittext_pin_margin"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/NORMAL_TEXT_STYLE_BLACK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/spacing_1_8dp"
+                    android:text="@string/transaction_amount"
+                    android:textColor="@color/orange_text" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/line_height"
+                    android:layout_marginLeft="@dimen/line_height"
+                    android:layout_marginRight="@dimen/line_height"
+                    android:background="@color/common_signin_btn_light_text_focused" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.vnapnic.myvib.customs.FontEditext
+                        android:id="@+id/edt_amount"
+                        style="@style/NORMAL_TEXT_STYLE_BLACK"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/hp_icon_height"
+                        android:background="@color/transparent"
+                        android:editable="false"
+                        android:gravity="center_vertical"
+                        android:hint="@string/enter_an_amount"
+                        android:paddingLeft="@dimen/spacing_1_8dp"
+                        android:singleLine="true"
+                        android:text="104,177 VND" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Account -->
+            <LinearLayout
+                android:id="@+id/form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/amount"
+                android:layout_marginLeft="@dimen/spacing_1_8dp"
+                android:layout_marginRight="@dimen/spacing_1_8dp"
+                android:layout_marginTop="@dimen/edittext_pin_margin"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/NORMAL_TEXT_STYLE_BLACK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/spacing_1_6dp"
+                    android:text="@string/transfer_detail_from"
+                    android:textColor="@color/orange_text" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/line_height"
+                    android:layout_marginLeft="@dimen/line_height"
+                    android:layout_marginRight="@dimen/line_height"
+                    android:background="@color/common_signin_btn_light_text_focused" />
+
+                <LinearLayout
+                    android:id="@+id/layout_from"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/bg2_height"
+                    android:orientation="horizontal">
+
+                    <include
+                        android:id="@+id/accountDetailView"
+                        layout="@layout/transaction_account_detail_view"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.0" />
+
+                    <ImageView
+                        android:id="@+id/ivEdit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/icon_menu_width"
+                        android:layout_gravity="center_vertical"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/img_description"
+                        android:padding="@dimen/spacing_1_8dp"
+                        android:src="@drawable/icon_edit_dark" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--Description-->
+            <LinearLayout
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/form"
+                android:layout_marginLeft="@dimen/spacing_1_8dp"
+                android:layout_marginRight="@dimen/spacing_1_8dp"
+                android:layout_marginTop="@dimen/edittext_pin_margin"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv"
+                    style="@style/NORMAL_TEXT_STYLE_BLACK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/spacing_1_8dp"
+                    android:text="@string/description"
+                    android:textColor="@color/orange_text" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/line_height"
+                    android:layout_marginLeft="@dimen/line_height"
+                    android:layout_marginRight="@dimen/line_height"
+                    android:background="@color/common_signin_btn_light_text_focused" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/hp_icon_height"
+                    android:orientation="horizontal">
+
+                    <com.vnapnic.myvib.customs.FontEditext
+                        android:id="@+id/edt_desc"
+                        style="@style/NORMAL_TEXT_STYLE_BLACK"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:editable="false"
+                        android:gravity="center_vertical"
+                        android:hint="@string/optional"
+                        android:paddingLeft="@dimen/spacing_1_8dp"
+                        android:singleLine="true"
+                        android:text="@string/bill" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_header_height"
+                android:layout_below="@+id/description" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
